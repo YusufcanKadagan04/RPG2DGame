@@ -50,5 +50,8 @@ TagManager:
   - name: Structures
     uniqueID: 3227785067
     locked: 0
+  - name: Player
+    uniqueID: 1436159503
+    locked: 0
   m_RenderingLayers:
   - Default
