@@ -96,7 +96,14 @@ public class PlayerController : MonoBehaviour
     }
     public void attack()
     {
-        anim.SetTrigger("attack1");
+        float numb = Random.Range(0,2);  //Burayı sonra değiştireceğim attack2 yi daha güçlü bir saldırı seçeneği olarak yapabilirim.Şuanlık rastgele yaptım.
+        if (numb == 0)
+            anim.SetTrigger("attack1");
+        else if (numb == 1)
+        {
+            anim.SetTrigger("attack2");
+        }
+        
     } 
     void jump()
     {
