@@ -11,6 +11,8 @@ public class PlayerController : MonoBehaviour
     public float speed;
     public float jumpPower;
     public float groundCheckRadius;
+    public float attackRate=2f;
+    float nextAttack=0f;
 
     bool isfaceRight = true;
     bool isgrounded;
@@ -35,6 +37,15 @@ public class PlayerController : MonoBehaviour
         jump();
         checkSurface();
         checkAnimation();
+        
+        if (Time.time >= nextAttack)
+        {
+            if (Input.GetKeyDown(KeyCode.Q))
+            {
+                attack();
+                nextAttack = Time.time + 1f / attackRate;
+            }
+        }
     }
     void FixedUpdate()
     {
@@ -83,6 +94,10 @@ public class PlayerController : MonoBehaviour
         Thescale.x *= -1;
         transform.localScale = Thescale;
     }
+    public void attack()
+    {
+        anim.SetTrigger("attack1");
+    } 
     void jump()
     {
         if (isgrounded)
