@@ -25,6 +25,8 @@ public class PlayerController : MonoBehaviour
     Rigidbody2D rb;
     Animator anim;
 
+    RaycastHit2D hit;
+
     public GameObject groundCheck;
     public LayerMask groundLayer;
     public LayerMask enemyLayers;
@@ -118,10 +120,15 @@ public class PlayerController : MonoBehaviour
             anim.SetTrigger("attack2");
         }
 
-        Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(attackPoint.position, attackDistance, enemyLayers);
-        foreach (Collider2D enemy in hitEnemies)
+        RaycastHit2D[] hitEnemies = Physics2D.CircleCastAll(attackPoint.position, attackDistance, Vector2.zero, 0.5f, enemyLayers);
+        foreach (RaycastHit2D enemy in hitEnemies)
         {
-            enemy.GetComponent<EnemyStats>().TakeDamage(damage: attackDamage);
+            EnemyStats enemyStats = enemy.transform.GetComponent<EnemyStats>();
+            if (enemyStats != null)
+            {
+                Debug.Log("Hit " + enemy.transform.name);
+                enemyStats.TakeDamage(attackDamage);
+            }
         }
     } 
     void jump()
