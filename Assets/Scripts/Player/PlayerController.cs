@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using JetBrains.Annotations;
 using UnityEditor.Tilemaps;
 using UnityEngine;
 using UnityEngine.InputSystem;
@@ -7,12 +8,16 @@ using UnityEngine.InputSystem;
 
 public class PlayerController : MonoBehaviour
 {
+    float nextAttack=0f;
     float movementDrection;
+
+
     public float speed;
     public float jumpPower;
     public float groundCheckRadius;
     public float attackRate=2f;
-    float nextAttack=0f;
+    public float attackDistance;
+    public float attackDamage = 25f;
 
     bool isfaceRight = true;
     bool isgrounded;
@@ -22,8 +27,14 @@ public class PlayerController : MonoBehaviour
 
     public GameObject groundCheck;
     public LayerMask groundLayer;
+    public LayerMask enemyLayers;
+    public Transform attackPoint;
+
+    
     public InputActionReference moveAction;
     public InputActionReference jumpAction;
+    public InputActionReference attackAction;
+
 
     void Start()
     {
@@ -40,10 +51,13 @@ public class PlayerController : MonoBehaviour
         
         if (Time.time >= nextAttack)
         {
-            if (Input.GetKeyDown(KeyCode.Q))
+            if (attackAction.action != null)
             {
-                attack();
-                nextAttack = Time.time + 1f / attackRate;
+                if (attackAction.action.triggered)
+                {
+                    attack();
+                    nextAttack = Time.time + 1f / attackRate;
+                }
             }
         }
     }
@@ -103,7 +117,12 @@ public class PlayerController : MonoBehaviour
         {
             anim.SetTrigger("attack2");
         }
-        
+
+        Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(attackPoint.position, attackDistance, enemyLayers);
+        foreach (Collider2D enemy in hitEnemies)
+        {
+            enemy.GetComponent<EnemyStats>().TakeDamage(damage: attackDamage);
+        }
     } 
     void jump()
     {
@@ -137,5 +156,6 @@ public class PlayerController : MonoBehaviour
     private void OnDrawGizmos()
     {
         Gizmos.DrawWireSphere(groundCheck.transform.position, groundCheckRadius);
+        Gizmos.DrawWireSphere(attackPoint.position, attackDistance);
     }
 }
