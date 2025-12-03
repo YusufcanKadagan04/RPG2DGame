@@ -26,6 +26,8 @@ public class EnemyStats : MonoBehaviour
     public Transform attackPoint;
     public float attackDistance=3f;
 
+    bool isDead = false;
+
     void Start()
     {
         currentHealth = enemyHealth;
@@ -50,7 +52,7 @@ public class EnemyStats : MonoBehaviour
             return; 
         }
 
-        if (player != null)
+        if (player != null && isDead == false)
         {
             float distanceToPlayer = Vector2.Distance(transform.position, player.transform.position);
 
@@ -142,7 +144,9 @@ public class EnemyStats : MonoBehaviour
 
         if (currentHealth <= 0)
         {
-            Destroy(gameObject);
+            anim.SetTrigger("enemyDead");
+            isDead = true;
+            Destroy(gameObject, 0.9f);
         }
     }
 }
