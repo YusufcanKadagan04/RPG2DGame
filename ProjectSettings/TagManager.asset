@@ -14,7 +14,7 @@ TagManager:
   - Ground
   - Structures
   - TerrainAssets
-  - 
+  - Enemy1
   - 
   - 
   - 
@@ -52,6 +52,9 @@ TagManager:
     locked: 0
   - name: Player
     uniqueID: 1436159503
+    locked: 0
+  - name: Enemy
+    uniqueID: 1802295269
     locked: 0
   m_RenderingLayers:
   - Default
