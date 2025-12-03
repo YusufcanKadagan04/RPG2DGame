@@ -6,6 +6,7 @@ public class EnemyStats : MonoBehaviour
 {
     public float enemyHealth=100f;
     public float enemyspeed = 2f;  
+    public float enemyDamage = 10f;
     float currentHealth;
     GameObject player;
     

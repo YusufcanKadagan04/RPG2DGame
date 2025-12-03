@@ -26,5 +26,17 @@ public class PlayerHealth : MonoBehaviour
             healthBar.fillAmount = currentHealth / 100;
         }
     }
+    void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Enemy"))
+        {
+            currentHealth -= collision.gameObject.GetComponent<EnemyStats>().enemyDamage;
+            
+            if (currentHealth <= 0)
+            {
+                Destroy(gameObject);
+            }
+        }
+    }   
 
 }
