@@ -1700,7 +1700,7 @@ MonoBehaviour:
   groundCheckRadius: 0.1
   attackRate: 2
   attackDistance: 0.29
-  attackDamage: 25
+  attackDamage: 100
   groundCheck: {fileID: 1178694150}
   groundLayer:
     serializedVersion: 2
@@ -8693,7 +8693,7 @@ Transform:
   m_GameObject: {fileID: 1970413798}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.89, y: -0.275, z: 0}
+  m_LocalPosition: {x: -0.655, y: -0.275, z: 0}
   m_LocalScale: {x: 0.96844894, y: 0.9684489, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
