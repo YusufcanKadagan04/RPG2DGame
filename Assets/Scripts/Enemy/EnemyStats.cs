@@ -13,37 +13,54 @@ public class EnemyStats : MonoBehaviour
     private float walkDistance = 2f;   
     private Vector2 startPosition;
     private float distanceWalked = 0f;
+    public Transform Player;
+
+    private bool isKnockedBack = false;
+    private float knockbackTimer = 0f;
+    public float knockbackDuration = 0.3f;
+    public float knockbackForce = 15f;
 
     Animator anim;
     Rigidbody2D rb;
     RaycastHit2D hit;
     public Transform attackPoint;
     public float attackDistance=3f;
-    
 
     void Start()
     {
         currentHealth = enemyHealth;
         anim = GetComponent<Animator>();
-        rb = GetComponent<Rigidbody2D>();   
+        rb = GetComponent<Rigidbody2D>();
+        
+        rb.constraints = RigidbodyConstraints2D.FreezeRotation;
+        
         player = GameObject.FindWithTag("Player");
         startPosition = transform.position;
     }   
     void Update()
     {
-        // Player'a olan mesafeyi kontrol et
+        if (isKnockedBack)
+        {
+            knockbackTimer -= Time.deltaTime;
+            if (knockbackTimer <= 0)
+            {
+                isKnockedBack = false;
+                rb.linearVelocity = Vector2.zero; 
+            }
+            return; 
+        }
+
         if (player != null)
         {
             float distanceToPlayer = Vector2.Distance(transform.position, player.transform.position);
 
-            // Eğer Player yakınsa takip et
             if (distanceToPlayer < attackDistance)
             {
                 ChasePlayer();
             }
             else
             {
-                Walk(); // Yoksa normal yürüyüş yap
+                Walk(); 
             }
         }
         else
@@ -54,26 +71,22 @@ public class EnemyStats : MonoBehaviour
 
     void ChasePlayer()
     {
-        // Player'ın yönünü belirle
         float directionToPlayer = player.transform.position.x - transform.position.x;
 
-        // Eğer Player sağda ise sağa, solda ise sola git
         if (directionToPlayer > 0)
         {
-            walkDirection = 1f; // Sağa
+            walkDirection = 1f;
         }
         else
         {
-            walkDirection = -1f; // Sola
+            walkDirection = -1f; 
         }
 
-        // Yüz yönü kontrol et
         if ((walkDirection > 0 && transform.localScale.x < 0) || (walkDirection < 0 && transform.localScale.x > 0))
         {
             flip();
         }
 
-        // Player'ı takip et
         rb.linearVelocity = new Vector2(walkDirection * enemyspeed, rb.linearVelocity.y);
         anim.SetFloat("enemyWalk", Mathf.Abs(walkDirection));
         
@@ -99,10 +112,34 @@ public class EnemyStats : MonoBehaviour
         localScale.x *= -1;
         transform.localScale = localScale;
     }
+
+    void ApplyKnockback(float knockbackDir)
+    {
+        
+        rb.linearVelocity = new Vector2(knockbackDir * knockbackForce, rb.linearVelocity.y);
+        isKnockedBack = true;
+        knockbackTimer = knockbackDuration;
+        
+        Debug.Log($"Knockback! Direction: {(knockbackDir > 0 ? "Right" : "Left")}");
+    }
+
     public void TakeDamage(float damage = 25f)
     {
         currentHealth -= damage;
         anim.SetTrigger("enemyth");
+        
+        
+        if (Player.position.x < transform.position.x)
+        {
+            ApplyKnockback(1f); 
+        }
+        else
+        {
+            ApplyKnockback(-1f); 
+        }
+
+        Debug.Log($"Damage taken! Health: {currentHealth}/{enemyHealth}");
+
         if (currentHealth <= 0)
         {
             Destroy(gameObject);
