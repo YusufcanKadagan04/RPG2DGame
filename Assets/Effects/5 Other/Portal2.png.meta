@@ -1,0 +1,806 @@
+fileFormatVersion: 2
+guid: 0376beba0d31b7a4ba13c37123cb9b16
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 9134089499466162720
+    second: Portal2_0
+  - first:
+      213: -9150186479593463114
+    second: Portal2_1
+  - first:
+      213: -7956217993929850400
+    second: Portal2_2
+  - first:
+      213: -6928228295552635017
+    second: Portal2_3
+  - first:
+      213: -4313105466807351567
+    second: Portal2_4
+  - first:
+      213: -4011374075100786045
+    second: Portal2_5
+  - first:
+      213: 3707464352750731132
+    second: Portal2_6
+  - first:
+      213: -6960983628775311789
+    second: Portal2_7
+  - first:
+      213: -3003281039124998729
+    second: Portal2_8
+  - first:
+      213: 5033170747153625614
+    second: Portal2_9
+  - first:
+      213: 6107996539094261469
+    second: Portal2_10
+  - first:
+      213: 2612626610448826969
+    second: Portal2_11
+  - first:
+      213: 8510664672288865956
+    second: Portal2_12
+  - first:
+      213: 5937372156915355463
+    second: Portal2_13
+  - first:
+      213: -250331236497015987
+    second: Portal2_14
+  - first:
+      213: -3098607402695754609
+    second: Portal2_15
+  - first:
+      213: -6599596406700763766
+    second: Portal2_16
+  - first:
+      213: 2977666752573720288
+    second: Portal2_17
+  - first:
+      213: -4558331703291518336
+    second: Portal2_18
+  - first:
+      213: -6447902093069046068
+    second: Portal2_19
+  - first:
+      213: -7371257426088353428
+    second: Portal2_20
+  - first:
+      213: 7718595115121051779
+    second: Portal2_21
+  - first:
+      213: -2091725825615356046
+    second: Portal2_22
+  - first:
+      213: 4052499592025993400
+    second: Portal2_23
+  - first:
+      213: 697940087760067440
+    second: Portal2_24
+  - first:
+      213: 7025518743218194617
+    second: Portal2_25
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Portal2_0
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 33
+        width: 36
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0226e4a510ec2ce70800000000000000
+      internalID: 9134089499466162720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Portal2_1
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 58
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b2ef3760e1040180800000000000000
+      internalID: -9150186479593463114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Portal2_2
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 61
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e18d3c63e5d59190800000000000000
+      internalID: -7956217993929850400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Portal2_3
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 58
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77f66c0921df9df90800000000000000
+      internalID: -6928228295552635017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Portal2_4
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 54
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f607240e65c424c0800000000000000
+      internalID: -4313105466807351567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Portal2_5
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 49
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3821868288cb458c0800000000000000
+      internalID: -4011374075100786045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Portal2_6
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 25
+        width: 23
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7f71239f2f837330800000000000000
+      internalID: 3707464352750731132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Portal2_7
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 50
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 356b98f354e956f90800000000000000
+      internalID: -6960983628775311789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Portal2_8
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 30
+        width: 20
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b5d9469ec33256d0800000000000000
+      internalID: -3003281039124998729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Portal2_9
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 47
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e02bafda02a69d540800000000000000
+      internalID: 5033170747153625614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Portal2_10
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 51
+        width: 19
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dde5702ad76f3c450800000000000000
+      internalID: 6107996539094261469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Portal2_11
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 25
+        width: 30
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95209865f0ae14420800000000000000
+      internalID: 2612626610448826969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Portal2_12
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 53
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ae7e329d64fb1670800000000000000
+      internalID: 8510664672288865956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Portal2_13
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 21
+        width: 41
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74f0c38e488c56250800000000000000
+      internalID: 5937372156915355463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Portal2_14
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 23
+        width: 38
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4b39641115a68cf0800000000000000
+      internalID: -250331236497015987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Portal2_15
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 32
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8c7ceffbf88ff4d0800000000000000
+      internalID: -3098607402695754609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Portal2_16
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 27
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8518a5c8068964a0800000000000000
+      internalID: -6599596406700763766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Portal2_17
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 34
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e6c5a6922cc25920800000000000000
+      internalID: 2977666752573720288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Portal2_18
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 36
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08268e8877d8db0c0800000000000000
+      internalID: -4558331703291518336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Portal2_19
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 39
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cce2f1475337486a0800000000000000
+      internalID: -6447902093069046068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Portal2_20
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 30
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c612b02fc6804b990800000000000000
+      internalID: -7371257426088353428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Portal2_21
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 38
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3880bd1cc55fd1b60800000000000000
+      internalID: 7718595115121051779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Portal2_22
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 32
+        width: 23
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27f9faca172b8f2e0800000000000000
+      internalID: -2091725825615356046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Portal2_23
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 28
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b0ff1b68ee5d3830800000000000000
+      internalID: 4052499592025993400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Portal2_24
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 28
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07b917ddfc49fa900800000000000000
+      internalID: 697940087760067440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Portal2_25
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 29
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b88e5cf218af7160800000000000000
+      internalID: 7025518743218194617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Portal2_0: 9134089499466162720
+      Portal2_1: -9150186479593463114
+      Portal2_10: 6107996539094261469
+      Portal2_11: 2612626610448826969
+      Portal2_12: 8510664672288865956
+      Portal2_13: 5937372156915355463
+      Portal2_14: -250331236497015987
+      Portal2_15: -3098607402695754609
+      Portal2_16: -6599596406700763766
+      Portal2_17: 2977666752573720288
+      Portal2_18: -4558331703291518336
+      Portal2_19: -6447902093069046068
+      Portal2_2: -7956217993929850400
+      Portal2_20: -7371257426088353428
+      Portal2_21: 7718595115121051779
+      Portal2_22: -2091725825615356046
+      Portal2_23: 4052499592025993400
+      Portal2_24: 697940087760067440
+      Portal2_25: 7025518743218194617
+      Portal2_3: -6928228295552635017
+      Portal2_4: -4313105466807351567
+      Portal2_5: -4011374075100786045
+      Portal2_6: 3707464352750731132
+      Portal2_7: -6960983628775311789
+      Portal2_8: -3003281039124998729
+      Portal2_9: 5033170747153625614
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
