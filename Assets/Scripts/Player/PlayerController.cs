@@ -11,16 +11,19 @@ public class PlayerController : MonoBehaviour
     float nextAttack=0f;
     float movementDrection;
 
+    public bool isMoving = false;
 
-    public float speed;
-    public float jumpPower;
+    public float speed =3;
+    public float jumpPower=5;
     public float groundCheckRadius;
     public float attackRate=2f;
     public float attackDistance;
     public float attackDamage = 25f;
 
-    bool isfaceRight = true;
-    bool isgrounded;
+    public Camera mainCamera;
+
+    public bool isfaceRight = true;
+    bool isGrounded;
 
     Rigidbody2D rb;
     Animator anim;
@@ -50,6 +53,7 @@ public class PlayerController : MonoBehaviour
         jump();
         checkSurface();
         checkAnimation();
+        cameraMovement();
         
         if (Time.time >= nextAttack)
         {
@@ -65,11 +69,19 @@ public class PlayerController : MonoBehaviour
     }
     void FixedUpdate()
     {
-        Movement();
-    }
+      Movement();
 
+    }
+    void cameraMovement()
+    {
+        Vector3 cameraPosition = mainCamera.transform.position;
+        cameraPosition.x = transform.position.x;
+        mainCamera.transform.position = cameraPosition;
+    }
     void Movement()
     {
+        isMoving = movementDrection != 0;
+
         if (moveAction != null && moveAction.action != null)
         {
             movementDrection = moveAction.action.ReadValue<Vector2>().x;
@@ -79,12 +91,13 @@ public class PlayerController : MonoBehaviour
             movementDrection = Keyboard.current != null && Keyboard.current.dKey.isPressed ? 1f : (Keyboard.current != null && Keyboard.current.aKey.isPressed ? -1f : 0f);
         }
         rb.linearVelocity = new Vector2(movementDrection * speed, rb.linearVelocity.y);
-        anim.SetFloat("runSpeed",Mathf.Abs(movementDrection * speed));
+        anim.SetFloat("walk",Mathf.Abs(movementDrection * speed));
+        
     }
 
     void checkAnimation()
     {
-        anim.SetBool("isGrounded", isgrounded);
+        anim.SetBool("isGrounded", isGrounded);
         anim.SetFloat("yVelocity", rb.linearVelocity.y);
     }
     void checkroatation()
@@ -101,7 +114,7 @@ public class PlayerController : MonoBehaviour
 
     void checkSurface()
     {
-        isgrounded = Physics2D.OverlapCircle(groundCheck.transform.position, groundCheckRadius, groundLayer);
+        isGrounded = Physics2D.OverlapCircle(groundCheck.transform.position, groundCheckRadius, groundLayer);
     }
     void Flip()
     {
@@ -133,7 +146,7 @@ public class PlayerController : MonoBehaviour
     } 
     void jump()
     {
-        if (isgrounded)
+        if (isGrounded)
         {
             if (jumpAction.action != null)
         {
