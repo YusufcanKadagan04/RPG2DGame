@@ -4,6 +4,8 @@ public class BackgroundSystem : MonoBehaviour
 {
     public Transform generalBg;
 
+    public PlayerController playerController;
+
     public GameObject bgSky;
     public GameObject bgCity;
     public GameObject bgTrain;
@@ -26,12 +28,28 @@ public class BackgroundSystem : MonoBehaviour
 
     private void Update()
     {
-        MaterialsRepeat();
-        BackgroundsFollow();
+        if (playerController.isMoving)
+        {
+            MaterialsRepeat(!playerController.isfaceRight);
+            BackgroundsFollow();
+        }
     }
 
-    private void MaterialsRepeat()
+    private void MaterialsRepeat(bool isLeft)
     {
+        if (isLeft)
+        {
+            citySpeed = -Mathf.Abs(citySpeed);
+            trainSpeed = -Mathf.Abs(trainSpeed);
+            factorySpeed = -Mathf.Abs(factorySpeed);
+        }
+        else
+        {
+            citySpeed = Mathf.Abs(citySpeed);
+            trainSpeed = Mathf.Abs(trainSpeed);
+            factorySpeed = Mathf.Abs(factorySpeed);
+        }
+
         float offsetCity = Time.time * citySpeed;
         float offsetTrain = Time.time * trainSpeed;
         float offsetFactory = Time.time * factorySpeed;
