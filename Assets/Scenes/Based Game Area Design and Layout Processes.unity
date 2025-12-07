@@ -1103,6 +1103,7 @@ GameObject:
   m_Component:
   - component: {fileID: 213191035}
   - component: {fileID: 213191034}
+  - component: {fileID: 213191036}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -1146,6 +1147,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &213191036
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 213191033}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e0def9fe5708f2479937ed9f1740bf5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::InputController
+  playerInputAsset: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
 --- !u!1 &223440298
 GameObject:
   m_ObjectHideFlags: 0
@@ -3415,7 +3429,7 @@ Rigidbody2D:
   m_LinearDamping: 0
   m_AngularDamping: 0.05
   m_GravityScale: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 3790bb573d2bb23449d2d83926aee2ee, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -3469,25 +3483,24 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerController
   isMoving: 0
-  speed: 3
-  jumpPower: 3
-  groundCheckRadius: 0
+  walkSpeed: 1
+  runSpeed: 3
+  currentSpeed: 0
+  jumpPower: 5
   attackRate: 2
   attackDistance: 0
   attackDamage: 25
-  mainCamera: {fileID: 1879013385}
-  isfaceRight: 1
+  groundCheckRadius: 0.13
   groundCheck: {fileID: 833408610}
   groundLayer:
     serializedVersion: 2
     m_Bits: 64
+  attackPoint: {fileID: 1559540954}
   enemyLayers:
     serializedVersion: 2
     m_Bits: 512
-  attackPoint: {fileID: 1559540954}
-  moveAction: {fileID: -1680190386980627800, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
-  jumpAction: {fileID: -2099379676528639254, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
-  attackAction: {fileID: 1120369429361536294, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
+  mainCamera: {fileID: 1879013385}
+  isFaceRight: 1
 --- !u!212 &593827173
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3555,7 +3568,7 @@ Transform:
   m_GameObject: {fileID: 593827166}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.6, y: -1.16, z: 0}
+  m_LocalPosition: {x: -0.608, y: -1.365, z: 0}
   m_LocalScale: {x: 1.4774654, y: 1.4774654, z: 1.4774654}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -4385,7 +4398,7 @@ GameObject:
   m_Layer: 10
   m_Name: GroundCheck
   m_TagString: Untagged
-  m_Icon: {fileID: 3936346786652291628, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -8778,7 +8791,7 @@ GameObject:
   m_Layer: 10
   m_Name: AttackPoint
   m_TagString: Untagged
-  m_Icon: {fileID: 419385456094870383, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1

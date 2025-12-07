@@ -30,7 +30,7 @@ public class BackgroundSystem : MonoBehaviour
     {
         if (playerController.isMoving)
         {
-            MaterialsRepeat(!playerController.isfaceRight);
+            MaterialsRepeat(!playerController.isFaceRight);
             BackgroundsFollow();
         }
     }
