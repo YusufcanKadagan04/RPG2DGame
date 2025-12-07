@@ -91,7 +91,7 @@ public class EnemyStats : MonoBehaviour
         }
 
         rb.linearVelocity = new Vector2(walkDirection * enemyspeed, rb.linearVelocity.y);
-        anim.SetFloat("enemyWalk", Mathf.Abs(walkDirection));
+        anim.SetFloat("Ewalk", Mathf.Abs(walkDirection));
         
         Debug.Log("Enemy chasing Player");
     }
@@ -106,7 +106,7 @@ public class EnemyStats : MonoBehaviour
         }
         rb.linearVelocity = new Vector2(walkDirection * enemyspeed, rb.linearVelocity.y);
         distanceWalked += enemyspeed * Time.deltaTime;
-        anim.SetFloat("enemyWalk", Mathf.Abs(walkDirection));
+        anim.SetFloat("Ewalk", Mathf.Abs(walkDirection));
         
     }
     void flip()
@@ -115,7 +115,7 @@ public class EnemyStats : MonoBehaviour
         localScale.x *= -1;
         transform.localScale = localScale;
     }
-
+    
     void ApplyKnockback(float knockbackDir)
     {
         
@@ -129,8 +129,8 @@ public class EnemyStats : MonoBehaviour
     public void TakeDamage(float damage = 25f)
     {
         currentHealth -= damage;
-        anim.SetTrigger("enemyth");
-        
+        anim.ResetTrigger("Ehurt");
+        anim.SetTrigger("Ehurt");
         
         if (Player.position.x < transform.position.x)
         {
