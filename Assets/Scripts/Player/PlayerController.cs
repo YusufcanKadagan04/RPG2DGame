@@ -33,19 +33,33 @@ public class PlayerController : MonoBehaviour
     [Header("Camera")]
     public Camera mainCamera;
 
+    [Header("Health Settings")]
+    public float maxHealth = 10000f;
+    public float currentHealth;
+
+    [Header("Damage Settings")]
+    public float invincibilityTime = 1f;
+    private bool isInvincible = false;
+    private float invincibilityTimer = 0f;
+
+    [Header("Knockback Settings")]
+    public float knockbackForce = 10f;
+    public float knockbackDuration = 0.2f;
+    private bool isKnockedBack = false;
+    private float knockbackTimer = 0f;
+
     public bool isFaceRight = true;
     private bool isGrounded;
 
     private Rigidbody2D rb;
     private Animator anim;
-
     private InputController inputController;
 
     void Start()
     {
+        currentHealth = maxHealth;
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
-
         inputController = FindObjectOfType<InputController>();
 
         if (inputController == null)
@@ -56,6 +70,8 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
+        UpdateInvincibility();
+        UpdateKnockback();
         CheckRotation();
         HandleJump();
         CheckSurface();
@@ -67,6 +83,31 @@ public class PlayerController : MonoBehaviour
     void FixedUpdate()
     {
         HandleMovement();
+    }
+
+    void UpdateInvincibility()
+    {
+        if (isInvincible)
+        {
+            invincibilityTimer -= Time.deltaTime;
+            if (invincibilityTimer <= 0f)
+            {
+                isInvincible = false;
+            }
+        }
+    }
+
+    void UpdateKnockback()
+    {
+        if (isKnockedBack)
+        {
+            knockbackTimer -= Time.deltaTime;
+            if (knockbackTimer <= 0f)
+            {
+                isKnockedBack = false;
+                rb.linearVelocity = new Vector2(0f, rb.linearVelocity.y);
+            }
+        }
     }
 
     void UpdateCameraPosition()
@@ -81,6 +122,11 @@ public class PlayerController : MonoBehaviour
 
     void HandleMovement()
     {
+        if (isKnockedBack)
+        {
+            return;
+        }
+
         if (inputController != null)
         {
             movementDirection = inputController.Movement.x;
@@ -133,6 +179,54 @@ public class PlayerController : MonoBehaviour
         {
             isGrounded = Physics2D.OverlapCircle(groundCheck.transform.position, groundCheckRadius, groundLayer);
         }
+    }
+
+    public void TakeDamage(float damage, Vector2 damageSourcePosition)
+    {
+        if (isInvincible)
+        {
+            return;
+        }
+
+        currentHealth -= damage;
+        currentHealth = Mathf.Clamp(currentHealth, 0f, maxHealth);
+
+        Debug.Log($"Player took {damage} damage! Current Health: {currentHealth}/{maxHealth}");
+
+        anim.ResetTrigger("Ehurt");
+        anim.SetTrigger("Ehurt");
+
+        ApplyKnockback(damageSourcePosition);
+
+        isInvincible = true;
+        invincibilityTimer = invincibilityTime;
+
+        if (currentHealth <= 0f)
+        {
+            Die();
+        }
+    }
+
+    public void TakeDamage(float damage)
+    {
+        Vector2 damageSource = transform.position + (isFaceRight ? Vector3.right : Vector3.left);
+        TakeDamage(damage, damageSource);
+    }
+
+    void ApplyKnockback(Vector2 damageSourcePosition)
+    {
+        float knockbackDirection = transform.position.x > damageSourcePosition.x ? 1f : -1f;
+        rb.linearVelocity = new Vector2(knockbackDirection * knockbackForce, rb.linearVelocity.y);
+        isKnockedBack = true;
+        knockbackTimer = knockbackDuration;
+
+        Debug.Log($"Knockback applied! Direction: {(knockbackDirection > 0 ? "Right" : "Left")}");
+    }
+
+    void Die()
+    {
+        Debug.Log("Player died!");
+        Destroy(gameObject, 0.9f);
     }
 
     void Flip()
@@ -195,5 +289,10 @@ public class PlayerController : MonoBehaviour
             Gizmos.color = Color.red;
             Gizmos.DrawWireSphere(attackPoint.position, attackDistance);
         }
+    }
+
+    public bool IsKnockedBack()
+    {
+        return isKnockedBack;
     }
 }
