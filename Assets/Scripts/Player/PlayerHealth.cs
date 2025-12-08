@@ -5,9 +5,11 @@ using UnityEngine.UI;
 
 public class PlayerHealth : MonoBehaviour
 {
-    public float maxHealth;
-    public float currentHealth;
+    public float maxHealth=10000;
+    public float currentHealth=10000;
     public Image healthBar;
+
+    Animation anim;
 
     void Start()
     {
