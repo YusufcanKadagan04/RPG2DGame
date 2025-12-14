@@ -1,0 +1,3562 @@
+fileFormatVersion: 2
+guid: b1b5d6548298f934b8b14ee99fe6e922
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7653163703547711678
+    second: pendulum-Sheet_0
+  - first:
+      213: -6203092188466867111
+    second: pendulum-Sheet_1
+  - first:
+      213: -2804929274216567020
+    second: pendulum-Sheet_2
+  - first:
+      213: -6415032419825168147
+    second: pendulum-Sheet_3
+  - first:
+      213: 1886952739461859355
+    second: pendulum-Sheet_4
+  - first:
+      213: -2661005651581174184
+    second: pendulum-Sheet_5
+  - first:
+      213: 2869504572392926009
+    second: pendulum-Sheet_6
+  - first:
+      213: -8778659984832701955
+    second: pendulum-Sheet_7
+  - first:
+      213: -7189428683673459321
+    second: pendulum-Sheet_8
+  - first:
+      213: -9073186742902568809
+    second: pendulum-Sheet_9
+  - first:
+      213: 4528763955962999034
+    second: pendulum-Sheet_10
+  - first:
+      213: 2867646218564561537
+    second: pendulum-Sheet_11
+  - first:
+      213: 1937685372529542544
+    second: pendulum-Sheet_12
+  - first:
+      213: -2041094708599236346
+    second: pendulum-Sheet_13
+  - first:
+      213: 6305035955979822334
+    second: pendulum-Sheet_14
+  - first:
+      213: -8937521625944176858
+    second: pendulum-Sheet_15
+  - first:
+      213: 7838566588864736793
+    second: pendulum-Sheet_16
+  - first:
+      213: 6262946060398261605
+    second: pendulum-Sheet_17
+  - first:
+      213: 7434859958863958501
+    second: pendulum-Sheet_18
+  - first:
+      213: 2128025628972988220
+    second: pendulum-Sheet_19
+  - first:
+      213: -869039156428215825
+    second: pendulum-Sheet_20
+  - first:
+      213: -1673960122760336772
+    second: pendulum-Sheet_21
+  - first:
+      213: 9192370604842801378
+    second: pendulum-Sheet_22
+  - first:
+      213: -150063581285595075
+    second: pendulum-Sheet_23
+  - first:
+      213: -8207845602663431268
+    second: pendulum-Sheet_24
+  - first:
+      213: -244814521454819400
+    second: pendulum-Sheet_25
+  - first:
+      213: 5235867468435770189
+    second: pendulum-Sheet_26
+  - first:
+      213: -1234247501438676147
+    second: pendulum-Sheet_27
+  - first:
+      213: 7192481429495680763
+    second: pendulum-Sheet_28
+  - first:
+      213: 1588962727702705626
+    second: pendulum-Sheet_29
+  - first:
+      213: -8179706818057296824
+    second: pendulum-Sheet_30
+  - first:
+      213: -5566893557647695315
+    second: pendulum-Sheet_31
+  - first:
+      213: -137889870597562171
+    second: pendulum-Sheet_32
+  - first:
+      213: 6273312538426834746
+    second: pendulum-Sheet_33
+  - first:
+      213: -8356186844544828976
+    second: pendulum-Sheet_34
+  - first:
+      213: 5611281448181612817
+    second: pendulum-Sheet_35
+  - first:
+      213: 7305064146548863655
+    second: pendulum-Sheet_36
+  - first:
+      213: -5320698210810063100
+    second: pendulum-Sheet_37
+  - first:
+      213: -2718558293825554129
+    second: pendulum-Sheet_38
+  - first:
+      213: -6033693000146097767
+    second: pendulum-Sheet_39
+  - first:
+      213: 8573761556120343436
+    second: pendulum-Sheet_40
+  - first:
+      213: 3615144251929141997
+    second: pendulum-Sheet_41
+  - first:
+      213: -9216826441296236475
+    second: pendulum-Sheet_42
+  - first:
+      213: 3475260481288644783
+    second: pendulum-Sheet_43
+  - first:
+      213: 7104499925253055007
+    second: pendulum-Sheet_44
+  - first:
+      213: 3428050922285784598
+    second: pendulum-Sheet_45
+  - first:
+      213: 59672687389561808
+    second: pendulum-Sheet_46
+  - first:
+      213: 294537092631272925
+    second: pendulum-Sheet_47
+  - first:
+      213: 4019046818515545432
+    second: pendulum-Sheet_48
+  - first:
+      213: 3640363289994817068
+    second: pendulum-Sheet_49
+  - first:
+      213: 6280391314626315623
+    second: pendulum-Sheet_50
+  - first:
+      213: 156146190872353869
+    second: pendulum-Sheet_51
+  - first:
+      213: -2023802661692852711
+    second: pendulum-Sheet_52
+  - first:
+      213: 6886074191711151508
+    second: pendulum-Sheet_53
+  - first:
+      213: 1797548487790591096
+    second: pendulum-Sheet_54
+  - first:
+      213: -3803157974265095727
+    second: pendulum-Sheet_55
+  - first:
+      213: -920222976903936093
+    second: pendulum-Sheet_56
+  - first:
+      213: 9015567533723030735
+    second: pendulum-Sheet_57
+  - first:
+      213: 2841623302982047247
+    second: pendulum-Sheet_58
+  - first:
+      213: -8567772963475910250
+    second: pendulum-Sheet_59
+  - first:
+      213: 4972212794784492725
+    second: pendulum-Sheet_60
+  - first:
+      213: 4766137651667539767
+    second: pendulum-Sheet_61
+  - first:
+      213: 8112437987429668133
+    second: pendulum-Sheet_62
+  - first:
+      213: -5857203408595720918
+    second: pendulum-Sheet_63
+  - first:
+      213: 1278308271732379168
+    second: pendulum-Sheet_64
+  - first:
+      213: 540550573331655847
+    second: pendulum-Sheet_65
+  - first:
+      213: -879825524363328539
+    second: pendulum-Sheet_66
+  - first:
+      213: 3930273974645380202
+    second: pendulum-Sheet_67
+  - first:
+      213: 8844025481256807436
+    second: pendulum-Sheet_68
+  - first:
+      213: -6958404902589581858
+    second: pendulum-Sheet_69
+  - first:
+      213: -1331420014939196759
+    second: pendulum-Sheet_70
+  - first:
+      213: 8874951372045742017
+    second: pendulum-Sheet_71
+  - first:
+      213: -3805453696743134973
+    second: pendulum-Sheet_72
+  - first:
+      213: 3434184836748834082
+    second: pendulum-Sheet_73
+  - first:
+      213: 596075857838419191
+    second: pendulum-Sheet_74
+  - first:
+      213: -4547104479610397293
+    second: pendulum-Sheet_75
+  - first:
+      213: 9185245655910904793
+    second: pendulum-Sheet_76
+  - first:
+      213: 1524620865348321050
+    second: pendulum-Sheet_77
+  - first:
+      213: 8661579746240665985
+    second: pendulum-Sheet_78
+  - first:
+      213: -6780804440597955766
+    second: pendulum-Sheet_79
+  - first:
+      213: 1706340069889528230
+    second: pendulum-Sheet_80
+  - first:
+      213: 1228695117996185860
+    second: pendulum-Sheet_81
+  - first:
+      213: -1525574275423099784
+    second: pendulum-Sheet_82
+  - first:
+      213: -639896333755676237
+    second: pendulum-Sheet_83
+  - first:
+      213: 6866724709005642656
+    second: pendulum-Sheet_84
+  - first:
+      213: 4969473315018562740
+    second: pendulum-Sheet_85
+  - first:
+      213: 1688853270308443611
+    second: pendulum-Sheet_86
+  - first:
+      213: -5399029784652229567
+    second: pendulum-Sheet_87
+  - first:
+      213: 625859076496651228
+    second: pendulum-Sheet_88
+  - first:
+      213: 5561667079806031369
+    second: pendulum-Sheet_89
+  - first:
+      213: -3067595292177032454
+    second: pendulum-Sheet_90
+  - first:
+      213: -7238011944913490542
+    second: pendulum-Sheet_91
+  - first:
+      213: -4021701870771810877
+    second: pendulum-Sheet_92
+  - first:
+      213: 5532068515514620359
+    second: pendulum-Sheet_93
+  - first:
+      213: -3723885197649814059
+    second: pendulum-Sheet_94
+  - first:
+      213: 405186037028333644
+    second: pendulum-Sheet_95
+  - first:
+      213: -4587206362592243522
+    second: pendulum-Sheet_96
+  - first:
+      213: -2400492159993328161
+    second: pendulum-Sheet_97
+  - first:
+      213: 7640617808853346173
+    second: pendulum-Sheet_98
+  - first:
+      213: 4212590454858255051
+    second: pendulum-Sheet_99
+  - first:
+      213: -1912251480634056221
+    second: pendulum-Sheet_100
+  - first:
+      213: 8447499402146637737
+    second: pendulum-Sheet_101
+  - first:
+      213: -3631467471619562987
+    second: pendulum-Sheet_102
+  - first:
+      213: 8888687040649295715
+    second: pendulum-Sheet_103
+  - first:
+      213: 5068518390220013046
+    second: pendulum-Sheet_104
+  - first:
+      213: 3277968131094475890
+    second: pendulum-Sheet_105
+  - first:
+      213: -4104491260023256243
+    second: pendulum-Sheet_106
+  - first:
+      213: -8858725120214279572
+    second: pendulum-Sheet_107
+  - first:
+      213: -7828380030294486448
+    second: pendulum-Sheet_108
+  - first:
+      213: -5238094779819239715
+    second: pendulum-Sheet_109
+  - first:
+      213: -3923769207577020925
+    second: pendulum-Sheet_110
+  - first:
+      213: -3130593968145122556
+    second: pendulum-Sheet_111
+  - first:
+      213: -3577417058422580000
+    second: pendulum-Sheet_112
+  - first:
+      213: -1760163375136803060
+    second: pendulum-Sheet_113
+  - first:
+      213: -7110461845235173273
+    second: pendulum-Sheet_114
+  - first:
+      213: 3850077010552302455
+    second: pendulum-Sheet_115
+  - first:
+      213: 7904025006234698447
+    second: pendulum-Sheet_116
+  - first:
+      213: -5215157184137851127
+    second: pendulum-Sheet_117
+  - first:
+      213: 4906873357449426564
+    second: pendulum-Sheet_118
+  - first:
+      213: -1123723174577065209
+    second: pendulum-Sheet_119
+  - first:
+      213: 8389110083450400176
+    second: pendulum-Sheet_120
+  - first:
+      213: -3634341265318551924
+    second: pendulum-Sheet_121
+  - first:
+      213: 2055740244119296334
+    second: pendulum-Sheet_122
+  - first:
+      213: -2906254496174342818
+    second: pendulum-Sheet_123
+  - first:
+      213: 225670136378873581
+    second: pendulum-Sheet_124
+  - first:
+      213: -8447668286322959987
+    second: pendulum-Sheet_125
+  - first:
+      213: -8645207918390278253
+    second: pendulum-Sheet_126
+  - first:
+      213: 4215897328338925943
+    second: pendulum-Sheet_127
+  - first:
+      213: -4867658459589026793
+    second: pendulum-Sheet_128
+  - first:
+      213: 1982056742802859151
+    second: pendulum-Sheet_129
+  - first:
+      213: -4901295412357617229
+    second: pendulum-Sheet_130
+  - first:
+      213: -1112046523039360850
+    second: pendulum-Sheet_131
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: pendulum-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 87
+        width: 18
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb0dfd517df753a60800000000000000
+      internalID: 7653163703547711678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 87
+        width: 18
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9549e6d15803ae9a0800000000000000
+      internalID: -6203092188466867111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 82
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41f2a3eafa3e219d0800000000000000
+      internalID: -2804929274216567020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 87
+        width: 18
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de0d4b1a00a39f6a0800000000000000
+      internalID: -6415032419825168147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 62
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b18039fd48dcf2a10800000000000000
+      internalID: 1886952739461859355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 89
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85e72306575321bd0800000000000000
+      internalID: -2661005651581174184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 82
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93be6de843782d720800000000000000
+      internalID: 2869504572392926009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 87
+        width: 18
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df95c10514feb2680800000000000000
+      internalID: -8778659984832701955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 854
+        y: 82
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 785a3a314b40a3c90800000000000000
+      internalID: -7189428683673459321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 87
+        width: 18
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7984288aab0951280800000000000000
+      internalID: -9073186742902568809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 1047
+        y: 87
+        width: 18
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af074c2d2d669de30800000000000000
+      internalID: 4528763955962999034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 1239
+        y: 87
+        width: 18
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18a6807da0debc720800000000000000
+      internalID: 2867646218564561537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 1431
+        y: 87
+        width: 18
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 095081c749a04ea10800000000000000
+      internalID: 1937685372529542544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum-Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 1623
+        y: 87
+        width: 18
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 609530d3d239ca3e0800000000000000
+      internalID: -2041094708599236346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum-Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 1634
+        y: 82
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef42e34ebccff7750800000000000000
+      internalID: 6305035955979822334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum-Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 1815
+        y: 87
+        width: 18
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 627c9392f6b87f380800000000000000
+      internalID: -8937521625944176858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum-Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 1827
+        y: 82
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91e278538ce28cc60800000000000000
+      internalID: 7838566588864736793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum-Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 1878
+        y: 62
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 565787962447ae650800000000000000
+      internalID: 6262946060398261605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum-Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 1886
+        y: 89
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e19cd2bdbded2760800000000000000
+      internalID: 7434859958863958501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum-Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 2007
+        y: 87
+        width: 18
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c37bcd7e804488d10800000000000000
+      internalID: 2128025628972988220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum-Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 2018
+        y: 82
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe9e039dd7d80f3f0800000000000000
+      internalID: -869039156428215825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum-Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 2199
+        y: 87
+        width: 18
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7a63ba2326e4c8e0800000000000000
+      internalID: -1673960122760336772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum-Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 78
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e8d561ac5cd19f70800000000000000
+      internalID: 9192370604842801378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum-Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 74
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d38cfb7c7fddaedf0800000000000000
+      internalID: -150063581285595075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum-Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 80
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c938ef159efd71e80800000000000000
+      internalID: -8207845602663431268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum-Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 75
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b704d46d7e3a9cf0800000000000000
+      internalID: -244814521454819400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum-Sheet_26
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 75
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4b4323c8b989a840800000000000000
+      internalID: 5235867468435770189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum-Sheet_27
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 79
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4395dfcf621fdee0800000000000000
+      internalID: -1234247501438676147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum-Sheet_28
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 70
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfe0fa2b0c3d0d360800000000000000
+      internalID: 7192481429495680763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum-Sheet_29
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 70
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad53e02ae212d0610800000000000000
+      internalID: 1588962727702705626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum-Sheet_30
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 78
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 844aad6acf7db7e80800000000000000
+      internalID: -8179706818057296824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum-Sheet_31
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 79
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d22aff1ddcb6eb2b0800000000000000
+      internalID: -5566893557647695315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum-Sheet_32
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 80
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c068eca4ed161ef0800000000000000
+      internalID: -137889870597562171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum-Sheet_33
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 81
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3f7fe924884f0750800000000000000
+      internalID: 6273312538426834746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum-Sheet_34
+      rect:
+        serializedVersion: 2
+        x: 797
+        y: 75
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d9fc1e765cd80c80800000000000000
+      internalID: -8356186844544828976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum-Sheet_35
+      rect:
+        serializedVersion: 2
+        x: 838
+        y: 75
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 111ca9d4fb64fdd40800000000000000
+      internalID: 5611281448181612817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum-Sheet_36
+      rect:
+        serializedVersion: 2
+        x: 846
+        y: 79
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a2bc7c232dc06560800000000000000
+      internalID: 7305064146548863655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum-Sheet_37
+      rect:
+        serializedVersion: 2
+        x: 1042
+        y: 74
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4071c93ea251926b0800000000000000
+      internalID: -5320698210810063100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum-Sheet_38
+      rect:
+        serializedVersion: 2
+        x: 1048
+        y: 80
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f29f553a2adb54ad0800000000000000
+      internalID: -2718558293825554129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum-Sheet_39
+      rect:
+        serializedVersion: 2
+        x: 1244
+        y: 78
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 999e78a2f24044ca0800000000000000
+      internalID: -6033693000146097767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum-Sheet_40
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 80
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c831475a5be1cf670800000000000000
+      internalID: 8573761556120343436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum-Sheet_41
+      rect:
+        serializedVersion: 2
+        x: 1446
+        y: 74
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de228041b829b2230800000000000000
+      internalID: 3615144251929141997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum-Sheet_42
+      rect:
+        serializedVersion: 2
+        x: 1642
+        y: 79
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5403c1a3f21471080800000000000000
+      internalID: -9216826441296236475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum-Sheet_43
+      rect:
+        serializedVersion: 2
+        x: 1650
+        y: 75
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa8a929befa9a3030800000000000000
+      internalID: 3475260481288644783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum-Sheet_44
+      rect:
+        serializedVersion: 2
+        x: 1687
+        y: 75
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f126f7f6a01489260800000000000000
+      internalID: 7104499925253055007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum-Sheet_45
+      rect:
+        serializedVersion: 2
+        x: 1836
+        y: 81
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61e5bc6b622e29f20800000000000000
+      internalID: 3428050922285784598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum-Sheet_46
+      rect:
+        serializedVersion: 2
+        x: 1845
+        y: 80
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d3d5a63efff3d000800000000000000
+      internalID: 59672687389561808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum-Sheet_47
+      rect:
+        serializedVersion: 2
+        x: 1854
+        y: 79
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddd967bdce7661400800000000000000
+      internalID: 294537092631272925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum-Sheet_48
+      rect:
+        serializedVersion: 2
+        x: 1863
+        y: 78
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85d6841a9c586c730800000000000000
+      internalID: 4019046818515545432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum-Sheet_49
+      rect:
+        serializedVersion: 2
+        x: 1872
+        y: 70
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2e6381ff1b258230800000000000000
+      internalID: 3640363289994817068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum-Sheet_50
+      rect:
+        serializedVersion: 2
+        x: 1905
+        y: 70
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76500ce20ae682750800000000000000
+      internalID: 6280391314626315623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum-Sheet_51
+      rect:
+        serializedVersion: 2
+        x: 2026
+        y: 79
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4c1aff122eba2200800000000000000
+      internalID: 156146190872353869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum-Sheet_52
+      rect:
+        serializedVersion: 2
+        x: 2034
+        y: 75
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 916be46a3320ae3e0800000000000000
+      internalID: -2023802661692852711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum-Sheet_53
+      rect:
+        serializedVersion: 2
+        x: 2071
+        y: 75
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 495aded4eff309f50800000000000000
+      internalID: 6886074191711151508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum-Sheet_54
+      rect:
+        serializedVersion: 2
+        x: 2208
+        y: 80
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87c7c4963dc22f810800000000000000
+      internalID: 1797548487790591096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum-Sheet_55
+      rect:
+        serializedVersion: 2
+        x: 2214
+        y: 74
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d91c3fe8f7783bc0800000000000000
+      internalID: -3803157974265095727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum-Sheet_56
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 69
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a70d7bf316ba33f0800000000000000
+      internalID: -920222976903936093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum-Sheet_57
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 68
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc41b18c7eabd1d70800000000000000
+      internalID: 9015567533723030735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum-Sheet_58
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 48
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0697b7a6597f6720800000000000000
+      internalID: 2841623302982047247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum-Sheet_59
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 69
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69192db32e7291980800000000000000
+      internalID: -8567772963475910250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum-Sheet_60
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 72
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bc28c46139d00540800000000000000
+      internalID: 4972212794784492725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum-Sheet_61
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 48
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 737124e21f8b42240800000000000000
+      internalID: 4766137651667539767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum-Sheet_62
+      rect:
+        serializedVersion: 2
+        x: 821
+        y: 69
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52551273e5b259070800000000000000
+      internalID: 8112437987429668133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum-Sheet_63
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 72
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a25e17d588807bea0800000000000000
+      internalID: -5857203408595720918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum-Sheet_64
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 68
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02e4d02b9967db110800000000000000
+      internalID: 1278308271732379168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum-Sheet_65
+      rect:
+        serializedVersion: 2
+        x: 1244
+        y: 69
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ac219ae1eb608700800000000000000
+      internalID: 540550573331655847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum-Sheet_66
+      rect:
+        serializedVersion: 2
+        x: 1452
+        y: 68
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e3800cd85b3ac3f0800000000000000
+      internalID: -879825524363328539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum-Sheet_67
+      rect:
+        serializedVersion: 2
+        x: 1658
+        y: 72
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6453b04b532b8630800000000000000
+      internalID: 3930273974645380202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum-Sheet_68
+      rect:
+        serializedVersion: 2
+        x: 1667
+        y: 69
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0ca0da415a4cba70800000000000000
+      internalID: 8844025481256807436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum-Sheet_69
+      rect:
+        serializedVersion: 2
+        x: 1679
+        y: 48
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed5bfc9bb97ce6f90800000000000000
+      internalID: -6958404902589581858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum-Sheet_70
+      rect:
+        serializedVersion: 2
+        x: 2042
+        y: 72
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a234b2fc88d58de0800000000000000
+      internalID: -1331420014939196759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum-Sheet_71
+      rect:
+        serializedVersion: 2
+        x: 2051
+        y: 69
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cfe6a950492a2b70800000000000000
+      internalID: 8874951372045742017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum-Sheet_72
+      rect:
+        serializedVersion: 2
+        x: 2063
+        y: 48
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 309ad646600503bc0800000000000000
+      internalID: -3805453696743134973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum-Sheet_73
+      rect:
+        serializedVersion: 2
+        x: 2220
+        y: 68
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2257277f9eca8af20800000000000000
+      internalID: 3434184836748834082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum-Sheet_74
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 60
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fc25a5a5dfa54800800000000000000
+      internalID: 596075857838419191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum-Sheet_75
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 54
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39d1c30419075e0c0800000000000000
+      internalID: -4547104479610397293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum-Sheet_76
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 55
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d3f44f224c887f70800000000000000
+      internalID: 9185245655910904793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum-Sheet_77
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 61
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1f3c38699a882510800000000000000
+      internalID: 1524620865348321050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum-Sheet_78
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 56
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 189946063ec143870800000000000000
+      internalID: 8661579746240665985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum-Sheet_79
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 56
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4b74ca994eb5e1a0800000000000000
+      internalID: -6780804440597955766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum-Sheet_80
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 56
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a1d7c3c0432ea710800000000000000
+      internalID: 1706340069889528230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum-Sheet_81
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 56
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4095b6d23b33d0110800000000000000
+      internalID: 1228695117996185860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum-Sheet_82
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 56
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 874aee2874214dae0800000000000000
+      internalID: -1525574275423099784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum-Sheet_83
+      rect:
+        serializedVersion: 2
+        x: 1003
+        y: 54
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b90b6dbca1ae17f0800000000000000
+      internalID: -639896333755676237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum-Sheet_84
+      rect:
+        serializedVersion: 2
+        x: 1023
+        y: 55
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0abcdaacdb18b4f50800000000000000
+      internalID: 6866724709005642656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum-Sheet_85
+      rect:
+        serializedVersion: 2
+        x: 1029
+        y: 61
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bcd67e86ad17f440800000000000000
+      internalID: 4969473315018562740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum-Sheet_86
+      rect:
+        serializedVersion: 2
+        x: 1244
+        y: 60
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd5dd76f913007710800000000000000
+      internalID: 1688853270308443611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum-Sheet_87
+      rect:
+        serializedVersion: 2
+        x: 1459
+        y: 61
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 144dc02240bc215b0800000000000000
+      internalID: -5399029784652229567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum-Sheet_88
+      rect:
+        serializedVersion: 2
+        x: 1465
+        y: 55
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd3790e938f7fa800800000000000000
+      internalID: 625859076496651228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum-Sheet_89
+      rect:
+        serializedVersion: 2
+        x: 1481
+        y: 54
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90692dafdb20f2d40800000000000000
+      internalID: 5561667079806031369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum-Sheet_90
+      rect:
+        serializedVersion: 2
+        x: 1673
+        y: 56
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afa9027a556bd65d0800000000000000
+      internalID: -3067595292177032454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum-Sheet_91
+      rect:
+        serializedVersion: 2
+        x: 1706
+        y: 56
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29da5671c7a6d8b90800000000000000
+      internalID: -7238011944913490542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum-Sheet_92
+      rect:
+        serializedVersion: 2
+        x: 1886
+        y: 56
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cd4f18d47b0038c0800000000000000
+      internalID: -4021701870771810877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum-Sheet_93
+      rect:
+        serializedVersion: 2
+        x: 2057
+        y: 56
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c91f54310bd5cc40800000000000000
+      internalID: 5532068515514620359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum-Sheet_94
+      rect:
+        serializedVersion: 2
+        x: 2090
+        y: 56
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5dd5fb9842a125cc0800000000000000
+      internalID: -3723885197649814059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum-Sheet_95
+      rect:
+        serializedVersion: 2
+        x: 2227
+        y: 61
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c48a50dcd828f9500800000000000000
+      internalID: 405186037028333644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum-Sheet_96
+      rect:
+        serializedVersion: 2
+        x: 2233
+        y: 55
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb017460e18f650c0800000000000000
+      internalID: -4587206362592243522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum-Sheet_97
+      rect:
+        serializedVersion: 2
+        x: 2249
+        y: 54
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fddcc7d491dbfaed0800000000000000
+      internalID: -2400492159993328161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum-Sheet_98
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 51
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d772a395a6de80a60800000000000000
+      internalID: 7640617808853346173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum-Sheet_99
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 42
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bca070e03b0267a30800000000000000
+      internalID: 4212590454858255051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum-Sheet_100
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 27
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e1a79fe8615675e0800000000000000
+      internalID: -1912251480634056221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum-Sheet_101
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 27
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a7664113fb8b3570800000000000000
+      internalID: 8447499402146637737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum-Sheet_102
+      rect:
+        serializedVersion: 2
+        x: 1244
+        y: 51
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 512eabc239f6a9dc0800000000000000
+      internalID: -3631467471619562987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum-Sheet_103
+      rect:
+        serializedVersion: 2
+        x: 1244
+        y: 42
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 367f489e4c5fa5b70800000000000000
+      internalID: 8888687040649295715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum-Sheet_104
+      rect:
+        serializedVersion: 2
+        x: 1473
+        y: 27
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fd399a2f9ef65640800000000000000
+      internalID: 5068518390220013046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum-Sheet_105
+      rect:
+        serializedVersion: 2
+        x: 2241
+        y: 27
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 274ffe6d5aead7d20800000000000000
+      internalID: 3277968131094475890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum-Sheet_106
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 35
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4b4e9e02fae907c0800000000000000
+      internalID: -4104491260023256243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum-Sheet_107
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 35
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6a5cce407c7f0580800000000000000
+      internalID: -8858725120214279572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum-Sheet_108
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 35
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0521987c6d10c5390800000000000000
+      internalID: -7828380030294486448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum-Sheet_109
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 42
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd6db05ec8c8e47b0800000000000000
+      internalID: -5238094779819239715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum-Sheet_110
+      rect:
+        serializedVersion: 2
+        x: 797
+        y: 42
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30671c9d1b8fb89c0800000000000000
+      internalID: -3923769207577020925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum-Sheet_111
+      rect:
+        serializedVersion: 2
+        x: 989
+        y: 35
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40bbab06f55ed84d0800000000000000
+      internalID: -3130593968145122556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum-Sheet_112
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 35
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ec9c4ba3267a5ec0800000000000000
+      internalID: -3577417058422580000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum-Sheet_113
+      rect:
+        serializedVersion: 2
+        x: 1242
+        y: 35
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c07715e6cb4a297e0800000000000000
+      internalID: -1760163375136803060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum-Sheet_114
+      rect:
+        serializedVersion: 2
+        x: 1467
+        y: 35
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 768f9c5ef90925d90800000000000000
+      internalID: -7110461845235173273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum-Sheet_115
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 35
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77b2edb74a83e6530800000000000000
+      internalID: 3850077010552302455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum-Sheet_116
+      rect:
+        serializedVersion: 2
+        x: 1687
+        y: 42
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc28c68addcb0bd60800000000000000
+      internalID: 7904025006234698447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum-Sheet_117
+      rect:
+        serializedVersion: 2
+        x: 2071
+        y: 42
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90f03af0c2a00a7b0800000000000000
+      internalID: -5215157184137851127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum-Sheet_118
+      rect:
+        serializedVersion: 2
+        x: 2235
+        y: 35
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 486f9942257b81440800000000000000
+      internalID: 4906873357449426564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum-Sheet_119
+      rect:
+        serializedVersion: 2
+        x: 2268
+        y: 35
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 703b579f9bbb760f0800000000000000
+      internalID: -1123723174577065209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum-Sheet_120
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 16
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bd65b96c2b1c6470800000000000000
+      internalID: 8389110083450400176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum-Sheet_121
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 8
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8ed420ffd9309dc0800000000000000
+      internalID: -3634341265318551924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum-Sheet_122
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 16
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4994393cd4778c10800000000000000
+      internalID: 2055740244119296334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum-Sheet_123
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 21
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5d75a80fe8eaa7d0800000000000000
+      internalID: -2906254496174342818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum-Sheet_124
+      rect:
+        serializedVersion: 2
+        x: 1003
+        y: 21
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de6d64b1bcdb12300800000000000000
+      internalID: 225670136378873581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum-Sheet_125
+      rect:
+        serializedVersion: 2
+        x: 1228
+        y: 16
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d891365837ad3ca80800000000000000
+      internalID: -8447668286322959987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum-Sheet_126
+      rect:
+        serializedVersion: 2
+        x: 1234
+        y: 8
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39704f6d33d060880800000000000000
+      internalID: -8645207918390278253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum-Sheet_127
+      rect:
+        serializedVersion: 2
+        x: 1261
+        y: 16
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 779f8298840e18a30800000000000000
+      internalID: 4215897328338925943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum-Sheet_128
+      rect:
+        serializedVersion: 2
+        x: 1481
+        y: 21
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71c5544cb6a927cb0800000000000000
+      internalID: -4867658459589026793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum-Sheet_129
+      rect:
+        serializedVersion: 2
+        x: 2249
+        y: 21
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f84ae6f2b1ea18b10800000000000000
+      internalID: 1982056742802859151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum-Sheet_130
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 2
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b92c276ac91bfbb0800000000000000
+      internalID: -4901295412357617229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum-Sheet_131
+      rect:
+        serializedVersion: 2
+        x: 1242
+        y: 2
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea8d78444973190f0800000000000000
+      internalID: -1112046523039360850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      pendulum-Sheet_0: 7653163703547711678
+      pendulum-Sheet_1: -6203092188466867111
+      pendulum-Sheet_10: 4528763955962999034
+      pendulum-Sheet_100: -1912251480634056221
+      pendulum-Sheet_101: 8447499402146637737
+      pendulum-Sheet_102: -3631467471619562987
+      pendulum-Sheet_103: 8888687040649295715
+      pendulum-Sheet_104: 5068518390220013046
+      pendulum-Sheet_105: 3277968131094475890
+      pendulum-Sheet_106: -4104491260023256243
+      pendulum-Sheet_107: -8858725120214279572
+      pendulum-Sheet_108: -7828380030294486448
+      pendulum-Sheet_109: -5238094779819239715
+      pendulum-Sheet_11: 2867646218564561537
+      pendulum-Sheet_110: -3923769207577020925
+      pendulum-Sheet_111: -3130593968145122556
+      pendulum-Sheet_112: -3577417058422580000
+      pendulum-Sheet_113: -1760163375136803060
+      pendulum-Sheet_114: -7110461845235173273
+      pendulum-Sheet_115: 3850077010552302455
+      pendulum-Sheet_116: 7904025006234698447
+      pendulum-Sheet_117: -5215157184137851127
+      pendulum-Sheet_118: 4906873357449426564
+      pendulum-Sheet_119: -1123723174577065209
+      pendulum-Sheet_12: 1937685372529542544
+      pendulum-Sheet_120: 8389110083450400176
+      pendulum-Sheet_121: -3634341265318551924
+      pendulum-Sheet_122: 2055740244119296334
+      pendulum-Sheet_123: -2906254496174342818
+      pendulum-Sheet_124: 225670136378873581
+      pendulum-Sheet_125: -8447668286322959987
+      pendulum-Sheet_126: -8645207918390278253
+      pendulum-Sheet_127: 4215897328338925943
+      pendulum-Sheet_128: -4867658459589026793
+      pendulum-Sheet_129: 1982056742802859151
+      pendulum-Sheet_13: -2041094708599236346
+      pendulum-Sheet_130: -4901295412357617229
+      pendulum-Sheet_131: -1112046523039360850
+      pendulum-Sheet_14: 6305035955979822334
+      pendulum-Sheet_15: -8937521625944176858
+      pendulum-Sheet_16: 7838566588864736793
+      pendulum-Sheet_17: 6262946060398261605
+      pendulum-Sheet_18: 7434859958863958501
+      pendulum-Sheet_19: 2128025628972988220
+      pendulum-Sheet_2: -2804929274216567020
+      pendulum-Sheet_20: -869039156428215825
+      pendulum-Sheet_21: -1673960122760336772
+      pendulum-Sheet_22: 9192370604842801378
+      pendulum-Sheet_23: -150063581285595075
+      pendulum-Sheet_24: -8207845602663431268
+      pendulum-Sheet_25: -244814521454819400
+      pendulum-Sheet_26: 5235867468435770189
+      pendulum-Sheet_27: -1234247501438676147
+      pendulum-Sheet_28: 7192481429495680763
+      pendulum-Sheet_29: 1588962727702705626
+      pendulum-Sheet_3: -6415032419825168147
+      pendulum-Sheet_30: -8179706818057296824
+      pendulum-Sheet_31: -5566893557647695315
+      pendulum-Sheet_32: -137889870597562171
+      pendulum-Sheet_33: 6273312538426834746
+      pendulum-Sheet_34: -8356186844544828976
+      pendulum-Sheet_35: 5611281448181612817
+      pendulum-Sheet_36: 7305064146548863655
+      pendulum-Sheet_37: -5320698210810063100
+      pendulum-Sheet_38: -2718558293825554129
+      pendulum-Sheet_39: -6033693000146097767
+      pendulum-Sheet_4: 1886952739461859355
+      pendulum-Sheet_40: 8573761556120343436
+      pendulum-Sheet_41: 3615144251929141997
+      pendulum-Sheet_42: -9216826441296236475
+      pendulum-Sheet_43: 3475260481288644783
+      pendulum-Sheet_44: 7104499925253055007
+      pendulum-Sheet_45: 3428050922285784598
+      pendulum-Sheet_46: 59672687389561808
+      pendulum-Sheet_47: 294537092631272925
+      pendulum-Sheet_48: 4019046818515545432
+      pendulum-Sheet_49: 3640363289994817068
+      pendulum-Sheet_5: -2661005651581174184
+      pendulum-Sheet_50: 6280391314626315623
+      pendulum-Sheet_51: 156146190872353869
+      pendulum-Sheet_52: -2023802661692852711
+      pendulum-Sheet_53: 6886074191711151508
+      pendulum-Sheet_54: 1797548487790591096
+      pendulum-Sheet_55: -3803157974265095727
+      pendulum-Sheet_56: -920222976903936093
+      pendulum-Sheet_57: 9015567533723030735
+      pendulum-Sheet_58: 2841623302982047247
+      pendulum-Sheet_59: -8567772963475910250
+      pendulum-Sheet_6: 2869504572392926009
+      pendulum-Sheet_60: 4972212794784492725
+      pendulum-Sheet_61: 4766137651667539767
+      pendulum-Sheet_62: 8112437987429668133
+      pendulum-Sheet_63: -5857203408595720918
+      pendulum-Sheet_64: 1278308271732379168
+      pendulum-Sheet_65: 540550573331655847
+      pendulum-Sheet_66: -879825524363328539
+      pendulum-Sheet_67: 3930273974645380202
+      pendulum-Sheet_68: 8844025481256807436
+      pendulum-Sheet_69: -6958404902589581858
+      pendulum-Sheet_7: -8778659984832701955
+      pendulum-Sheet_70: -1331420014939196759
+      pendulum-Sheet_71: 8874951372045742017
+      pendulum-Sheet_72: -3805453696743134973
+      pendulum-Sheet_73: 3434184836748834082
+      pendulum-Sheet_74: 596075857838419191
+      pendulum-Sheet_75: -4547104479610397293
+      pendulum-Sheet_76: 9185245655910904793
+      pendulum-Sheet_77: 1524620865348321050
+      pendulum-Sheet_78: 8661579746240665985
+      pendulum-Sheet_79: -6780804440597955766
+      pendulum-Sheet_8: -7189428683673459321
+      pendulum-Sheet_80: 1706340069889528230
+      pendulum-Sheet_81: 1228695117996185860
+      pendulum-Sheet_82: -1525574275423099784
+      pendulum-Sheet_83: -639896333755676237
+      pendulum-Sheet_84: 6866724709005642656
+      pendulum-Sheet_85: 4969473315018562740
+      pendulum-Sheet_86: 1688853270308443611
+      pendulum-Sheet_87: -5399029784652229567
+      pendulum-Sheet_88: 625859076496651228
+      pendulum-Sheet_89: 5561667079806031369
+      pendulum-Sheet_9: -9073186742902568809
+      pendulum-Sheet_90: -3067595292177032454
+      pendulum-Sheet_91: -7238011944913490542
+      pendulum-Sheet_92: -4021701870771810877
+      pendulum-Sheet_93: 5532068515514620359
+      pendulum-Sheet_94: -3723885197649814059
+      pendulum-Sheet_95: 405186037028333644
+      pendulum-Sheet_96: -4587206362592243522
+      pendulum-Sheet_97: -2400492159993328161
+      pendulum-Sheet_98: 7640617808853346173
+      pendulum-Sheet_99: 4212590454858255051
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
