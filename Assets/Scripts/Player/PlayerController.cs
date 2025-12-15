@@ -181,13 +181,13 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    public void TakeDamage(float damage, Vector2 damageSourcePosition)
+    public void TakeDamage(float damage)
     {
         if (isInvincible)
         {
             return;
         }
-
+        Vector2 damageSource = transform.position + (isFaceRight ? Vector3.right : Vector3.left);
         currentHealth -= damage;
         currentHealth = Mathf.Clamp(currentHealth, 0f, maxHealth);
 
@@ -196,7 +196,7 @@ public class PlayerController : MonoBehaviour
         anim.ResetTrigger("Ehurt");
         anim.SetTrigger("Ehurt");
 
-        ApplyKnockback(damageSourcePosition);
+        ApplyKnockback(damageSource);
 
         isInvincible = true;
         invincibilityTimer = invincibilityTime;
@@ -205,12 +205,6 @@ public class PlayerController : MonoBehaviour
         {
             Die();
         }
-    }
-
-    public void TakeDamage(float damage)
-    {
-        Vector2 damageSource = transform.position + (isFaceRight ? Vector3.right : Vector3.left);
-        TakeDamage(damage, damageSource);
     }
 
     void ApplyKnockback(Vector2 damageSourcePosition)
