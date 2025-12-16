@@ -42,7 +42,7 @@ public class EnemyProjectile : MonoBehaviour
             
             if (playerController != null)
             {
-                playerController.TakeDamage(projectileDamage, transform.position);
+                playerController.TakeDamage(projectileDamage);
             }
 
             Destroy(gameObject);

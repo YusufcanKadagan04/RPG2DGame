@@ -25,7 +25,8 @@ public class PlayerHealth : MonoBehaviour
         
         if (maxHealth > 0)
         {
-            healthBar.fillAmount = currentHealth / 100;
+            currentHealth = 100;
+  //          healthBar.fillAmount = currentHealth / 100;
         }
     }
     void OnCollisionEnter2D(Collision2D collision)
