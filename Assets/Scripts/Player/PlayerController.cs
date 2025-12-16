@@ -7,6 +7,8 @@ public class PlayerController : MonoBehaviour
 {
     private float nextAttack = 0f;
     private float movementDirection;
+    int attackTriggerID;
+    int attackIndexID;
 
     public bool isMoving = false;
 
@@ -61,6 +63,8 @@ public class PlayerController : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
         inputController = FindObjectOfType<InputController>();
+        attackTriggerID = Animator.StringToHash("Attack");
+        attackIndexID = Animator.StringToHash("AttackID");
 
         if (inputController == null)
         {
@@ -78,6 +82,16 @@ public class PlayerController : MonoBehaviour
         UpdateAnimation();
         UpdateCameraPosition();
         HandleAttack();
+
+        if (Input.GetKeyDown(KeyCode.Q))
+        {
+            int rastgeleID = Random.Range(0, 2) == 0 ? 1 : 3;
+            SaldiriYap(rastgeleID);
+        }
+        if (Input.GetKeyDown(KeyCode.E))
+        {
+            SaldiriYap(2);
+        }
     }
 
     void FixedUpdate()
@@ -120,6 +134,12 @@ public class PlayerController : MonoBehaviour
         }
     }
 
+    void SaldiriYap(int id)
+    {
+       
+        anim.SetInteger(attackIndexID, id);
+        anim.SetTrigger(attackTriggerID);
+    }
     void HandleMovement()
     {
         if (isKnockedBack)
@@ -219,6 +239,7 @@ public class PlayerController : MonoBehaviour
 
     void Die()
     {
+        anim.SetTrigger("IsDead");
         Debug.Log("Player died!");
         Destroy(gameObject, 0.9f);
     }
@@ -245,7 +266,7 @@ public class PlayerController : MonoBehaviour
 
     public void PerformAttack()
     {
-        anim.SetTrigger("isAttack1");
+        anim.SetTrigger("IsAttack1");
 
         Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(attackPoint.position, attackDistance, enemyLayers);
 
