@@ -25,7 +25,7 @@ public class PlayerController : MonoBehaviour
 
     [Header("Ground Check")]
     public float groundCheckRadius = 0.2f;
-    public GameObject groundCheck;
+    public GameObject GroundCheck;
     public LayerMask groundLayer;
 
     [Header("Attack Settings")]
@@ -83,7 +83,7 @@ public class PlayerController : MonoBehaviour
         UpdateCameraPosition();
         HandleAttack();
 
-        if (Input.GetKeyDown(KeyCode.Q))
+       /* if (Input.GetKeyDown(KeyCode.Q))
         {
             int rastgeleID = Random.Range(0, 2) == 0 ? 1 : 3;
             SaldiriYap(rastgeleID);
@@ -92,6 +92,7 @@ public class PlayerController : MonoBehaviour
         {
             SaldiriYap(2);
         }
+        */
     }
 
     void FixedUpdate()
@@ -178,7 +179,6 @@ public class PlayerController : MonoBehaviour
     void UpdateAnimation()
     {
         anim.SetBool("isGrounded", isGrounded);
-        anim.SetFloat("yVelocity", rb.linearVelocity.y);
     }
 
     void CheckRotation()
@@ -195,9 +195,9 @@ public class PlayerController : MonoBehaviour
 
     void CheckSurface()
     {
-        if (groundCheck != null)
+        if (GroundCheck != null)
         {
-            isGrounded = Physics2D.OverlapCircle(groundCheck.transform.position, groundCheckRadius, groundLayer);
+            isGrounded = Physics2D.OverlapCircle(GroundCheck.transform.position, groundCheckRadius, groundLayer);
         }
     }
 
@@ -213,8 +213,8 @@ public class PlayerController : MonoBehaviour
 
         Debug.Log($"Player took {damage} damage! Current Health: {currentHealth}/{maxHealth}");
 
-        anim.ResetTrigger("Ehurt");
-        anim.SetTrigger("Ehurt");
+        anim.ResetTrigger("IsHurt");
+        anim.SetTrigger("IsHurt");
 
         ApplyKnockback(damageSource);
 
@@ -294,10 +294,10 @@ public class PlayerController : MonoBehaviour
 
     private void OnDrawGizmos()
     {
-        if (groundCheck != null)
+        if (GroundCheck != null)
         {
             Gizmos.color = Color.green;
-            Gizmos.DrawWireSphere(groundCheck.transform.position, groundCheckRadius);
+            Gizmos.DrawWireSphere(GroundCheck.transform.position, groundCheckRadius);
         }
         if (attackPoint != null)
         {
