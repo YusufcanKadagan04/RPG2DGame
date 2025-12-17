@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UIElements;
 
 public class EnemyStats : MonoBehaviour
 {
@@ -22,17 +23,27 @@ public class EnemyStats : MonoBehaviour
 
     [Header("Yakın Saldırı Ayarları")]
     public float meleeCooldown = 1f;
-    public string meleeAttackTrigger = "EAttack";
+    public string meleeAttackTrigger = "IsAttack";
     private float nextMeleeTime = 0f;
+    public float enemyAttackPoint=25;
+    public Transform attackPoint;
+    public float attackDistance = 1f;
 
-    [Header("Menzilli Saldırı Ayarları")]
+    /*[Header("Menzilli Saldırı Ayarları")]
     public bool canShoot = true;
     public GameObject projectilePrefab;
     public Transform firePoint;
     public float shootRange = 6f;
     public float shootCooldown = 2f;
-    public string rangedAttackTrigger = "EAttack2";
+    public string rangedAttackTrigger = "IsAttack";
     private float nextShootTime = 0f;
+    */
+
+    public LayerMask Ground;
+    public LayerMask groundLayer;
+    public LayerMask playerLayer;
+    public float groundCheckRadius = 0.2f;
+    public GameObject GroundCheck;
 
     [Header("Knockback Ayarları")]
     public float knockbackDuration = 0.3f;
@@ -59,7 +70,7 @@ public class EnemyStats : MonoBehaviour
 
         FindPlayer();
         startPosition = transform.position;
-        ValidateSettings();
+       // ValidateSettings();
     }
 
     void Update()
@@ -86,11 +97,22 @@ public class EnemyStats : MonoBehaviour
             }
         }
 
-        DetermineState();
+       // DetermineState();
         ExecuteState();
     }
+    public void melleAttack()
+    {
+        anim.SetTrigger("IsAttack");
 
-    void DetermineState()
+        Collider2D[] hitPlayer = Physics2D.OverlapCircleAll(attackPoint.position, attackDistance, playerLayer);
+
+        foreach (Collider2D player in hitPlayer)
+        {
+            PlayerController playerController = player.GetComponent<PlayerController>();
+        }
+    }
+
+    /*void DetermineState()
     {
         float dist = Vector2.Distance(transform.position, playerTransform.position);
 
@@ -111,6 +133,7 @@ public class EnemyStats : MonoBehaviour
             currentState = EnemyState.Patrol;
         }
     }
+    */
 
     void ExecuteState()
     {
@@ -122,9 +145,9 @@ public class EnemyStats : MonoBehaviour
             case EnemyState.Chase:
                 Chase();
                 break;
-            case EnemyState.RangedAttack:
-                PerformRangedAttack();
-                break;
+            //case EnemyState.RangedAttack:
+                //PerformRangedAttack();
+                //break;
             case EnemyState.MeleeAttack:
                 PerformMeleeAttack();
                 break;
@@ -201,7 +224,7 @@ public class EnemyStats : MonoBehaviour
         }
     }
 
-    void PerformRangedAttack()
+    /*void PerformRangedAttack()
     {
         FacePlayer();
         StopMovement();
@@ -217,8 +240,9 @@ public class EnemyStats : MonoBehaviour
             nextShootTime = Time.time + shootCooldown;
         }
     }
+    */
 
-    public void SpawnProjectile()
+    /*public void SpawnProjectile()
     {
         if (projectilePrefab == null || firePoint == null) return;
 
@@ -236,6 +260,7 @@ public class EnemyStats : MonoBehaviour
                 projRb.linearVelocity = new Vector2(Mathf.Sign(transform.localScale.x) * 10f, 0f);
         }
     }
+    */
 
     public void DealMeleeDamage()
     {
@@ -257,8 +282,8 @@ public class EnemyStats : MonoBehaviour
 
         if (anim != null)
         {
-            anim.ResetTrigger("Ehurt");
-            anim.SetTrigger("Ehurt");
+            anim.ResetTrigger("IsHurt");
+            anim.SetTrigger("IsHurt");
         }
 
         ApplyKnockback();
@@ -298,7 +323,7 @@ public class EnemyStats : MonoBehaviour
         currentState = EnemyState.Dead;
 
         if (anim != null)
-            anim.SetTrigger("enemyDead");
+            anim.SetTrigger("IsDead");
 
         StopMovement();
 
@@ -311,7 +336,7 @@ public class EnemyStats : MonoBehaviour
     void SetWalkAnimation(bool isWalking)
     {
         if (anim != null)
-            anim.SetFloat("Ewalk", isWalking ? 1f : 0f);
+            anim.SetFloat("IsRun", isWalking ? 1f : 0f);
     }
 
     void FindPlayer()
@@ -321,7 +346,7 @@ public class EnemyStats : MonoBehaviour
             playerTransform = obj.transform;
     }
 
-    void ValidateSettings()
+    /*void ValidateSettings()
     {
         if (shootRange <= meleeRange)
             shootRange = meleeRange + 4f;
@@ -329,13 +354,25 @@ public class EnemyStats : MonoBehaviour
         if (detectionRange <= shootRange)
             detectionRange = shootRange + 4f;
     }
+    */
 
     private void OnDrawGizmosSelected()
     {
         Gizmos.color = Color.green;
         Gizmos.DrawWireSphere(transform.position, detectionRange);
 
-        if (canShoot)
+         if (GroundCheck != null)
+        {
+            Gizmos.color = Color.green;
+            Gizmos.DrawWireSphere(GroundCheck.transform.position, groundCheckRadius);
+        }
+        if (attackPoint != null)
+        {
+            Gizmos.color = Color.red;
+            Gizmos.DrawWireSphere(attackPoint.position, attackDistance);
+        }
+
+       /* if (canShoot)
         {
             Gizmos.color = Color.blue;
             Gizmos.DrawWireSphere(transform.position, shootRange);
@@ -349,5 +386,6 @@ public class EnemyStats : MonoBehaviour
             Gizmos.color = Color.yellow;
             Gizmos.DrawWireSphere(firePoint.position, 0.2f);
         }
+        */
     }
 }
