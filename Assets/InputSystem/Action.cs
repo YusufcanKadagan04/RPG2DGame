@@ -102,7 +102,7 @@ public partial class @Action: IInputActionCollection2, IDisposable
                     ""initialStateCheck"": false
                 },
                 {
-                    ""name"": ""Attack1"",
+                    ""name"": ""HeavyAttack"",
                     ""type"": ""Button"",
                     ""id"": ""1c0d06d2-cd53-4a70-8643-4872e67dd774"",
                     ""expectedControlType"": """",
@@ -111,7 +111,7 @@ public partial class @Action: IInputActionCollection2, IDisposable
                     ""initialStateCheck"": false
                 },
                 {
-                    ""name"": ""Attack2"",
+                    ""name"": ""AttackRandom"",
                     ""type"": ""Button"",
                     ""id"": ""a0d75344-6c74-42e7-b965-4905db6cbdd4"",
                     ""expectedControlType"": """",
@@ -120,9 +120,18 @@ public partial class @Action: IInputActionCollection2, IDisposable
                     ""initialStateCheck"": false
                 },
                 {
-                    ""name"": ""Run"",
+                    ""name"": ""Move"",
                     ""type"": ""Button"",
-                    ""id"": ""df858857-47d0-4d4e-86db-55805fb4bb63"",
+                    ""id"": ""dfad955e-917a-4c87-8ac9-a6ec2e421057"",
+                    ""expectedControlType"": """",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Sprint"",
+                    ""type"": ""Button"",
+                    ""id"": ""c847ca73-c79a-4b18-bcfe-c032d447c932"",
                     ""expectedControlType"": """",
                     ""processors"": """",
                     ""interactions"": """",
@@ -148,7 +157,7 @@ public partial class @Action: IInputActionCollection2, IDisposable
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""Attack1"",
+                    ""action"": ""HeavyAttack"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 },
@@ -159,18 +168,29 @@ public partial class @Action: IInputActionCollection2, IDisposable
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""Attack2"",
+                    ""action"": ""AttackRandom"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 },
                 {
                     ""name"": """",
-                    ""id"": ""1094f2dc-aa53-4868-bcc9-97d475b32f9c"",
+                    ""id"": ""e2143a22-deba-43bd-9850-8d38344e8e34"",
                     ""path"": """",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""Run"",
+                    ""action"": ""Move"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""8887dfda-3ea1-42ad-9dd3-91ea8c312f3c"",
+                    ""path"": """",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Sprint"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 }
@@ -182,9 +202,10 @@ public partial class @Action: IInputActionCollection2, IDisposable
         // Player
         m_Player = asset.FindActionMap("Player", throwIfNotFound: true);
         m_Player_Jump = m_Player.FindAction("Jump", throwIfNotFound: true);
-        m_Player_Attack1 = m_Player.FindAction("Attack1", throwIfNotFound: true);
-        m_Player_Attack2 = m_Player.FindAction("Attack2", throwIfNotFound: true);
-        m_Player_Run = m_Player.FindAction("Run", throwIfNotFound: true);
+        m_Player_HeavyAttack = m_Player.FindAction("HeavyAttack", throwIfNotFound: true);
+        m_Player_AttackRandom = m_Player.FindAction("AttackRandom", throwIfNotFound: true);
+        m_Player_Move = m_Player.FindAction("Move", throwIfNotFound: true);
+        m_Player_Sprint = m_Player.FindAction("Sprint", throwIfNotFound: true);
     }
 
     ~@Action()
@@ -266,9 +287,10 @@ public partial class @Action: IInputActionCollection2, IDisposable
     private readonly InputActionMap m_Player;
     private List<IPlayerActions> m_PlayerActionsCallbackInterfaces = new List<IPlayerActions>();
     private readonly InputAction m_Player_Jump;
-    private readonly InputAction m_Player_Attack1;
-    private readonly InputAction m_Player_Attack2;
-    private readonly InputAction m_Player_Run;
+    private readonly InputAction m_Player_HeavyAttack;
+    private readonly InputAction m_Player_AttackRandom;
+    private readonly InputAction m_Player_Move;
+    private readonly InputAction m_Player_Sprint;
     /// <summary>
     /// Provides access to input actions defined in input action map "Player".
     /// </summary>
@@ -285,17 +307,21 @@ public partial class @Action: IInputActionCollection2, IDisposable
         /// </summary>
         public InputAction @Jump => m_Wrapper.m_Player_Jump;
         /// <summary>
-        /// Provides access to the underlying input action "Player/Attack1".
+        /// Provides access to the underlying input action "Player/HeavyAttack".
         /// </summary>
-        public InputAction @Attack1 => m_Wrapper.m_Player_Attack1;
+        public InputAction @HeavyAttack => m_Wrapper.m_Player_HeavyAttack;
         /// <summary>
-        /// Provides access to the underlying input action "Player/Attack2".
+        /// Provides access to the underlying input action "Player/AttackRandom".
         /// </summary>
-        public InputAction @Attack2 => m_Wrapper.m_Player_Attack2;
+        public InputAction @AttackRandom => m_Wrapper.m_Player_AttackRandom;
         /// <summary>
-        /// Provides access to the underlying input action "Player/Run".
+        /// Provides access to the underlying input action "Player/Move".
         /// </summary>
-        public InputAction @Run => m_Wrapper.m_Player_Run;
+        public InputAction @Move => m_Wrapper.m_Player_Move;
+        /// <summary>
+        /// Provides access to the underlying input action "Player/Sprint".
+        /// </summary>
+        public InputAction @Sprint => m_Wrapper.m_Player_Sprint;
         /// <summary>
         /// Provides access to the underlying input action map instance.
         /// </summary>
@@ -325,15 +351,18 @@ public partial class @Action: IInputActionCollection2, IDisposable
             @Jump.started += instance.OnJump;
             @Jump.performed += instance.OnJump;
             @Jump.canceled += instance.OnJump;
-            @Attack1.started += instance.OnAttack1;
-            @Attack1.performed += instance.OnAttack1;
-            @Attack1.canceled += instance.OnAttack1;
-            @Attack2.started += instance.OnAttack2;
-            @Attack2.performed += instance.OnAttack2;
-            @Attack2.canceled += instance.OnAttack2;
-            @Run.started += instance.OnRun;
-            @Run.performed += instance.OnRun;
-            @Run.canceled += instance.OnRun;
+            @HeavyAttack.started += instance.OnHeavyAttack;
+            @HeavyAttack.performed += instance.OnHeavyAttack;
+            @HeavyAttack.canceled += instance.OnHeavyAttack;
+            @AttackRandom.started += instance.OnAttackRandom;
+            @AttackRandom.performed += instance.OnAttackRandom;
+            @AttackRandom.canceled += instance.OnAttackRandom;
+            @Move.started += instance.OnMove;
+            @Move.performed += instance.OnMove;
+            @Move.canceled += instance.OnMove;
+            @Sprint.started += instance.OnSprint;
+            @Sprint.performed += instance.OnSprint;
+            @Sprint.canceled += instance.OnSprint;
         }
 
         /// <summary>
@@ -348,15 +377,18 @@ public partial class @Action: IInputActionCollection2, IDisposable
             @Jump.started -= instance.OnJump;
             @Jump.performed -= instance.OnJump;
             @Jump.canceled -= instance.OnJump;
-            @Attack1.started -= instance.OnAttack1;
-            @Attack1.performed -= instance.OnAttack1;
-            @Attack1.canceled -= instance.OnAttack1;
-            @Attack2.started -= instance.OnAttack2;
-            @Attack2.performed -= instance.OnAttack2;
-            @Attack2.canceled -= instance.OnAttack2;
-            @Run.started -= instance.OnRun;
-            @Run.performed -= instance.OnRun;
-            @Run.canceled -= instance.OnRun;
+            @HeavyAttack.started -= instance.OnHeavyAttack;
+            @HeavyAttack.performed -= instance.OnHeavyAttack;
+            @HeavyAttack.canceled -= instance.OnHeavyAttack;
+            @AttackRandom.started -= instance.OnAttackRandom;
+            @AttackRandom.performed -= instance.OnAttackRandom;
+            @AttackRandom.canceled -= instance.OnAttackRandom;
+            @Move.started -= instance.OnMove;
+            @Move.performed -= instance.OnMove;
+            @Move.canceled -= instance.OnMove;
+            @Sprint.started -= instance.OnSprint;
+            @Sprint.performed -= instance.OnSprint;
+            @Sprint.canceled -= instance.OnSprint;
         }
 
         /// <summary>
@@ -405,25 +437,32 @@ public partial class @Action: IInputActionCollection2, IDisposable
         /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
         void OnJump(InputAction.CallbackContext context);
         /// <summary>
-        /// Method invoked when associated input action "Attack1" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
+        /// Method invoked when associated input action "HeavyAttack" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
         /// </summary>
         /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
         /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
         /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
-        void OnAttack1(InputAction.CallbackContext context);
+        void OnHeavyAttack(InputAction.CallbackContext context);
         /// <summary>
-        /// Method invoked when associated input action "Attack2" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
+        /// Method invoked when associated input action "AttackRandom" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
         /// </summary>
         /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
         /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
         /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
-        void OnAttack2(InputAction.CallbackContext context);
+        void OnAttackRandom(InputAction.CallbackContext context);
         /// <summary>
-        /// Method invoked when associated input action "Run" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
+        /// Method invoked when associated input action "Move" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
         /// </summary>
         /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
         /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
         /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
-        void OnRun(InputAction.CallbackContext context);
+        void OnMove(InputAction.CallbackContext context);
+        /// <summary>
+        /// Method invoked when associated input action "Sprint" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
+        /// </summary>
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
+        /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
+        void OnSprint(InputAction.CallbackContext context);
     }
 }

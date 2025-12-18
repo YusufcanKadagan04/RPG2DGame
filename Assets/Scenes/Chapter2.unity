@@ -18212,7 +18212,7 @@ Transform:
   m_GameObject: {fileID: 145895605}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.19, y: 0.1, z: -10}
+  m_LocalPosition: {x: 5.67, y: 0.1, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -20900,7 +20900,7 @@ Transform:
   m_GameObject: {fileID: 633303461}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.295, y: 0, z: 0}
+  m_LocalPosition: {x: 0.257, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -21088,7 +21088,7 @@ SpriteRenderer:
   m_SortingOrder: 0
   m_Sprite: {fileID: -8804577451312863447, guid: 86a7a7838d30d0641b59571d593e9e0b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 1
+  m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
   m_Size: {x: 0.29, y: 0.48}
@@ -21128,28 +21128,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::EnemyStats
   enemyHealth: 100
   enemySpeed: 2
-  enemyDamage: 10
-  patrolDistance: 3
-  detectionRange: 10
-  meleeRange: 1.5
+  enemyDamage: 50
+  patrolDistance: 3.93
+  detectionRange: 3.99
+  meleeRange: 0.62
   meleeCooldown: 1
   meleeAttackTrigger: IsAttack
-  enemyAttackPoint: 25
+  enemyAttackPoint: 25.1
   attackPoint: {fileID: 633303462}
-  attackDistance: 1
-  Ground:
-    serializedVersion: 2
-    m_Bits: 64
+  attackDistance: 0.17
   groundLayer:
     serializedVersion: 2
     m_Bits: 64
+  groundCheckRadius: 0.26
+  GroundCheck: {fileID: 430325211}
   playerLayer:
     serializedVersion: 2
     m_Bits: 1024
-  groundCheckRadius: 0.2
-  GroundCheck: {fileID: 430325211}
-  knockbackDuration: 0.3
-  knockbackForce: 10
+  knockbackDuration: 0.44
+  knockbackForce: 10.15
 --- !u!50 &679755790
 Rigidbody2D:
   serializedVersion: 5
@@ -23402,7 +23399,6 @@ GameObject:
   - component: {fileID: 1813861621}
   - component: {fileID: 1813861624}
   - component: {fileID: 1813861623}
-  - component: {fileID: 1813861622}
   - component: {fileID: 1813861626}
   - component: {fileID: 1813861625}
   - component: {fileID: 1813861627}
@@ -23510,21 +23506,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &1813861622
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1813861618}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1eec0646ff980ff4f9513884d887d359, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::PlayerMana
-  maxMana: 100
-  currentMana: 0
-  manaBar: {fileID: 0}
 --- !u!114 &1813861623
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23540,6 +23521,7 @@ MonoBehaviour:
   maxHealth: 10000
   currentHealth: 10000
   healthBar: {fileID: 0}
+  anim: {fileID: 0}
 --- !u!114 &1813861624
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23570,8 +23552,8 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 512
   mainCamera: {fileID: 145895607}
-  maxHealth: 10000
-  currentHealth: 0
+  maxHealth: 100
+  currentHealth: 100
   invincibilityTime: 1
   knockbackForce: 10
   knockbackDuration: 0.2
@@ -41639,7 +41621,7 @@ SceneRoots:
   m_Roots:
   - {fileID: 145895608}
   - {fileID: 1813861620}
+  - {fileID: 679755788}
   - {fileID: 646822566}
   - {fileID: 1138649844}
   - {fileID: 1105537769}
-  - {fileID: 679755788}

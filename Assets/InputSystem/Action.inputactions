@@ -16,7 +16,7 @@
                     "initialStateCheck": false
                 },
                 {
-                    "name": "Attack1",
+                    "name": "HeavyAttack",
                     "type": "Button",
                     "id": "1c0d06d2-cd53-4a70-8643-4872e67dd774",
                     "expectedControlType": "",
@@ -25,7 +25,7 @@
                     "initialStateCheck": false
                 },
                 {
-                    "name": "Attack2",
+                    "name": "AttackRandom",
                     "type": "Button",
                     "id": "a0d75344-6c74-42e7-b965-4905db6cbdd4",
                     "expectedControlType": "",
@@ -34,9 +34,18 @@
                     "initialStateCheck": false
                 },
                 {
-                    "name": "Run",
+                    "name": "Move",
                     "type": "Button",
-                    "id": "df858857-47d0-4d4e-86db-55805fb4bb63",
+                    "id": "dfad955e-917a-4c87-8ac9-a6ec2e421057",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Sprint",
+                    "type": "Button",
+                    "id": "c847ca73-c79a-4b18-bcfe-c032d447c932",
                     "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
@@ -62,7 +71,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Attack1",
+                    "action": "HeavyAttack",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -73,18 +82,29 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Attack2",
+                    "action": "AttackRandom",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
                 {
                     "name": "",
-                    "id": "1094f2dc-aa53-4868-bcc9-97d475b32f9c",
+                    "id": "e2143a22-deba-43bd-9850-8d38344e8e34",
                     "path": "",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Run",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "8887dfda-3ea1-42ad-9dd3-91ea8c312f3c",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Sprint",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
