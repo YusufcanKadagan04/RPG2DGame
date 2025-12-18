@@ -1,7 +1,4 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UIElements;
 
 public class EnemyStats : MonoBehaviour
 {
@@ -25,25 +22,15 @@ public class EnemyStats : MonoBehaviour
     public float meleeCooldown = 1f;
     public string meleeAttackTrigger = "IsAttack";
     private float nextMeleeTime = 0f;
-    public float enemyAttackPoint=25;
+    public float enemyAttackPoint = 25;
     public Transform attackPoint;
     public float attackDistance = 1f;
 
-    /*[Header("Menzilli Saldırı Ayarları")]
-    public bool canShoot = true;
-    public GameObject projectilePrefab;
-    public Transform firePoint;
-    public float shootRange = 6f;
-    public float shootCooldown = 2f;
-    public string rangedAttackTrigger = "IsAttack";
-    private float nextShootTime = 0f;
-    */
-
-    public LayerMask Ground;
+    [Header("Ground Check")]
     public LayerMask groundLayer;
-    public LayerMask playerLayer;
     public float groundCheckRadius = 0.2f;
     public GameObject GroundCheck;
+    public LayerMask playerLayer;
 
     [Header("Knockback Ayarları")]
     public float knockbackDuration = 0.3f;
@@ -56,7 +43,7 @@ public class EnemyStats : MonoBehaviour
     private Transform playerTransform;
     private bool isDead = false;
 
-    private enum EnemyState { Patrol, Chase, RangedAttack, MeleeAttack, Dead }
+    private enum EnemyState { Patrol, Chase, MeleeAttack, Dead }
     private EnemyState currentState = EnemyState.Patrol;
 
     void Start()
@@ -70,7 +57,7 @@ public class EnemyStats : MonoBehaviour
 
         FindPlayer();
         startPosition = transform.position;
-       // ValidateSettings();
+        ValidateSettings();
     }
 
     void Update()
@@ -97,32 +84,17 @@ public class EnemyStats : MonoBehaviour
             }
         }
 
-       // DetermineState();
+        DetermineState();
         ExecuteState();
     }
-    public void melleAttack()
-    {
-        anim.SetTrigger("IsAttack");
 
-        Collider2D[] hitPlayer = Physics2D.OverlapCircleAll(attackPoint.position, attackDistance, playerLayer);
-
-        foreach (Collider2D player in hitPlayer)
-        {
-            PlayerController playerController = player.GetComponent<PlayerController>();
-        }
-    }
-
-    /*void DetermineState()
+    void DetermineState()
     {
         float dist = Vector2.Distance(transform.position, playerTransform.position);
 
         if (dist <= meleeRange)
         {
             currentState = EnemyState.MeleeAttack;
-        }
-        else if (canShoot && dist <= shootRange && dist > meleeRange)
-        {
-            currentState = EnemyState.RangedAttack;
         }
         else if (dist <= detectionRange)
         {
@@ -133,7 +105,6 @@ public class EnemyStats : MonoBehaviour
             currentState = EnemyState.Patrol;
         }
     }
-    */
 
     void ExecuteState()
     {
@@ -145,9 +116,6 @@ public class EnemyStats : MonoBehaviour
             case EnemyState.Chase:
                 Chase();
                 break;
-            //case EnemyState.RangedAttack:
-                //PerformRangedAttack();
-                //break;
             case EnemyState.MeleeAttack:
                 PerformMeleeAttack();
                 break;
@@ -224,44 +192,7 @@ public class EnemyStats : MonoBehaviour
         }
     }
 
-    /*void PerformRangedAttack()
-    {
-        FacePlayer();
-        StopMovement();
-
-        if (Time.time >= nextShootTime)
-        {
-            if (anim != null)
-            {
-                anim.ResetTrigger(rangedAttackTrigger);
-                anim.SetTrigger(rangedAttackTrigger);
-            }
-            SpawnProjectile();
-            nextShootTime = Time.time + shootCooldown;
-        }
-    }
-    */
-
-    /*public void SpawnProjectile()
-    {
-        if (projectilePrefab == null || firePoint == null) return;
-
-        GameObject projectile = Instantiate(projectilePrefab, firePoint.position, Quaternion.identity);
-        EnemyProjectile script = projectile.GetComponent<EnemyProjectile>();
-        
-        if (script != null)
-        {
-            script.Initialize(Mathf.Sign(transform.localScale.x));
-        }
-        else
-        {
-            Rigidbody2D projRb = projectile.GetComponent<Rigidbody2D>();
-            if (projRb != null)
-                projRb.linearVelocity = new Vector2(Mathf.Sign(transform.localScale.x) * 10f, 0f);
-        }
-    }
-    */
-
+    // Animation Event'te çağrılacak
     public void DealMeleeDamage()
     {
         if (playerTransform == null) return;
@@ -346,46 +277,34 @@ public class EnemyStats : MonoBehaviour
             playerTransform = obj.transform;
     }
 
-    /*void ValidateSettings()
+    void ValidateSettings()
     {
-        if (shootRange <= meleeRange)
-            shootRange = meleeRange + 4f;
-
-        if (detectionRange <= shootRange)
-            detectionRange = shootRange + 4f;
+        if (detectionRange <= meleeRange)
+            detectionRange = meleeRange + 4f;
     }
-    */
 
     private void OnDrawGizmosSelected()
     {
+        // Detection range
         Gizmos.color = Color.green;
         Gizmos.DrawWireSphere(transform.position, detectionRange);
 
-         if (GroundCheck != null)
+        // Ground check
+        if (GroundCheck != null)
         {
             Gizmos.color = Color.green;
             Gizmos.DrawWireSphere(GroundCheck.transform.position, groundCheckRadius);
         }
+
+        // Attack point
         if (attackPoint != null)
         {
             Gizmos.color = Color.red;
             Gizmos.DrawWireSphere(attackPoint.position, attackDistance);
         }
 
-       /* if (canShoot)
-        {
-            Gizmos.color = Color.blue;
-            Gizmos.DrawWireSphere(transform.position, shootRange);
-        }
-
+        // Melee range
         Gizmos.color = Color.red;
         Gizmos.DrawWireSphere(transform.position, meleeRange);
-
-        if (firePoint != null)
-        {
-            Gizmos.color = Color.yellow;
-            Gizmos.DrawWireSphere(firePoint.position, 0.2f);
-        }
-        */
     }
 }

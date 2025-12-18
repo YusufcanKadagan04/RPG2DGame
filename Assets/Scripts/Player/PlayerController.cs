@@ -1,14 +1,9 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.InputSystem;
 
 public class PlayerController : MonoBehaviour
 {
     private float nextAttack = 0f;
     private float movementDirection;
-    int attackTriggerID;
-    int attackIndexID;
 
     public bool isMoving = false;
 
@@ -63,8 +58,7 @@ public class PlayerController : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
         inputController = FindObjectOfType<InputController>();
-        attackTriggerID = Animator.StringToHash("Attack");
-        attackIndexID = Animator.StringToHash("AttackID");
+
 
         if (inputController == null)
         {
@@ -83,16 +77,6 @@ public class PlayerController : MonoBehaviour
         UpdateCameraPosition();
         HandleAttack();
 
-       /* if (Input.GetKeyDown(KeyCode.Q))
-        {
-            int rastgeleID = Random.Range(0, 2) == 0 ? 1 : 3;
-            SaldiriYap(rastgeleID);
-        }
-        if (Input.GetKeyDown(KeyCode.E))
-        {
-            SaldiriYap(2);
-        }
-        */
     }
 
     void FixedUpdate()
@@ -131,15 +115,25 @@ public class PlayerController : MonoBehaviour
         {
             Vector3 cameraPosition = mainCamera.transform.position;
             cameraPosition.x = transform.position.x;
+            cameraPosition.y = transform.position.y;
             mainCamera.transform.position = cameraPosition;
         }
     }
 
-    void SaldiriYap(int id)
+    private void SaldiriKontrolu()
     {
-       
-        anim.SetInteger(attackIndexID, id);
-        anim.SetTrigger(attackTriggerID);
+        Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(attackPoint.position, attackDistance, enemyLayers);
+
+        foreach (Collider2D enemy in hitEnemies)
+        {
+            EnemyStats enemyStats = enemy.GetComponent<EnemyStats>();
+            if (enemyStats != null)
+            {
+                enemyStats.TakeDamage(attackDamage);
+            }
+        }
+        
+
     }
     void HandleMovement()
     {
@@ -211,7 +205,7 @@ public class PlayerController : MonoBehaviour
         currentHealth -= damage;
         currentHealth = Mathf.Clamp(currentHealth, 0f, maxHealth);
 
-        Debug.Log($"Player took {damage} damage! Current Health: {currentHealth}/{maxHealth}");
+
 
         anim.ResetTrigger("IsHurt");
         anim.SetTrigger("IsHurt");
@@ -223,6 +217,7 @@ public class PlayerController : MonoBehaviour
 
         if (currentHealth <= 0f)
         {
+            anim.SetTrigger("IsDead");
             Die();
         }
     }
@@ -234,13 +229,13 @@ public class PlayerController : MonoBehaviour
         isKnockedBack = true;
         knockbackTimer = knockbackDuration;
 
-        Debug.Log($"Knockback applied! Direction: {(knockbackDirection > 0 ? "Right" : "Left")}");
+
     }
 
     void Die()
     {
-        anim.SetTrigger("IsDead");
-        Debug.Log("Player died!");
+        
+
         Destroy(gameObject, 0.9f);
     }
 
@@ -256,37 +251,45 @@ public class PlayerController : MonoBehaviour
     {
         if (Time.time >= nextAttack)
         {
-            if (inputController != null && inputController.Attack)
+            if (inputController == null) return;
+
+
+            if (inputController.RandomAttack)
             {
-                PerformAttack();
+                int randomID = Random.Range(1, 3);
+                anim.SetInteger("AttackID", randomID);
+                ExecuteAttack();
+                nextAttack = Time.time + 1f / attackRate;
+            }
+            
+            else if (inputController.HeavyAttack)
+            {
+                anim.SetInteger("AttackID", 3);
+                ExecuteAttack();
+                nextAttack = Time.time + 1f / attackRate;
+            }
+            
+            else if (inputController.Attack)
+            {
+                ExecuteAttack();
                 nextAttack = Time.time + 1f / attackRate;
             }
         }
     }
 
-    public void PerformAttack()
+    private void ExecuteAttack()
     {
-        anim.SetTrigger("IsAttack1");
+        anim.SetTrigger("Attack");
 
-        Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(attackPoint.position, attackDistance, enemyLayers);
-
-        foreach (Collider2D enemy in hitEnemies)
-        {
-            EnemyStats enemyStats = enemy.GetComponent<EnemyStats>();
-            if (enemyStats != null)
-            {
-                enemyStats.TakeDamage(attackDamage);
-            }
-        }
+        SaldiriKontrolu();
     }
-
     void HandleJump()
     {
         if (isGrounded && inputController != null)
         {
             if (inputController.Jump)
             {
-                Debug.Log("Zıpladı");
+
                 rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpPower);
             }
         }
