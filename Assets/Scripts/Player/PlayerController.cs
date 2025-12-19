@@ -45,6 +45,8 @@ public class PlayerController : MonoBehaviour
     private bool isKnockedBack = false;
     private float knockbackTimer = 0f;
 
+    private bool isDead = false;
+
     public bool isFaceRight = true;
     private bool isGrounded;
 
@@ -57,7 +59,7 @@ public class PlayerController : MonoBehaviour
         currentHealth = maxHealth;
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
-        inputController = FindObjectOfType<InputController>();
+        inputController = FindFirstObjectByType<InputController>();
 
 
         if (inputController == null)
@@ -68,6 +70,8 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
+        if (isDead) return;
+
         UpdateInvincibility();
         UpdateKnockback();
         CheckRotation();
@@ -76,11 +80,11 @@ public class PlayerController : MonoBehaviour
         UpdateAnimation();
         UpdateCameraPosition();
         HandleAttack();
-
     }
 
     void FixedUpdate()
     {
+        if (isDead) return;
         HandleMovement();
     }
 
@@ -120,8 +124,11 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    private void SaldiriKontrolu()
+    
+    public void SaldiriKontrolu()
     {
+        if (isDead) return;
+
         Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(attackPoint.position, attackDistance, enemyLayers);
 
         foreach (Collider2D enemy in hitEnemies)
@@ -132,11 +139,11 @@ public class PlayerController : MonoBehaviour
                 enemyStats.TakeDamage(attackDamage);
             }
         }
-        
-
     }
     void HandleMovement()
     {
+        if (isDead) return;
+        
         if (isKnockedBack)
         {
             return;
@@ -217,7 +224,8 @@ public class PlayerController : MonoBehaviour
 
         if (currentHealth <= 0f)
         {
-            anim.SetTrigger("IsDead");
+            Debug.Log("Player ölüyor! IsDead = true");
+            anim.SetBool("IsDead", true);
             Die();
         }
     }
@@ -234,9 +242,18 @@ public class PlayerController : MonoBehaviour
 
     void Die()
     {
+        isDead = true;
+        Debug.Log("Die() çağrıldı - isDead = true");
         
+        // Hareketi durdur ve pozisyonu kilitle
+        if (rb != null)
+        {
+            anim.SetBool("IsDead", true);
+            rb.linearVelocity = Vector2.zero;
+            rb.bodyType = RigidbodyType2D.Static;
+        }
 
-        Destroy(gameObject, 0.9f);
+        Destroy(gameObject, 4f);
     }
 
     void Flip()
@@ -280,8 +297,7 @@ public class PlayerController : MonoBehaviour
     private void ExecuteAttack()
     {
         anim.SetTrigger("Attack");
-
-        SaldiriKontrolu();
+       
     }
     void HandleJump()
     {
