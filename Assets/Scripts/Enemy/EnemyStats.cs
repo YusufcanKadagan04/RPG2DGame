@@ -151,6 +151,7 @@ public class EnemyStats : MonoBehaviour
 
     void StopMovement()
     {
+        if (isDead) return;
         if (rb != null)
             rb.linearVelocity = new Vector2(0f, rb.linearVelocity.y);
         SetWalkAnimation(false);
@@ -252,20 +253,24 @@ public class EnemyStats : MonoBehaviour
 
         isDead = true;
         currentState = EnemyState.Dead;
+        Debug.Log("Enemy oluyor! IsDead = true");
 
         if (anim != null)
-            anim.SetTrigger("IsDead");
+            anim.SetBool("IsDead", true);
 
         StopMovement();
 
-        Collider2D col = GetComponent<Collider2D>();
-        if (col != null) col.enabled = false;
+        if (rb != null)
+        {
+            rb.bodyType = RigidbodyType2D.Static;
+        }
 
         Destroy(gameObject, 2f);
     }
 
     void SetWalkAnimation(bool isWalking)
     {
+        if (isDead) return;
         if (anim != null)
             anim.SetFloat("IsRun", isWalking ? 1f : 0f);
     }

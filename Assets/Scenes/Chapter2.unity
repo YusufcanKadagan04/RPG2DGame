@@ -18212,7 +18212,7 @@ Transform:
   m_GameObject: {fileID: 145895605}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.67, y: 0.1, z: -10}
+  m_LocalPosition: {x: 0.28, y: 0.1, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -21128,7 +21128,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::EnemyStats
   enemyHealth: 100
   enemySpeed: 2
-  enemyDamage: 50
+  enemyDamage: 8.5
   patrolDistance: 3.93
   detectionRange: 3.99
   meleeRange: 0.62
@@ -21145,8 +21145,8 @@ MonoBehaviour:
   playerLayer:
     serializedVersion: 2
     m_Bits: 1024
-  knockbackDuration: 0.44
-  knockbackForce: 10.15
+  knockbackDuration: 0.2
+  knockbackForce: 1
 --- !u!50 &679755790
 Rigidbody2D:
   serializedVersion: 5
@@ -23518,10 +23518,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 22718c2419ba0344d8aea5875ce99db4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerHealth
-  maxHealth: 10000
-  currentHealth: 10000
-  healthBar: {fileID: 0}
-  anim: {fileID: 0}
 --- !u!114 &1813861624
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23555,7 +23551,7 @@ MonoBehaviour:
   maxHealth: 100
   currentHealth: 100
   invincibilityTime: 1
-  knockbackForce: 10
+  knockbackForce: 1
   knockbackDuration: 0.2
   isFaceRight: 1
 --- !u!50 &1813861625
