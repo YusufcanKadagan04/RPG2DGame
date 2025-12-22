@@ -23681,13 +23681,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6d4bd60c13e78044dae6a3ca680c407c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::WaveSystem
-  normalEnemyPrefab: {fileID: 5849059825423321816, guid: 95aa8bb57833cf349926533f3fcf7b71, type: 3}
   bossPrefab: {fileID: 2664053638783768965, guid: 6a07f850f4335ef469d94649005f8882, type: 3}
   spawnPointParents: {fileID: 909767635}
   battleGate: {fileID: 1198853249}
   currentWave: 0
   isWaveActive: 0
   activeEnemies: []
+  normalEnemyPrefabs:
+  - {fileID: 5849059825423321816, guid: 95aa8bb57833cf349926533f3fcf7b71, type: 3}
+  - {fileID: 3090318266713875727, guid: eff1b4f9e3b6ac046b6c69e38ea2bd50, type: 3}
+  - {fileID: 1605783435218440769, guid: b959f07849cf19b4e9c70926887247cd, type: 3}
 --- !u!4 &2044495088
 Transform:
   m_ObjectHideFlags: 0
@@ -23718,7 +23721,7 @@ GameObject:
   - component: {fileID: 2140035185}
   - component: {fileID: 2140035184}
   m_Layer: 6
-  m_Name: Gorund
+  m_Name: Ground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -41674,70 +41677,12 @@ TilemapCollider2D:
   m_MaximumTileChangeCount: 1000
   m_ExtrusionFactor: 0
   m_UseDelaunayMesh: 0
---- !u!1001 &7626086665421313416
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 3395771451744964573, guid: 95aa8bb57833cf349926533f3fcf7b71, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 14.245
-      objectReference: {fileID: 0}
-    - target: {fileID: 3395771451744964573, guid: 95aa8bb57833cf349926533f3fcf7b71, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -0.588
-      objectReference: {fileID: 0}
-    - target: {fileID: 3395771451744964573, guid: 95aa8bb57833cf349926533f3fcf7b71, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3395771451744964573, guid: 95aa8bb57833cf349926533f3fcf7b71, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3395771451744964573, guid: 95aa8bb57833cf349926533f3fcf7b71, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3395771451744964573, guid: 95aa8bb57833cf349926533f3fcf7b71, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3395771451744964573, guid: 95aa8bb57833cf349926533f3fcf7b71, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3395771451744964573, guid: 95aa8bb57833cf349926533f3fcf7b71, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3395771451744964573, guid: 95aa8bb57833cf349926533f3fcf7b71, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3395771451744964573, guid: 95aa8bb57833cf349926533f3fcf7b71, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5849059825423321816, guid: 95aa8bb57833cf349926533f3fcf7b71, type: 3}
-      propertyPath: m_Name
-      value: EnemyChap2_v1
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 95aa8bb57833cf349926533f3fcf7b71, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 145895608}
   - {fileID: 1813861620}
-  - {fileID: 7626086665421313416}
   - {fileID: 1138649844}
   - {fileID: 1105537769}
   - {fileID: 646739462}
