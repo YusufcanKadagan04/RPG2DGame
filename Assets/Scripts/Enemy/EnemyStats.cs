@@ -26,6 +26,10 @@ public class EnemyStats : MonoBehaviour
     public Transform attackPoint;
     public float attackDistance = 1f;
 
+    [Header("Defans Ayarları")]
+    [Range(0f, 1f)]
+    public float defendChance = 0.25f;
+
     [Header("Ground Check")]
     public LayerMask groundLayer;
     public float groundCheckRadius = 0.2f;
@@ -51,6 +55,8 @@ public class EnemyStats : MonoBehaviour
         currentHealth = enemyHealth;
         anim = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
+
+        GroundCheck = GameObject.Find("Ground");
 
         if (rb != null)
             rb.constraints = RigidbodyConstraints2D.FreezeRotation;
@@ -121,6 +127,25 @@ public class EnemyStats : MonoBehaviour
                 break;
         }
     }
+    void PerformMeleeAttack()
+    {
+        FacePlayer();
+        StopMovement();
+
+        if (Time.time >= nextMeleeTime)
+        {
+            if (anim != null)
+            {
+                int randomAttack = Random.Range(1, 4); 
+                
+                anim.SetInteger("AttackID", randomAttack);
+                anim.SetTrigger("Attack");
+                anim.ResetTrigger(meleeAttackTrigger);
+                anim.SetTrigger(meleeAttackTrigger);
+            }
+            nextMeleeTime = Time.time + meleeCooldown;
+        }
+    }
 
     void Patrol()
     {
@@ -177,23 +202,6 @@ public class EnemyStats : MonoBehaviour
         transform.localScale = scale;
     }
 
-    void PerformMeleeAttack()
-    {
-        FacePlayer();
-        StopMovement();
-
-        if (Time.time >= nextMeleeTime)
-        {
-            if (anim != null)
-            {
-                anim.ResetTrigger(meleeAttackTrigger);
-                anim.SetTrigger(meleeAttackTrigger);
-            }
-            nextMeleeTime = Time.time + meleeCooldown;
-        }
-    }
-
-    // Animation Event'te çağrılacak
     public void DealMeleeDamage()
     {
         if (playerTransform == null) return;
@@ -209,6 +217,15 @@ public class EnemyStats : MonoBehaviour
     public void TakeDamage(float damage = 25f)
     {
         if (isDead) return;
+
+        if (Random.value < defendChance)
+        {
+            if (anim != null)
+            {
+                anim.SetTrigger("IsDefend");
+            }
+            return;
+        }
 
         currentHealth -= damage;
 
