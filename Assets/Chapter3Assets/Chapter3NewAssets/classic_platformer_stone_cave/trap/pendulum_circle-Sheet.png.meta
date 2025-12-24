@@ -1,0 +1,2210 @@
+fileFormatVersion: 2
+guid: 6ec93cd4166e8b54ab5cc41b29f97e4a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5357376056099709415
+    second: pendulum_circle-Sheet_0
+  - first:
+      213: 6150936158703878815
+    second: pendulum_circle-Sheet_1
+  - first:
+      213: 7420179732299378974
+    second: pendulum_circle-Sheet_2
+  - first:
+      213: 6917438993945105411
+    second: pendulum_circle-Sheet_3
+  - first:
+      213: 2720392027221385892
+    second: pendulum_circle-Sheet_4
+  - first:
+      213: 1542827308582798598
+    second: pendulum_circle-Sheet_5
+  - first:
+      213: 5564142599328320824
+    second: pendulum_circle-Sheet_6
+  - first:
+      213: 172679005292884180
+    second: pendulum_circle-Sheet_7
+  - first:
+      213: 390217036549105980
+    second: pendulum_circle-Sheet_8
+  - first:
+      213: -7196129409974491268
+    second: pendulum_circle-Sheet_9
+  - first:
+      213: 4110713277263287384
+    second: pendulum_circle-Sheet_10
+  - first:
+      213: -382977566115422680
+    second: pendulum_circle-Sheet_11
+  - first:
+      213: -4965447855957406840
+    second: pendulum_circle-Sheet_12
+  - first:
+      213: 2746070490419769572
+    second: pendulum_circle-Sheet_13
+  - first:
+      213: 880032960502430355
+    second: pendulum_circle-Sheet_14
+  - first:
+      213: 1407588753179635641
+    second: pendulum_circle-Sheet_15
+  - first:
+      213: -1691053675532903553
+    second: pendulum_circle-Sheet_16
+  - first:
+      213: -8269095257546813457
+    second: pendulum_circle-Sheet_17
+  - first:
+      213: -2113570602212439717
+    second: pendulum_circle-Sheet_18
+  - first:
+      213: 8716906132725094571
+    second: pendulum_circle-Sheet_19
+  - first:
+      213: 2345319543130017145
+    second: pendulum_circle-Sheet_20
+  - first:
+      213: 5806744762898538915
+    second: pendulum_circle-Sheet_21
+  - first:
+      213: -6085475964160037032
+    second: pendulum_circle-Sheet_22
+  - first:
+      213: -5900830396374872872
+    second: pendulum_circle-Sheet_23
+  - first:
+      213: 3048435576776638664
+    second: pendulum_circle-Sheet_24
+  - first:
+      213: -4836131537599539969
+    second: pendulum_circle-Sheet_25
+  - first:
+      213: 1904241839063837767
+    second: pendulum_circle-Sheet_26
+  - first:
+      213: 6126483794606341365
+    second: pendulum_circle-Sheet_27
+  - first:
+      213: 1847388020710777595
+    second: pendulum_circle-Sheet_28
+  - first:
+      213: 5091475185480018888
+    second: pendulum_circle-Sheet_29
+  - first:
+      213: 5800706670321967232
+    second: pendulum_circle-Sheet_30
+  - first:
+      213: -8130178774966811697
+    second: pendulum_circle-Sheet_31
+  - first:
+      213: -27798895597623553
+    second: pendulum_circle-Sheet_32
+  - first:
+      213: -2274388830449909601
+    second: pendulum_circle-Sheet_33
+  - first:
+      213: 1607019370512789567
+    second: pendulum_circle-Sheet_34
+  - first:
+      213: -1987590307065926615
+    second: pendulum_circle-Sheet_35
+  - first:
+      213: -3336111845809366067
+    second: pendulum_circle-Sheet_36
+  - first:
+      213: 881742454696917949
+    second: pendulum_circle-Sheet_37
+  - first:
+      213: -3709222858844426732
+    second: pendulum_circle-Sheet_38
+  - first:
+      213: 9210001966026046586
+    second: pendulum_circle-Sheet_39
+  - first:
+      213: 7292466150839350698
+    second: pendulum_circle-Sheet_40
+  - first:
+      213: -8108435012936607385
+    second: pendulum_circle-Sheet_41
+  - first:
+      213: -643933191862549182
+    second: pendulum_circle-Sheet_42
+  - first:
+      213: -4773845012908973028
+    second: pendulum_circle-Sheet_43
+  - first:
+      213: -8701051966379556910
+    second: pendulum_circle-Sheet_44
+  - first:
+      213: 5087243386148283875
+    second: pendulum_circle-Sheet_45
+  - first:
+      213: 4158246426892632792
+    second: pendulum_circle-Sheet_46
+  - first:
+      213: -5550432509017612540
+    second: pendulum_circle-Sheet_47
+  - first:
+      213: 3255301147964580096
+    second: pendulum_circle-Sheet_48
+  - first:
+      213: 1189915787693289999
+    second: pendulum_circle-Sheet_49
+  - first:
+      213: -3307051454381564350
+    second: pendulum_circle-Sheet_50
+  - first:
+      213: 602365939140820405
+    second: pendulum_circle-Sheet_51
+  - first:
+      213: -1370300552050500464
+    second: pendulum_circle-Sheet_52
+  - first:
+      213: -6946298736153662285
+    second: pendulum_circle-Sheet_53
+  - first:
+      213: -5987128334558938247
+    second: pendulum_circle-Sheet_54
+  - first:
+      213: -7519808103291910185
+    second: pendulum_circle-Sheet_55
+  - first:
+      213: -8131494008051804228
+    second: pendulum_circle-Sheet_56
+  - first:
+      213: 3888335032410390841
+    second: pendulum_circle-Sheet_57
+  - first:
+      213: -6085384269510081999
+    second: pendulum_circle-Sheet_58
+  - first:
+      213: 5798336936550767388
+    second: pendulum_circle-Sheet_59
+  - first:
+      213: -9036217939307893852
+    second: pendulum_circle-Sheet_60
+  - first:
+      213: -3391240121496824399
+    second: pendulum_circle-Sheet_61
+  - first:
+      213: -2405030715640387599
+    second: pendulum_circle-Sheet_62
+  - first:
+      213: 2092133763429296524
+    second: pendulum_circle-Sheet_63
+  - first:
+      213: 8668400826462996317
+    second: pendulum_circle-Sheet_64
+  - first:
+      213: 7718903990441623624
+    second: pendulum_circle-Sheet_65
+  - first:
+      213: 6726619341635149394
+    second: pendulum_circle-Sheet_66
+  - first:
+      213: -7354748511838479084
+    second: pendulum_circle-Sheet_67
+  - first:
+      213: -415475752376211946
+    second: pendulum_circle-Sheet_68
+  - first:
+      213: 6272387717859961369
+    second: pendulum_circle-Sheet_69
+  - first:
+      213: -6918913154557903647
+    second: pendulum_circle-Sheet_70
+  - first:
+      213: -5476577930705043588
+    second: pendulum_circle-Sheet_71
+  - first:
+      213: 2475253735581551939
+    second: pendulum_circle-Sheet_72
+  - first:
+      213: -5374400654891209972
+    second: pendulum_circle-Sheet_73
+  - first:
+      213: 4266294248735467511
+    second: pendulum_circle-Sheet_74
+  - first:
+      213: -7201274624592483782
+    second: pendulum_circle-Sheet_75
+  - first:
+      213: 7612099942684090651
+    second: pendulum_circle-Sheet_76
+  - first:
+      213: -3036667916068628751
+    second: pendulum_circle-Sheet_77
+  - first:
+      213: -3449047645534817737
+    second: pendulum_circle-Sheet_78
+  - first:
+      213: 5120235753110144634
+    second: pendulum_circle-Sheet_79
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: pendulum_circle-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 149
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e1a1007329395a40800000000000000
+      internalID: 5357376056099709415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum_circle-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 858
+        y: 176
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9286a7e8d38c5550800000000000000
+      internalID: 6150936158703878815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum_circle-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 130
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e11f1491726c9f660800000000000000
+      internalID: 7420179732299378974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum_circle-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 157
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30498856d1eafff50800000000000000
+      internalID: 6917438993945105411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum_circle-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 844
+        y: 157
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a2e550b226c0c520800000000000000
+      internalID: 2720392027221385892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum_circle-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 877
+        y: 157
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60589dd4349396510800000000000000
+      internalID: 1542827308582798598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum_circle-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 1090
+        y: 130
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83d4598c63ec73d40800000000000000
+      internalID: 5564142599328320824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum_circle-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 1098
+        y: 157
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d076a2f3aa756200800000000000000
+      internalID: 172679005292884180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum_circle-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 138
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c39a0d8c3545a6500800000000000000
+      internalID: 390217036549105980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum_circle-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 138
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c77aab8ad66322c90800000000000000
+      internalID: -7196129409974491268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum_circle-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 858
+        y: 143
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85492c832ff2c0930800000000000000
+      internalID: 4110713277263287384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum_circle-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 134
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82e1fb6cee36faaf0800000000000000
+      internalID: -382977566115422680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum_circle-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 1084
+        y: 138
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88b0feaab7f271bb0800000000000000
+      internalID: -4965447855957406840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum_circle-Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 1117
+        y: 138
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e037adcf800c1620800000000000000
+      internalID: 2746070490419769572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum_circle-Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 124
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39af161a051863c00800000000000000
+      internalID: 880032960502430355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum_circle-Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 122
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bf6b176382c88310800000000000000
+      internalID: 1407588753179635641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum_circle-Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 125
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7b1eb544ab2888e0800000000000000
+      internalID: -1691053675532903553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum_circle-Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 116
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fef0e00cca54e3d80800000000000000
+      internalID: -8269095257546813457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum_circle-Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 1082
+        y: 122
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b594b674cb61ba2e0800000000000000
+      internalID: -2113570602212439717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum_circle-Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 1098
+        y: 124
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba8d08d81fba8f870800000000000000
+      internalID: 8716906132725094571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum_circle-Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 109
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97dcb0dc2bf3c8020800000000000000
+      internalID: 2345319543130017145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum_circle-Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 116
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a16deda893b59050800000000000000
+      internalID: 5806744762898538915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum_circle-Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 109
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85f20135adb0c8ba0800000000000000
+      internalID: -6085475964160037032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum_circle-Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 107
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8dc8f38b40a0c1ea0800000000000000
+      internalID: -5900830396374872872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum_circle-Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 1069
+        y: 109
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c04f6a71083e4a20800000000000000
+      internalID: 3048435576776638664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum_circle-Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 1076
+        y: 116
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff4d05e4dfb92ecb0800000000000000
+      internalID: -4836131537599539969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum_circle-Sheet_26
+      rect:
+        serializedVersion: 2
+        x: 1309
+        y: 109
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74c26df0dd93d6a10800000000000000
+      internalID: 1904241839063837767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum_circle-Sheet_27
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 82
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fcb2bb3d84a50550800000000000000
+      internalID: 6126483794606341365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum_circle-Sheet_28
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 103
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf227c0fd9d33a910800000000000000
+      internalID: 1847388020710777595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum_circle-Sheet_29
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 94
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cba04594bd88a640800000000000000
+      internalID: 5091475185480018888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum_circle-Sheet_30
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 94
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 080a7c2bbff308050800000000000000
+      internalID: 5800706670321967232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum_circle-Sheet_31
+      rect:
+        serializedVersion: 2
+        x: 1054
+        y: 94
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc3ceadca7dcb2f80800000000000000
+      internalID: -8130178774966811697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum_circle-Sheet_32
+      rect:
+        serializedVersion: 2
+        x: 1063
+        y: 103
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff661ce3d0d3d9ff0800000000000000
+      internalID: -27798895597623553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum_circle-Sheet_33
+      rect:
+        serializedVersion: 2
+        x: 1301
+        y: 82
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f90caefa86fbf60e0800000000000000
+      internalID: -2274388830449909601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum_circle-Sheet_34
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 85
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3036966a974d4610800000000000000
+      internalID: 1607019370512789567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum_circle-Sheet_35
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 87
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92c635c7529aa64e0800000000000000
+      internalID: -1987590307065926615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum_circle-Sheet_36
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 90
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcb5f83a3ffb3b1d0800000000000000
+      internalID: -3336111845809366067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum_circle-Sheet_37
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 90
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbb379347149c3c00800000000000000
+      internalID: 881742454696917949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum_circle-Sheet_38
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 92
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41ea1d15671368cc0800000000000000
+      internalID: -3709222858844426732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum_circle-Sheet_39
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 92
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7cb1adcdff70df70800000000000000
+      internalID: 9210001966026046586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum_circle-Sheet_40
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 92
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa5f659b35b043560800000000000000
+      internalID: 7292466150839350698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum_circle-Sheet_41
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 92
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 769d299e05d097f80800000000000000
+      internalID: -8108435012936607385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum_circle-Sheet_42
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 92
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24503f77c2a4017f0800000000000000
+      internalID: -643933191862549182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum_circle-Sheet_43
+      rect:
+        serializedVersion: 2
+        x: 1246
+        y: 92
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c146ac0f045efbdb0800000000000000
+      internalID: -4773845012908973028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum_circle-Sheet_44
+      rect:
+        serializedVersion: 2
+        x: 1259
+        y: 92
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2df7bb33657af3780800000000000000
+      internalID: -8701051966379556910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum_circle-Sheet_45
+      rect:
+        serializedVersion: 2
+        x: 1268
+        y: 92
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e5e25508e4899640800000000000000
+      internalID: 5087243386148283875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum_circle-Sheet_46
+      rect:
+        serializedVersion: 2
+        x: 1277
+        y: 92
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d2097b081f05b930800000000000000
+      internalID: 4158246426892632792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum_circle-Sheet_47
+      rect:
+        serializedVersion: 2
+        x: 1286
+        y: 92
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40f993e5a07e8f2b0800000000000000
+      internalID: -5550432509017612540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum_circle-Sheet_48
+      rect:
+        serializedVersion: 2
+        x: 1295
+        y: 90
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 001a95195272d2d20800000000000000
+      internalID: 3255301147964580096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum_circle-Sheet_49
+      rect:
+        serializedVersion: 2
+        x: 1328
+        y: 90
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f02761eba1e638010800000000000000
+      internalID: 1189915787693289999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum_circle-Sheet_50
+      rect:
+        serializedVersion: 2
+        x: 1438
+        y: 87
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24ed5a7493efa12d0800000000000000
+      internalID: -3307051454381564350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum_circle-Sheet_51
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 76
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bd784351a80c5800800000000000000
+      internalID: 602365939140820405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum_circle-Sheet_52
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 75
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09c128778e6bbfce0800000000000000
+      internalID: -1370300552050500464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum_circle-Sheet_53
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 81
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bce0df3a1ac99f90800000000000000
+      internalID: -6946298736153662285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum_circle-Sheet_54
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 76
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97b30f9308279eca0800000000000000
+      internalID: -5987128334558938247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum_circle-Sheet_55
+      rect:
+        serializedVersion: 2
+        x: 1309
+        y: 76
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d78e282f5644a790800000000000000
+      internalID: -7519808103291910185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum_circle-Sheet_56
+      rect:
+        serializedVersion: 2
+        x: 1447
+        y: 81
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb7dadc3841272f80800000000000000
+      internalID: -8131494008051804228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum_circle-Sheet_57
+      rect:
+        serializedVersion: 2
+        x: 1453
+        y: 75
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93147865c1426f530800000000000000
+      internalID: 3888335032410390841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum_circle-Sheet_58
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 67
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1320a16af3f5c8ba0800000000000000
+      internalID: -6085384269510081999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum_circle-Sheet_59
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 61
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1b922f09b4d77050800000000000000
+      internalID: 5798336936550767388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum_circle-Sheet_60
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 62
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ab6a8ef8a7e89280800000000000000
+      internalID: -9036217939307893852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum_circle-Sheet_61
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 68
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b5112ab315efe0d0800000000000000
+      internalID: -3391240121496824399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum_circle-Sheet_62
+      rect:
+        serializedVersion: 2
+        x: 1460
+        y: 68
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f7e9587e4d9f9ed0800000000000000
+      internalID: -2405030715640387599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum_circle-Sheet_63
+      rect:
+        serializedVersion: 2
+        x: 1466
+        y: 62
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c89edcfb290c80d10800000000000000
+      internalID: 2092133763429296524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum_circle-Sheet_64
+      rect:
+        serializedVersion: 2
+        x: 1482
+        y: 61
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d578700ef985c4870800000000000000
+      internalID: 8668400826462996317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum_circle-Sheet_65
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 58
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8404e95684e0f1b60800000000000000
+      internalID: 7718903990441623624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum_circle-Sheet_66
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 49
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25e5f6de6a0c95d50800000000000000
+      internalID: 6726619341635149394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum_circle-Sheet_67
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 34
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41dd883123faee990800000000000000
+      internalID: -7354748511838479084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum_circle-Sheet_68
+      rect:
+        serializedVersion: 2
+        x: 1474
+        y: 34
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 616e3d6210feb3af0800000000000000
+      internalID: -415475752376211946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum_circle-Sheet_69
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 15
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91ae098956ffb0750800000000000000
+      internalID: 6272387717859961369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum_circle-Sheet_70
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 42
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ec7cc6d4251bff90800000000000000
+      internalID: -6918913154557903647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum_circle-Sheet_71
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 42
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7ff49f53694ff3b0800000000000000
+      internalID: -5476577930705043588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum_circle-Sheet_72
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 42
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34d0c46782ed95220800000000000000
+      internalID: 2475253735581551939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum_circle-Sheet_73
+      rect:
+        serializedVersion: 2
+        x: 1468
+        y: 42
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0b2594441b4a65b0800000000000000
+      internalID: -5374400654891209972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum_circle-Sheet_74
+      rect:
+        serializedVersion: 2
+        x: 1501
+        y: 42
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f76b23f30ce43b30800000000000000
+      internalID: 4266294248735467511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum_circle-Sheet_75
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 23
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3a612702eeef0c90800000000000000
+      internalID: -7201274624592483782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum_circle-Sheet_76
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 23
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b11e476319c93a960800000000000000
+      internalID: 7612099942684090651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum_circle-Sheet_77
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 28
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f657e98e969bd5d0800000000000000
+      internalID: -3036667916068628751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum_circle-Sheet_78
+      rect:
+        serializedVersion: 2
+        x: 1482
+        y: 28
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 732ff72b0758220d0800000000000000
+      internalID: -3449047645534817737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pendulum_circle-Sheet_79
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 9
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a76826e0a4bbe0740800000000000000
+      internalID: 5120235753110144634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      pendulum_circle-Sheet_0: 5357376056099709415
+      pendulum_circle-Sheet_1: 6150936158703878815
+      pendulum_circle-Sheet_10: 4110713277263287384
+      pendulum_circle-Sheet_11: -382977566115422680
+      pendulum_circle-Sheet_12: -4965447855957406840
+      pendulum_circle-Sheet_13: 2746070490419769572
+      pendulum_circle-Sheet_14: 880032960502430355
+      pendulum_circle-Sheet_15: 1407588753179635641
+      pendulum_circle-Sheet_16: -1691053675532903553
+      pendulum_circle-Sheet_17: -8269095257546813457
+      pendulum_circle-Sheet_18: -2113570602212439717
+      pendulum_circle-Sheet_19: 8716906132725094571
+      pendulum_circle-Sheet_2: 7420179732299378974
+      pendulum_circle-Sheet_20: 2345319543130017145
+      pendulum_circle-Sheet_21: 5806744762898538915
+      pendulum_circle-Sheet_22: -6085475964160037032
+      pendulum_circle-Sheet_23: -5900830396374872872
+      pendulum_circle-Sheet_24: 3048435576776638664
+      pendulum_circle-Sheet_25: -4836131537599539969
+      pendulum_circle-Sheet_26: 1904241839063837767
+      pendulum_circle-Sheet_27: 6126483794606341365
+      pendulum_circle-Sheet_28: 1847388020710777595
+      pendulum_circle-Sheet_29: 5091475185480018888
+      pendulum_circle-Sheet_3: 6917438993945105411
+      pendulum_circle-Sheet_30: 5800706670321967232
+      pendulum_circle-Sheet_31: -8130178774966811697
+      pendulum_circle-Sheet_32: -27798895597623553
+      pendulum_circle-Sheet_33: -2274388830449909601
+      pendulum_circle-Sheet_34: 1607019370512789567
+      pendulum_circle-Sheet_35: -1987590307065926615
+      pendulum_circle-Sheet_36: -3336111845809366067
+      pendulum_circle-Sheet_37: 881742454696917949
+      pendulum_circle-Sheet_38: -3709222858844426732
+      pendulum_circle-Sheet_39: 9210001966026046586
+      pendulum_circle-Sheet_4: 2720392027221385892
+      pendulum_circle-Sheet_40: 7292466150839350698
+      pendulum_circle-Sheet_41: -8108435012936607385
+      pendulum_circle-Sheet_42: -643933191862549182
+      pendulum_circle-Sheet_43: -4773845012908973028
+      pendulum_circle-Sheet_44: -8701051966379556910
+      pendulum_circle-Sheet_45: 5087243386148283875
+      pendulum_circle-Sheet_46: 4158246426892632792
+      pendulum_circle-Sheet_47: -5550432509017612540
+      pendulum_circle-Sheet_48: 3255301147964580096
+      pendulum_circle-Sheet_49: 1189915787693289999
+      pendulum_circle-Sheet_5: 1542827308582798598
+      pendulum_circle-Sheet_50: -3307051454381564350
+      pendulum_circle-Sheet_51: 602365939140820405
+      pendulum_circle-Sheet_52: -1370300552050500464
+      pendulum_circle-Sheet_53: -6946298736153662285
+      pendulum_circle-Sheet_54: -5987128334558938247
+      pendulum_circle-Sheet_55: -7519808103291910185
+      pendulum_circle-Sheet_56: -8131494008051804228
+      pendulum_circle-Sheet_57: 3888335032410390841
+      pendulum_circle-Sheet_58: -6085384269510081999
+      pendulum_circle-Sheet_59: 5798336936550767388
+      pendulum_circle-Sheet_6: 5564142599328320824
+      pendulum_circle-Sheet_60: -9036217939307893852
+      pendulum_circle-Sheet_61: -3391240121496824399
+      pendulum_circle-Sheet_62: -2405030715640387599
+      pendulum_circle-Sheet_63: 2092133763429296524
+      pendulum_circle-Sheet_64: 8668400826462996317
+      pendulum_circle-Sheet_65: 7718903990441623624
+      pendulum_circle-Sheet_66: 6726619341635149394
+      pendulum_circle-Sheet_67: -7354748511838479084
+      pendulum_circle-Sheet_68: -415475752376211946
+      pendulum_circle-Sheet_69: 6272387717859961369
+      pendulum_circle-Sheet_7: 172679005292884180
+      pendulum_circle-Sheet_70: -6918913154557903647
+      pendulum_circle-Sheet_71: -5476577930705043588
+      pendulum_circle-Sheet_72: 2475253735581551939
+      pendulum_circle-Sheet_73: -5374400654891209972
+      pendulum_circle-Sheet_74: 4266294248735467511
+      pendulum_circle-Sheet_75: -7201274624592483782
+      pendulum_circle-Sheet_76: 7612099942684090651
+      pendulum_circle-Sheet_77: -3036667916068628751
+      pendulum_circle-Sheet_78: -3449047645534817737
+      pendulum_circle-Sheet_79: 5120235753110144634
+      pendulum_circle-Sheet_8: 390217036549105980
+      pendulum_circle-Sheet_9: -7196129409974491268
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
