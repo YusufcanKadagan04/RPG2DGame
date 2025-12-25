@@ -58,7 +58,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -96,7 +96,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 2
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -137,12 +137,12 @@ TextureImporter:
       name: cell_door_frames_0
       rect:
         serializedVersion: 2
-        x: 3
+        x: 4
         y: 0
-        width: 59
-        height: 192
+        width: 57
+        height: 96
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -159,12 +159,12 @@ TextureImporter:
       name: cell_door_frames_1
       rect:
         serializedVersion: 2
-        x: 67
+        x: 68
         y: 0
-        width: 59
-        height: 192
+        width: 57
+        height: 96
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -181,12 +181,12 @@ TextureImporter:
       name: cell_door_frames_2
       rect:
         serializedVersion: 2
-        x: 131
+        x: 132
         y: 0
-        width: 59
-        height: 192
+        width: 57
+        height: 96
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -203,12 +203,12 @@ TextureImporter:
       name: cell_door_frames_3
       rect:
         serializedVersion: 2
-        x: 194
+        x: 196
         y: 0
-        width: 60
-        height: 192
+        width: 57
+        height: 96
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -225,12 +225,12 @@ TextureImporter:
       name: cell_door_frames_4
       rect:
         serializedVersion: 2
-        x: 258
+        x: 259
         y: 0
-        width: 60
-        height: 192
+        width: 57
+        height: 96
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -247,12 +247,12 @@ TextureImporter:
       name: cell_door_frames_5
       rect:
         serializedVersion: 2
-        x: 323
+        x: 324
         y: 0
-        width: 59
-        height: 192
+        width: 57
+        height: 96
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -269,12 +269,12 @@ TextureImporter:
       name: cell_door_frames_6
       rect:
         serializedVersion: 2
-        x: 387
+        x: 388
         y: 0
-        width: 59
-        height: 192
+        width: 57
+        height: 96
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -291,12 +291,12 @@ TextureImporter:
       name: cell_door_frames_7
       rect:
         serializedVersion: 2
-        x: 451
+        x: 452
         y: 0
-        width: 59
-        height: 192
+        width: 57
+        height: 96
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -309,11 +309,187 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: cell_door_frames_8
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 96
+        width: 57
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78ea359cf160dcd42af9ec405321a26f
+      internalID: -977546517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cell_door_frames_9
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 96
+        width: 57
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 929635633bd25604aa253e82ce5a8454
+      internalID: 122615704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cell_door_frames_10
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 96
+        width: 57
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef3e7f976ae3e394daee6319b0d81890
+      internalID: 696604546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cell_door_frames_11
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 96
+        width: 57
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46d944b5cd3018345a38b9d9e0804a5c
+      internalID: -659104601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cell_door_frames_12
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 96
+        width: 57
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c34eae0ff50d0342a3531ebfa0936ff
+      internalID: -492551589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cell_door_frames_13
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 95
+        width: 57
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f3e0868b1ff892478596e34ad08355b
+      internalID: 1203267134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cell_door_frames_14
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 96
+        width: 58
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86af28fc07200144db4c4298787ba5f2
+      internalID: 777670694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cell_door_frames_15
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 96
+        width: 57
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 780dee03f62138443b2984d8dd5b8c60
+      internalID: 1151787382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: f4974f563239bc34fb1643b3c3ffda0b
     internalID: 0
     vertices: []
     indices: 
@@ -325,12 +501,20 @@ TextureImporter:
     nameFileIdTable:
       cell_door_frames_0: -3230538511670420315
       cell_door_frames_1: 2180515050085776256
+      cell_door_frames_10: 696604546
+      cell_door_frames_11: -659104601
+      cell_door_frames_12: -492551589
+      cell_door_frames_13: 1203267134
+      cell_door_frames_14: 777670694
+      cell_door_frames_15: 1151787382
       cell_door_frames_2: -7043483627946103931
       cell_door_frames_3: -8537146514395624236
       cell_door_frames_4: 1952270459362472465
       cell_door_frames_5: 6237895115647112716
       cell_door_frames_6: 8397805960990276135
       cell_door_frames_7: 8105801972218681981
+      cell_door_frames_8: -977546517
+      cell_door_frames_9: 122615704
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
