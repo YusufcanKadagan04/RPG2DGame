@@ -1,0 +1,624 @@
+fileFormatVersion: 2
+guid: 025326e2ab0996448965c26077790a68
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6600063413848689284
+    second: hooded knight powerup - nofx_0
+  - first:
+      213: -2864922932165741283
+    second: hooded knight powerup - nofx_1
+  - first:
+      213: -2199371645656222845
+    second: hooded knight powerup - nofx_2
+  - first:
+      213: 6983517302071439030
+    second: hooded knight powerup - nofx_3
+  - first:
+      213: 1867960608305381550
+    second: hooded knight powerup - nofx_4
+  - first:
+      213: 8181541598045211565
+    second: hooded knight powerup - nofx_5
+  - first:
+      213: 8996077788203108232
+    second: hooded knight powerup - nofx_6
+  - first:
+      213: -8312086852697479055
+    second: hooded knight powerup - nofx_7
+  - first:
+      213: 3639039362579302266
+    second: hooded knight powerup - nofx_8
+  - first:
+      213: 8181432703129593050
+    second: hooded knight powerup - nofx_9
+  - first:
+      213: 456341694247893734
+    second: hooded knight powerup - nofx_10
+  - first:
+      213: 1603703812002222101
+    second: hooded knight powerup - nofx_11
+  - first:
+      213: 5002562267165727913
+    second: hooded knight powerup - nofx_12
+  - first:
+      213: 4423472019377642950
+    second: hooded knight powerup - nofx_13
+  - first:
+      213: -5365933550040365127
+    second: hooded knight powerup - nofx_14
+  - first:
+      213: 8496347253872687245
+    second: hooded knight powerup - nofx_15
+  - first:
+      213: 3950209154945315571
+    second: hooded knight powerup - nofx_16
+  - first:
+      213: -9160905406586872530
+    second: hooded knight powerup - nofx_17
+  - first:
+      213: 1936529597513435431
+    second: hooded knight powerup - nofx_18
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: hooded knight powerup - nofx_0
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 10
+        width: 77
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48ac08dc4b2289b50800000000000000
+      internalID: 6600063413848689284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hooded knight powerup - nofx_1
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 10
+        width: 73
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d15f36fa5cfbd38d0800000000000000
+      internalID: -2864922932165741283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hooded knight powerup - nofx_2
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 10
+        width: 68
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 383389b14234a71e0800000000000000
+      internalID: -2199371645656222845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hooded knight powerup - nofx_3
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 10
+        width: 44
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6be23c86cff6ae060800000000000000
+      internalID: 6983517302071439030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hooded knight powerup - nofx_4
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 10
+        width: 43
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea00770c6445ce910800000000000000
+      internalID: 1867960608305381550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hooded knight powerup - nofx_5
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 10
+        width: 42
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dab019a5cbcaa8170800000000000000
+      internalID: 8181541598045211565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hooded knight powerup - nofx_6
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 10
+        width: 42
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 887c0a9c51d78dc70800000000000000
+      internalID: 8996077788203108232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hooded knight powerup - nofx_7
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 10
+        width: 42
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 178a5cafb0985ac80800000000000000
+      internalID: -8312086852697479055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hooded knight powerup - nofx_8
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 10
+        width: 42
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7704321507708230800000000000000
+      internalID: 3639039362579302266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hooded knight powerup - nofx_9
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 10
+        width: 42
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad4adc742b94a8170800000000000000
+      internalID: 8181432703129593050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hooded knight powerup - nofx_10
+      rect:
+        serializedVersion: 2
+        x: 1016
+        y: 10
+        width: 42
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ea78d56a50455600800000000000000
+      internalID: 456341694247893734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hooded knight powerup - nofx_11
+      rect:
+        serializedVersion: 2
+        x: 1116
+        y: 10
+        width: 42
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5101557ce10814610800000000000000
+      internalID: 1603703812002222101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hooded knight powerup - nofx_12
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 10
+        width: 42
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ac9f2590ebac6540800000000000000
+      internalID: 5002562267165727913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hooded knight powerup - nofx_13
+      rect:
+        serializedVersion: 2
+        x: 1316
+        y: 10
+        width: 42
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cd52e47d54536d30800000000000000
+      internalID: 4423472019377642950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hooded knight powerup - nofx_14
+      rect:
+        serializedVersion: 2
+        x: 1416
+        y: 10
+        width: 42
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b74e7dbddf5885b0800000000000000
+      internalID: -5365933550040365127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hooded knight powerup - nofx_15
+      rect:
+        serializedVersion: 2
+        x: 1515
+        y: 10
+        width: 43
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d887273dfc619e570800000000000000
+      internalID: 8496347253872687245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hooded knight powerup - nofx_16
+      rect:
+        serializedVersion: 2
+        x: 1613
+        y: 10
+        width: 68
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f2f20d1c46f1d630800000000000000
+      internalID: 3950209154945315571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hooded knight powerup - nofx_17
+      rect:
+        serializedVersion: 2
+        x: 1712
+        y: 10
+        width: 73
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2d1f6bb11dedd080800000000000000
+      internalID: -9160905406586872530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hooded knight powerup - nofx_18
+      rect:
+        serializedVersion: 2
+        x: 1811
+        y: 10
+        width: 77
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72981d4a86fefda10800000000000000
+      internalID: 1936529597513435431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      hooded knight powerup - nofx_0: 6600063413848689284
+      hooded knight powerup - nofx_1: -2864922932165741283
+      hooded knight powerup - nofx_10: 456341694247893734
+      hooded knight powerup - nofx_11: 1603703812002222101
+      hooded knight powerup - nofx_12: 5002562267165727913
+      hooded knight powerup - nofx_13: 4423472019377642950
+      hooded knight powerup - nofx_14: -5365933550040365127
+      hooded knight powerup - nofx_15: 8496347253872687245
+      hooded knight powerup - nofx_16: 3950209154945315571
+      hooded knight powerup - nofx_17: -9160905406586872530
+      hooded knight powerup - nofx_18: 1936529597513435431
+      hooded knight powerup - nofx_2: -2199371645656222845
+      hooded knight powerup - nofx_3: 6983517302071439030
+      hooded knight powerup - nofx_4: 1867960608305381550
+      hooded knight powerup - nofx_5: 8181541598045211565
+      hooded knight powerup - nofx_6: 8996077788203108232
+      hooded knight powerup - nofx_7: -8312086852697479055
+      hooded knight powerup - nofx_8: 3639039362579302266
+      hooded knight powerup - nofx_9: 8181432703129593050
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

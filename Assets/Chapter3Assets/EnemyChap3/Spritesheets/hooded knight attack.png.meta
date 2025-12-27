@@ -1,0 +1,572 @@
+fileFormatVersion: 2
+guid: 49491018072123d48a3234e0a3ceeb33
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7101464911518183962
+    second: hooded knight attack_0
+  - first:
+      213: -2645980573288147640
+    second: hooded knight attack_1
+  - first:
+      213: 2414979526066030143
+    second: hooded knight attack_2
+  - first:
+      213: 4382539694130547945
+    second: hooded knight attack_3
+  - first:
+      213: -2368580666695271181
+    second: hooded knight attack_4
+  - first:
+      213: 3542971289229315791
+    second: hooded knight attack_5
+  - first:
+      213: -3871542106377425995
+    second: hooded knight attack_6
+  - first:
+      213: -2230413746441495606
+    second: hooded knight attack_7
+  - first:
+      213: -3594365389419450627
+    second: hooded knight attack_8
+  - first:
+      213: 7930576872350427172
+    second: hooded knight attack_9
+  - first:
+      213: -8731781563086596315
+    second: hooded knight attack_10
+  - first:
+      213: -2582961574876788477
+    second: hooded knight attack_11
+  - first:
+      213: 3813151471122155297
+    second: hooded knight attack_12
+  - first:
+      213: 7405144479094714833
+    second: hooded knight attack_13
+  - first:
+      213: 1701792767187062443
+    second: hooded knight attack_14
+  - first:
+      213: 5589722028180092312
+    second: hooded knight attack_15
+  - first:
+      213: 9013405858596022274
+    second: hooded knight attack_16
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: hooded knight attack_0
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 8
+        width: 77
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6edce04c947827d90800000000000000
+      internalID: -7101464911518183962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hooded knight attack_1
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 8
+        width: 77
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 845539600b6974bd0800000000000000
+      internalID: -2645980573288147640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hooded knight attack_2
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 8
+        width: 78
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f36c107751bb38120800000000000000
+      internalID: 2414979526066030143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hooded knight attack_3
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 8
+        width: 76
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ec43b2d1a8e1dc30800000000000000
+      internalID: 4382539694130547945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hooded knight attack_4
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 8
+        width: 86
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fc35c3de6c112fd0800000000000000
+      internalID: -2368580666695271181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hooded knight attack_5
+      rect:
+        serializedVersion: 2
+        x: 909
+        y: 8
+        width: 88
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcecbe7bd992b2130800000000000000
+      internalID: 3542971289229315791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hooded knight attack_6
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 8
+        width: 90
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bbe76077f4854ac0800000000000000
+      internalID: -3871542106377425995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hooded knight attack_7
+      rect:
+        serializedVersion: 2
+        x: 1268
+        y: 8
+        width: 100
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acbd43dc38afb01e0800000000000000
+      internalID: -2230413746441495606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hooded knight attack_8
+      rect:
+        serializedVersion: 2
+        x: 1479
+        y: 8
+        width: 127
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfee1bad8bf3e1ec0800000000000000
+      internalID: -3594365389419450627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hooded knight attack_9
+      rect:
+        serializedVersion: 2
+        x: 1667
+        y: 8
+        width: 125
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 428206cb5a11f0e60800000000000000
+      internalID: 7930576872350427172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hooded knight attack_10
+      rect:
+        serializedVersion: 2
+        x: 1845
+        y: 8
+        width: 128
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5271beb6eea72d680800000000000000
+      internalID: -8731781563086596315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hooded knight attack_11
+      rect:
+        serializedVersion: 2
+        x: 2025
+        y: 8
+        width: 128
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3094cfcf12a772cd0800000000000000
+      internalID: -2582961574876788477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hooded knight attack_12
+      rect:
+        serializedVersion: 2
+        x: 2205
+        y: 8
+        width: 128
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1278efe5f090be430800000000000000
+      internalID: 3813151471122155297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hooded knight attack_13
+      rect:
+        serializedVersion: 2
+        x: 2384
+        y: 8
+        width: 117
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d1b2ea6bab54c660800000000000000
+      internalID: 7405144479094714833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hooded knight attack_14
+      rect:
+        serializedVersion: 2
+        x: 2534
+        y: 7
+        width: 84
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bae8389518bfd9710800000000000000
+      internalID: 1701792767187062443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hooded knight attack_15
+      rect:
+        serializedVersion: 2
+        x: 2711
+        y: 8
+        width: 77
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 895b9daa19ea29d40800000000000000
+      internalID: 5589722028180092312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hooded knight attack_16
+      rect:
+        serializedVersion: 2
+        x: 2891
+        y: 8
+        width: 77
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2086a029fdc061d70800000000000000
+      internalID: 9013405858596022274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      hooded knight attack_0: -7101464911518183962
+      hooded knight attack_1: -2645980573288147640
+      hooded knight attack_10: -8731781563086596315
+      hooded knight attack_11: -2582961574876788477
+      hooded knight attack_12: 3813151471122155297
+      hooded knight attack_13: 7405144479094714833
+      hooded knight attack_14: 1701792767187062443
+      hooded knight attack_15: 5589722028180092312
+      hooded knight attack_16: 9013405858596022274
+      hooded knight attack_2: 2414979526066030143
+      hooded knight attack_3: 4382539694130547945
+      hooded knight attack_4: -2368580666695271181
+      hooded knight attack_5: 3542971289229315791
+      hooded knight attack_6: -3871542106377425995
+      hooded knight attack_7: -2230413746441495606
+      hooded knight attack_8: -3594365389419450627
+      hooded knight attack_9: 7930576872350427172
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
