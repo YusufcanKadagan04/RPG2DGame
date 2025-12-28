@@ -1,0 +1,2080 @@
+fileFormatVersion: 2
+guid: 34c7a37fd5a962c4cac480380e4b7394
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -9125572822849944162
+    second: Red_Werewolf_Spritelist_0
+  - first:
+      213: -1772802249977607682
+    second: Red_Werewolf_Spritelist_1
+  - first:
+      213: -7749092169257879840
+    second: Red_Werewolf_Spritelist_2
+  - first:
+      213: -782685933709534684
+    second: Red_Werewolf_Spritelist_3
+  - first:
+      213: -7545090500226924639
+    second: Red_Werewolf_Spritelist_4
+  - first:
+      213: -5161454125911519206
+    second: Red_Werewolf_Spritelist_5
+  - first:
+      213: -6684686021780979180
+    second: Red_Werewolf_Spritelist_6
+  - first:
+      213: 5918251114006645592
+    second: Red_Werewolf_Spritelist_7
+  - first:
+      213: 5961130062621113438
+    second: Red_Werewolf_Spritelist_8
+  - first:
+      213: -7090731049193633807
+    second: Red_Werewolf_Spritelist_9
+  - first:
+      213: 7570641764361686218
+    second: Red_Werewolf_Spritelist_10
+  - first:
+      213: -6273017025515862600
+    second: Red_Werewolf_Spritelist_11
+  - first:
+      213: -1181905021254410817
+    second: Red_Werewolf_Spritelist_12
+  - first:
+      213: 8778908592621418555
+    second: Red_Werewolf_Spritelist_13
+  - first:
+      213: -6912340451842428250
+    second: Red_Werewolf_Spritelist_14
+  - first:
+      213: 1892910563688658910
+    second: Red_Werewolf_Spritelist_15
+  - first:
+      213: 389712480908784931
+    second: Red_Werewolf_Spritelist_16
+  - first:
+      213: -1478186907529196409
+    second: Red_Werewolf_Spritelist_17
+  - first:
+      213: 7573217623120455233
+    second: Red_Werewolf_Spritelist_18
+  - first:
+      213: -5589283901024521901
+    second: Red_Werewolf_Spritelist_19
+  - first:
+      213: -4000902661443818348
+    second: Red_Werewolf_Spritelist_20
+  - first:
+      213: -9048130444055448276
+    second: Red_Werewolf_Spritelist_21
+  - first:
+      213: -526395291074379404
+    second: Red_Werewolf_Spritelist_22
+  - first:
+      213: -3747322744553738570
+    second: Red_Werewolf_Spritelist_23
+  - first:
+      213: -3267753730097295706
+    second: Red_Werewolf_Spritelist_24
+  - first:
+      213: -5790929756163565122
+    second: Red_Werewolf_Spritelist_25
+  - first:
+      213: 104478429270586254
+    second: Red_Werewolf_Spritelist_26
+  - first:
+      213: -4964458453046323690
+    second: Red_Werewolf_Spritelist_27
+  - first:
+      213: -3264897458719485607
+    second: Red_Werewolf_Spritelist_28
+  - first:
+      213: 1731635280213894722
+    second: Red_Werewolf_Spritelist_29
+  - first:
+      213: -956805242232339295
+    second: Red_Werewolf_Spritelist_30
+  - first:
+      213: 5687248711381631345
+    second: Red_Werewolf_Spritelist_31
+  - first:
+      213: -1363736904815523064
+    second: Red_Werewolf_Spritelist_32
+  - first:
+      213: 2756167917327637232
+    second: Red_Werewolf_Spritelist_33
+  - first:
+      213: -53223761909155824
+    second: Red_Werewolf_Spritelist_34
+  - first:
+      213: -2010331591234313112
+    second: Red_Werewolf_Spritelist_35
+  - first:
+      213: -2085283092417270546
+    second: Red_Werewolf_Spritelist_36
+  - first:
+      213: -1296599820935818003
+    second: Red_Werewolf_Spritelist_37
+  - first:
+      213: -4849098737575659030
+    second: Red_Werewolf_Spritelist_38
+  - first:
+      213: 8168568929743830265
+    second: Red_Werewolf_Spritelist_39
+  - first:
+      213: -2685415265356662924
+    second: Red_Werewolf_Spritelist_40
+  - first:
+      213: -5651500220577645234
+    second: Red_Werewolf_Spritelist_41
+  - first:
+      213: -7137996426465523013
+    second: Red_Werewolf_Spritelist_42
+  - first:
+      213: -5607835115499123566
+    second: Red_Werewolf_Spritelist_43
+  - first:
+      213: -627724241550125255
+    second: Red_Werewolf_Spritelist_44
+  - first:
+      213: 4788346728929816413
+    second: Red_Werewolf_Spritelist_45
+  - first:
+      213: 8786643118591505855
+    second: Red_Werewolf_Spritelist_46
+  - first:
+      213: -7522610686820370273
+    second: Red_Werewolf_Spritelist_47
+  - first:
+      213: -4877027939645988921
+    second: Red_Werewolf_Spritelist_48
+  - first:
+      213: -4926531836546902453
+    second: Red_Werewolf_Spritelist_49
+  - first:
+      213: 7423678420813328834
+    second: Red_Werewolf_Spritelist_50
+  - first:
+      213: 7089097735205618501
+    second: Red_Werewolf_Spritelist_51
+  - first:
+      213: 1803411544665557750
+    second: Red_Werewolf_Spritelist_52
+  - first:
+      213: -207547714684274616
+    second: Red_Werewolf_Spritelist_53
+  - first:
+      213: -3952141635734207696
+    second: Red_Werewolf_Spritelist_54
+  - first:
+      213: -8224163685029769410
+    second: Red_Werewolf_Spritelist_55
+  - first:
+      213: 7231359076210882137
+    second: Red_Werewolf_Spritelist_56
+  - first:
+      213: -3461221832051149819
+    second: Red_Werewolf_Spritelist_57
+  - first:
+      213: -8789879791348930599
+    second: Red_Werewolf_Spritelist_58
+  - first:
+      213: 276573144795451250
+    second: Red_Werewolf_Spritelist_59
+  - first:
+      213: -626174083126119668
+    second: Red_Werewolf_Spritelist_60
+  - first:
+      213: 5257365276644837133
+    second: Red_Werewolf_Spritelist_61
+  - first:
+      213: 11179568032672413
+    second: Red_Werewolf_Spritelist_62
+  - first:
+      213: 7765079637881251976
+    second: Red_Werewolf_Spritelist_63
+  - first:
+      213: -4727740454448361863
+    second: Red_Werewolf_Spritelist_64
+  - first:
+      213: -8643993202188639727
+    second: Red_Werewolf_Spritelist_65
+  - first:
+      213: -8657213387190419671
+    second: Red_Werewolf_Spritelist_66
+  - first:
+      213: -7136539479823152533
+    second: Red_Werewolf_Spritelist_67
+  - first:
+      213: -6590066951493659089
+    second: Red_Werewolf_Spritelist_68
+  - first:
+      213: -2735073365893976524
+    second: Red_Werewolf_Spritelist_69
+  - first:
+      213: -1058761759876537859
+    second: Red_Werewolf_Spritelist_70
+  - first:
+      213: -4985971395959807010
+    second: Red_Werewolf_Spritelist_71
+  - first:
+      213: -9148804085865735267
+    second: Red_Werewolf_Spritelist_72
+  - first:
+      213: 3739333245619109721
+    second: Red_Werewolf_Spritelist_73
+  - first:
+      213: -808344202253756974
+    second: Red_Werewolf_Spritelist_74
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Red_Werewolf_Spritelist_0
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 1153
+        width: 78
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e950212fdd37b5180800000000000000
+      internalID: -9125572822849944162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Werewolf_Spritelist_1
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 1153
+        width: 79
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef942111fbdb567e0800000000000000
+      internalID: -1772802249977607682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Werewolf_Spritelist_2
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 1153
+        width: 79
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e67f9f7ab1b57490800000000000000
+      internalID: -7749092169257879840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Werewolf_Spritelist_3
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 1153
+        width: 79
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42a5c864a475325f0800000000000000
+      internalID: -782685933709534684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Werewolf_Spritelist_4
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 1153
+        width: 80
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1afbcc76a247a4790800000000000000
+      internalID: -7545090500226924639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Werewolf_Spritelist_5
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 1153
+        width: 79
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a10d19ca1d4de58b0800000000000000
+      internalID: -5161454125911519206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Werewolf_Spritelist_6
+      rect:
+        serializedVersion: 2
+        x: 797
+        y: 1153
+        width: 79
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 412c9bcea793b33a0800000000000000
+      internalID: -6684686021780979180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Werewolf_Spritelist_7
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 1153
+        width: 79
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85b0ded280ad12250800000000000000
+      internalID: 5918251114006645592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Werewolf_Spritelist_8
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 1023
+        width: 88
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5cfe6265303ab250800000000000000
+      internalID: 5961130062621113438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Werewolf_Spritelist_9
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 1023
+        width: 86
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f70bf6dda9a89d90800000000000000
+      internalID: -7090731049193633807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Werewolf_Spritelist_10
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 1023
+        width: 85
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: accc38ed292501960800000000000000
+      internalID: 7570641764361686218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Werewolf_Spritelist_11
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 1023
+        width: 83
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b5462c4044c1f8a0800000000000000
+      internalID: -6273017025515862600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Werewolf_Spritelist_12
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 1023
+        width: 82
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbd51e925a7099fe0800000000000000
+      internalID: -1181905021254410817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Werewolf_Spritelist_13
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 1023
+        width: 82
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b38f2d23ad2f4d970800000000000000
+      internalID: 8778908592621418555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Werewolf_Spritelist_14
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 1023
+        width: 83
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a27e517bfe6210a0800000000000000
+      internalID: -6912340451842428250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Werewolf_Spritelist_15
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 1023
+        width: 83
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed73f3ce028f44a10800000000000000
+      internalID: 1892910563688658910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Werewolf_Spritelist_16
+      rect:
+        serializedVersion: 2
+        x: 1052
+        y: 1023
+        width: 84
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 325ba15cf69886500800000000000000
+      internalID: 389712480908784931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Werewolf_Spritelist_17
+      rect:
+        serializedVersion: 2
+        x: 1180
+        y: 1023
+        width: 84
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78cc611e6dc6c7be0800000000000000
+      internalID: -1478186907529196409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Werewolf_Spritelist_18
+      rect:
+        serializedVersion: 2
+        x: 1304
+        y: 1023
+        width: 89
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 146a2d8bd49791960800000000000000
+      internalID: 7573217623120455233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Werewolf_Spritelist_19
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 896
+        width: 117
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 351bf92c7efde62b0800000000000000
+      internalID: -5589283901024521901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Werewolf_Spritelist_20
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 895
+        width: 118
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49ce9b32a30f978c0800000000000000
+      internalID: -4000902661443818348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Werewolf_Spritelist_21
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 895
+        width: 105
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c257da8dc459e6280800000000000000
+      internalID: -9048130444055448276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Werewolf_Spritelist_22
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 895
+        width: 94
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 471c210954ed1b8f0800000000000000
+      internalID: -526395291074379404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Werewolf_Spritelist_23
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 895
+        width: 95
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bee12861d5defbc0800000000000000
+      internalID: -3747322744553738570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Werewolf_Spritelist_24
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 895
+        width: 102
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6aec718bb4b96a2d0800000000000000
+      internalID: -3267753730097295706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Werewolf_Spritelist_25
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 895
+        width: 104
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb991a4811c72afa0800000000000000
+      internalID: -5790929756163565122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Werewolf_Spritelist_26
+      rect:
+        serializedVersion: 2
+        x: 914
+        y: 895
+        width: 106
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e833d5fe39e237100800000000000000
+      internalID: 104478429270586254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Werewolf_Spritelist_27
+      rect:
+        serializedVersion: 2
+        x: 1038
+        y: 902
+        width: 112
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6161dfbf653ba1bb0800000000000000
+      internalID: -4964458453046323690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Werewolf_Spritelist_28
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 767
+        width: 95
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95113f83f01c0b2d0800000000000000
+      internalID: -3264897458719485607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Werewolf_Spritelist_29
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 767
+        width: 92
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 246eeaddc11080810800000000000000
+      internalID: 1731635280213894722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Werewolf_Spritelist_30
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 767
+        width: 108
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a4828993beb8b2f0800000000000000
+      internalID: -956805242232339295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Werewolf_Spritelist_31
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 768
+        width: 116
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1714337129a2dee40800000000000000
+      internalID: 5687248711381631345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Werewolf_Spritelist_32
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 768
+        width: 124
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80b416da288031de0800000000000000
+      internalID: -1363736904815523064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Werewolf_Spritelist_33
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 769
+        width: 111
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fa54a53e10ef3620800000000000000
+      internalID: 2756167917327637232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Werewolf_Spritelist_34
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 780
+        width: 11
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0187bc14549e24ff0800000000000000
+      internalID: -53223761909155824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Werewolf_Spritelist_35
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 786
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 864abb7a11ed914e0800000000000000
+      internalID: -2010331591234313112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Werewolf_Spritelist_36
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 767
+        width: 101
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eec275463169f03e0800000000000000
+      internalID: -2085283092417270546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Werewolf_Spritelist_37
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 639
+        width: 100
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de41941255d810ee0800000000000000
+      internalID: -1296599820935818003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Werewolf_Spritelist_38
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 639
+        width: 99
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae9f10ac36a84bcb0800000000000000
+      internalID: -4849098737575659030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Werewolf_Spritelist_39
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 639
+        width: 97
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fc7ca4a9269c5170800000000000000
+      internalID: 8168568929743830265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Werewolf_Spritelist_40
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 651
+        width: 83
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 477310a4b0d7bbad0800000000000000
+      internalID: -2685415265356662924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Werewolf_Spritelist_41
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 641
+        width: 78
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4d7d680e76d191b0800000000000000
+      internalID: -5651500220577645234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Werewolf_Spritelist_42
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 648
+        width: 87
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbac380a11eb0fc90800000000000000
+      internalID: -7137996426465523013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Werewolf_Spritelist_43
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 646
+        width: 100
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29c86bd8ca7fc22b0800000000000000
+      internalID: -5607835115499123566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Werewolf_Spritelist_44
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 639
+        width: 109
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 937d08dc020e947f0800000000000000
+      internalID: -627724241550125255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Werewolf_Spritelist_45
+      rect:
+        serializedVersion: 2
+        x: 1035
+        y: 639
+        width: 97
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5fe34feaff937240800000000000000
+      internalID: 4788346728929816413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Werewolf_Spritelist_46
+      rect:
+        serializedVersion: 2
+        x: 1170
+        y: 639
+        width: 95
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb5f6cbdc5d60f970800000000000000
+      internalID: 8786643118591505855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Werewolf_Spritelist_47
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 639
+        width: 92
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f98b384df615a9790800000000000000
+      internalID: -7522610686820370273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Werewolf_Spritelist_48
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 511
+        width: 88
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cfdeb1bde0515cb0800000000000000
+      internalID: -4877027939645988921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Werewolf_Spritelist_49
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 511
+        width: 82
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4618f3856171abb0800000000000000
+      internalID: -4926531836546902453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Werewolf_Spritelist_50
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 511
+        width: 79
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c1bf4ff034360760800000000000000
+      internalID: 7423678420813328834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Werewolf_Spritelist_51
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 511
+        width: 70
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54305fc94d8816260800000000000000
+      internalID: 7089097735205618501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Werewolf_Spritelist_52
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 511
+        width: 93
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fa01a7be31070910800000000000000
+      internalID: 1803411544665557750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Werewolf_Spritelist_53
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 511
+        width: 72
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 848bc400474ae1df0800000000000000
+      internalID: -207547714684274616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Werewolf_Spritelist_54
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 383
+        width: 87
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03308042f1c2729c0800000000000000
+      internalID: -3952141635734207696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Werewolf_Spritelist_55
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 383
+        width: 86
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3f0223b3b6eddd80800000000000000
+      internalID: -8224163685029769410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Werewolf_Spritelist_56
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 383
+        width: 77
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 956b8d434c2fa5460800000000000000
+      internalID: 7231359076210882137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Werewolf_Spritelist_57
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 450
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 504b3c3051547ffc0800000000000000
+      internalID: -3461221832051149819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Werewolf_Spritelist_58
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 426
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d7234a86e2140680800000000000000
+      internalID: -8789879791348930599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Werewolf_Spritelist_59
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 383
+        width: 82
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27f02f15fc596d300800000000000000
+      internalID: 276573144795451250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Werewolf_Spritelist_60
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 430
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0336bf2df16f47f0800000000000000
+      internalID: -626174083126119668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Werewolf_Spritelist_61
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 402
+        width: 29
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0783e84dd9e5f840800000000000000
+      internalID: 5257365276644837133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Werewolf_Spritelist_62
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 420
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9a645502c7b72000800000000000000
+      internalID: 11179568032672413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Werewolf_Spritelist_63
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 255
+        width: 72
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 888e78c1aca13cb60800000000000000
+      internalID: 7765079637881251976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Werewolf_Spritelist_64
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 255
+        width: 70
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97e8c56fa11b36eb0800000000000000
+      internalID: -4727740454448361863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Werewolf_Spritelist_65
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 255
+        width: 76
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 112a7aefafd5a0880800000000000000
+      internalID: -8643993202188639727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Werewolf_Spritelist_66
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 255
+        width: 76
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92f32cfca466bd780800000000000000
+      internalID: -8657213387190419671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Werewolf_Spritelist_67
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 321
+        width: 20
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6a0793772be5fc90800000000000000
+      internalID: -7136539479823152533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Werewolf_Spritelist_68
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 311
+        width: 6
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f26dd26f5016b84a0800000000000000
+      internalID: -6590066951493659089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Werewolf_Spritelist_69
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 255
+        width: 75
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43ee147c3411b0ad0800000000000000
+      internalID: -2735073365893976524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Werewolf_Spritelist_70
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 291
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df1aac8f9c58e41f0800000000000000
+      internalID: -1058761759876537859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Werewolf_Spritelist_71
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 127
+        width: 85
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed3ae83ae654ecab0800000000000000
+      internalID: -4985971395959807010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Werewolf_Spritelist_72
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 127
+        width: 84
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9b9456082be80180800000000000000
+      internalID: -9148804085865735267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Werewolf_Spritelist_73
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 0
+        width: 85
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95f7fe966c7c4e330800000000000000
+      internalID: 3739333245619109721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Red_Werewolf_Spritelist_74
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 0
+        width: 91
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d51b681b3f28c4f0800000000000000
+      internalID: -808344202253756974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Red_Werewolf_Spritelist_0: -9125572822849944162
+      Red_Werewolf_Spritelist_1: -1772802249977607682
+      Red_Werewolf_Spritelist_10: 7570641764361686218
+      Red_Werewolf_Spritelist_11: -6273017025515862600
+      Red_Werewolf_Spritelist_12: -1181905021254410817
+      Red_Werewolf_Spritelist_13: 8778908592621418555
+      Red_Werewolf_Spritelist_14: -6912340451842428250
+      Red_Werewolf_Spritelist_15: 1892910563688658910
+      Red_Werewolf_Spritelist_16: 389712480908784931
+      Red_Werewolf_Spritelist_17: -1478186907529196409
+      Red_Werewolf_Spritelist_18: 7573217623120455233
+      Red_Werewolf_Spritelist_19: -5589283901024521901
+      Red_Werewolf_Spritelist_2: -7749092169257879840
+      Red_Werewolf_Spritelist_20: -4000902661443818348
+      Red_Werewolf_Spritelist_21: -9048130444055448276
+      Red_Werewolf_Spritelist_22: -526395291074379404
+      Red_Werewolf_Spritelist_23: -3747322744553738570
+      Red_Werewolf_Spritelist_24: -3267753730097295706
+      Red_Werewolf_Spritelist_25: -5790929756163565122
+      Red_Werewolf_Spritelist_26: 104478429270586254
+      Red_Werewolf_Spritelist_27: -4964458453046323690
+      Red_Werewolf_Spritelist_28: -3264897458719485607
+      Red_Werewolf_Spritelist_29: 1731635280213894722
+      Red_Werewolf_Spritelist_3: -782685933709534684
+      Red_Werewolf_Spritelist_30: -956805242232339295
+      Red_Werewolf_Spritelist_31: 5687248711381631345
+      Red_Werewolf_Spritelist_32: -1363736904815523064
+      Red_Werewolf_Spritelist_33: 2756167917327637232
+      Red_Werewolf_Spritelist_34: -53223761909155824
+      Red_Werewolf_Spritelist_35: -2010331591234313112
+      Red_Werewolf_Spritelist_36: -2085283092417270546
+      Red_Werewolf_Spritelist_37: -1296599820935818003
+      Red_Werewolf_Spritelist_38: -4849098737575659030
+      Red_Werewolf_Spritelist_39: 8168568929743830265
+      Red_Werewolf_Spritelist_4: -7545090500226924639
+      Red_Werewolf_Spritelist_40: -2685415265356662924
+      Red_Werewolf_Spritelist_41: -5651500220577645234
+      Red_Werewolf_Spritelist_42: -7137996426465523013
+      Red_Werewolf_Spritelist_43: -5607835115499123566
+      Red_Werewolf_Spritelist_44: -627724241550125255
+      Red_Werewolf_Spritelist_45: 4788346728929816413
+      Red_Werewolf_Spritelist_46: 8786643118591505855
+      Red_Werewolf_Spritelist_47: -7522610686820370273
+      Red_Werewolf_Spritelist_48: -4877027939645988921
+      Red_Werewolf_Spritelist_49: -4926531836546902453
+      Red_Werewolf_Spritelist_5: -5161454125911519206
+      Red_Werewolf_Spritelist_50: 7423678420813328834
+      Red_Werewolf_Spritelist_51: 7089097735205618501
+      Red_Werewolf_Spritelist_52: 1803411544665557750
+      Red_Werewolf_Spritelist_53: -207547714684274616
+      Red_Werewolf_Spritelist_54: -3952141635734207696
+      Red_Werewolf_Spritelist_55: -8224163685029769410
+      Red_Werewolf_Spritelist_56: 7231359076210882137
+      Red_Werewolf_Spritelist_57: -3461221832051149819
+      Red_Werewolf_Spritelist_58: -8789879791348930599
+      Red_Werewolf_Spritelist_59: 276573144795451250
+      Red_Werewolf_Spritelist_6: -6684686021780979180
+      Red_Werewolf_Spritelist_60: -626174083126119668
+      Red_Werewolf_Spritelist_61: 5257365276644837133
+      Red_Werewolf_Spritelist_62: 11179568032672413
+      Red_Werewolf_Spritelist_63: 7765079637881251976
+      Red_Werewolf_Spritelist_64: -4727740454448361863
+      Red_Werewolf_Spritelist_65: -8643993202188639727
+      Red_Werewolf_Spritelist_66: -8657213387190419671
+      Red_Werewolf_Spritelist_67: -7136539479823152533
+      Red_Werewolf_Spritelist_68: -6590066951493659089
+      Red_Werewolf_Spritelist_69: -2735073365893976524
+      Red_Werewolf_Spritelist_7: 5918251114006645592
+      Red_Werewolf_Spritelist_70: -1058761759876537859
+      Red_Werewolf_Spritelist_71: -4985971395959807010
+      Red_Werewolf_Spritelist_72: -9148804085865735267
+      Red_Werewolf_Spritelist_73: 3739333245619109721
+      Red_Werewolf_Spritelist_74: -808344202253756974
+      Red_Werewolf_Spritelist_8: 5961130062621113438
+      Red_Werewolf_Spritelist_9: -7090731049193633807
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
