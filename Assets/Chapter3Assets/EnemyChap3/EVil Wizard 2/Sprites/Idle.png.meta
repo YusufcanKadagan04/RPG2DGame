@@ -168,8 +168,8 @@ TextureImporter:
         y: 82
         width: 58
         height: 105
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.4694897}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -296,12 +296,12 @@ TextureImporter:
       name: Idle_12
       rect:
         serializedVersion: 2
-        x: 608
+        x: 609
         y: 82
         width: 57
         height: 107
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.50000215, y: 0.4805519}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []

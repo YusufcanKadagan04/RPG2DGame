@@ -126,8 +126,8 @@ TextureImporter:
         y: 82
         width: 47
         height: 89
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.4847284, y: 0.5887148}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -148,8 +148,8 @@ TextureImporter:
         y: 82
         width: 36
         height: 88
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5815662}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -170,8 +170,8 @@ TextureImporter:
         y: 82
         width: 37
         height: 82
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5387986, y: 0.62254727}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -188,7 +188,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: d80dd611affa272428d5e0bf0fbe3260
     internalID: 0
     vertices: []
     indices: 
@@ -201,6 +201,7 @@ TextureImporter:
       Take hit_0: 5658602184316354200
       Take hit_1: 5755147017564654305
       Take hit_2: 406982975876482558
+      Take hit_3: 1926837244
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
