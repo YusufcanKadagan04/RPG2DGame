@@ -1,332 +1,247 @@
 using UnityEngine;
+using System.Collections;
 
 public class EnemyStats : MonoBehaviour
 {
-    [Header("Temel İstatistikler")]
+    [Header("Stats")]
     public float enemyHealth = 100f;
     public float enemySpeed = 2f;
     public float enemyDamage = 10f;
-    private float currentHealth;
 
-    [Header("Devriye Ayarları")]
-    public float patrolDistance = 3f;
-    private float walkDirection = 1f;
-    private Vector2 startPosition;
-    private float distanceWalked = 0f;
+    [Header("Detection")]
+    public float detectionRangeX = 8f;
+    public float detectionRangeY = 1.5f;
+    public float meleeRange = 1.2f;
 
-    [Header("Algılama Ayarları")]
-    public float detectionRange = 10f;
-    public float meleeRange = 1.5f;
-
-    [Header("Yakın Saldırı Ayarları")]
-    public float meleeCooldown = 1f;
-    public string meleeAttackTrigger = "IsAttack";
-    private float nextMeleeTime = 0f;
-    public float enemyAttackPoint = 25;
-    public Transform attackPoint;
-    public float attackDistance = 1f;
-
-    [Header("Defans Ayarları")]
-    [Range(0f, 1f)]
-    public float defendChance = 0.25f;
-
-    [Header("Ground Check")]
+    [Header("Patrol & Obstacles")]
+    public float patrolDistance = 4f;
+    public Transform groundCheck;
+    public Transform wallCheck;        // YENİ: Duvar kontrolü için obje
+    public float wallCheckDistance = 0.5f; // YENİ: Duvarı ne kadar uzaktan görsün?
     public LayerMask groundLayer;
-    public float groundCheckRadius = 0.2f;
-    public GameObject GroundCheck;
+
+    [Header("Attack")]
+    public float attackRate = 1.5f;
+    public Transform attackPoint;
+    public float attackRadius = 0.8f;
     public LayerMask playerLayer;
 
-    [Header("Knockback Ayarları")]
-    public float knockbackDuration = 0.3f;
-    public float knockbackForce = 10f;
-    private bool isKnockedBack = false;
-    private float knockbackTimer = 0f;
+    [Header("Effects")]
+    public GameObject bloodEffectPrefab;
+    public Transform bloodSpawnPoint;
 
+    [Header("Defense & Physics")]
+    [Range(0f, 1f)] public float defendChance = 0.2f;
+    public float knockbackForce = 5f;
+
+    private float currentHealth;
+    private float nextAttackTime = 0f;
+    private float walkDirection = 1f;
+    private float distanceWalked = 0f;
+    private bool isDead = false;
+    private bool isKnockedBack = false;
+    private Transform playerTransform;
     private Animator anim;
     private Rigidbody2D rb;
-    private Transform playerTransform;
-    private bool isDead = false;
-
-    private enum EnemyState { Patrol, Chase, MeleeAttack, Dead }
-    private EnemyState currentState = EnemyState.Patrol;
 
     void Start()
     {
         currentHealth = enemyHealth;
         anim = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
-
-        GroundCheck = GameObject.Find("Ground");
-
-        if (rb != null)
-            rb.constraints = RigidbodyConstraints2D.FreezeRotation;
-
-        FindPlayer();
-        startPosition = transform.position;
-        ValidateSettings();
+        
+        GameObject playerObj = GameObject.FindWithTag("Player");
+        if (playerObj != null) playerTransform = playerObj.transform;
     }
 
     void Update()
     {
-        if (isDead || currentState == EnemyState.Dead)
-        {
-            StopMovement();
-            return;
-        }
-
-        if (isKnockedBack)
-        {
-            HandleKnockback();
-            return;
-        }
+        if (isDead || isKnockedBack) return;
 
         if (playerTransform == null)
         {
-            FindPlayer();
-            if (playerTransform == null)
+            Patrol();
+            return;
+        }
+
+        float diffX = Mathf.Abs(transform.position.x - playerTransform.position.x);
+        float diffY = Mathf.Abs(transform.position.y - playerTransform.position.y);
+
+        // Kat ve Mesafe Kontrolü
+        if (diffY <= detectionRangeY && diffX <= detectionRangeX)
+        {
+            if (CanSeePlayer())
+            {
+                if (diffX <= meleeRange) AttackPlayer();
+                else ChasePlayer();
+            }
+            else
             {
                 Patrol();
-                return;
             }
-        }
-
-        DetermineState();
-        ExecuteState();
-    }
-
-    void DetermineState()
-    {
-        float dist = Vector2.Distance(transform.position, playerTransform.position);
-
-        if (dist <= meleeRange)
-        {
-            currentState = EnemyState.MeleeAttack;
-        }
-        else if (dist <= detectionRange)
-        {
-            currentState = EnemyState.Chase;
         }
         else
         {
-            currentState = EnemyState.Patrol;
+            Patrol();
         }
     }
 
-    void ExecuteState()
+    bool CanSeePlayer()
     {
-        switch (currentState)
-        {
-            case EnemyState.Patrol:
-                Patrol();
-                break;
-            case EnemyState.Chase:
-                Chase();
-                break;
-            case EnemyState.MeleeAttack:
-                PerformMeleeAttack();
-                break;
-        }
-    }
-    void PerformMeleeAttack()
-    {
-        FacePlayer();
-        StopMovement();
-
-        if (Time.time >= nextMeleeTime)
-        {
-            if (anim != null)
-            {
-                int randomAttack = Random.Range(1, 4); 
-                
-                anim.SetInteger("AttackID", randomAttack);
-                anim.SetTrigger("Attack");
-                anim.ResetTrigger(meleeAttackTrigger);
-                anim.SetTrigger(meleeAttackTrigger);
-            }
-            nextMeleeTime = Time.time + meleeCooldown;
-        }
+        Vector2 start = transform.position; 
+        Vector2 end = playerTransform.position;
+        // Oyuncu ile aramızda duvar var mı?
+        RaycastHit2D hit = Physics2D.Linecast(start, end, groundLayer);
+        return hit.collider == null;
     }
 
     void Patrol()
     {
-        if (distanceWalked >= patrolDistance)
+        // 1. Yer var mı? (Uçurum kontrolü)
+        bool isGroundAhead = Physics2D.Raycast(groundCheck.position, Vector2.down, 1f, groundLayer);
+        
+        // 2. Duvar var mı? (Duvar kontrolü)
+        bool isWallAhead = Physics2D.Raycast(wallCheck.position, Vector2.right * walkDirection, wallCheckDistance, groundLayer);
+
+        // Eğer yer yoksa, duvar varsa veya mesafe bittiyse -> DÖN
+        if (!isGroundAhead || isWallAhead || distanceWalked >= patrolDistance)
         {
             Flip();
             walkDirection *= -1f;
             distanceWalked = 0f;
         }
 
-        Move(walkDirection);
+        rb.linearVelocity = new Vector2(walkDirection * enemySpeed, rb.linearVelocity.y);
         distanceWalked += enemySpeed * Time.deltaTime;
-        SetWalkAnimation(true);
+        anim.SetFloat("IsRun", 1f);
     }
 
-    void Chase()
+    void ChasePlayer()
     {
         FacePlayer();
-        Move(walkDirection);
-        SetWalkAnimation(true);
+        
+        // Kovalarken kontrollü git
+        bool isGroundAhead = Physics2D.Raycast(groundCheck.position, Vector2.down, 1f, groundLayer);
+        bool isWallAhead = Physics2D.Raycast(wallCheck.position, Vector2.right * walkDirection, wallCheckDistance, groundLayer);
+        
+        // Önünde yer varsa VE Duvar yoksa koş
+        if (isGroundAhead && !isWallAhead)
+        {
+            rb.linearVelocity = new Vector2(walkDirection * enemySpeed, rb.linearVelocity.y);
+            anim.SetFloat("IsRun", 1f);
+        }
+        else
+        {
+            StopMoving(); // Duvar dibine veya uçurum kenarına gelince dur
+        }
     }
 
-    void Move(float direction)
+    void AttackPlayer()
     {
-        if (rb != null)
-            rb.linearVelocity = new Vector2(direction * enemySpeed, rb.linearVelocity.y);
-    }
+        StopMoving();
+        FacePlayer();
 
-    void StopMovement()
-    {
-        if (isDead) return;
-        if (rb != null)
-            rb.linearVelocity = new Vector2(0f, rb.linearVelocity.y);
-        SetWalkAnimation(false);
-    }
-
-    void FacePlayer()
-    {
-        if (playerTransform == null) return;
-
-        float dir = playerTransform.position.x - transform.position.x;
-        float target = dir > 0 ? 1f : -1f;
-
-        if (Mathf.Sign(transform.localScale.x) != target)
-            Flip();
-
-        walkDirection = target;
-    }
-
-    void Flip()
-    {
-        Vector3 scale = transform.localScale;
-        scale.x *= -1;
-        transform.localScale = scale;
+        if (Time.time >= nextAttackTime)
+        {
+            int randomAttack = Random.Range(1, 4); 
+            anim.SetInteger("AttackID", randomAttack);
+            anim.SetTrigger("Attack");
+            nextAttackTime = Time.time + attackRate;
+        }
     }
 
     public void DealMeleeDamage()
     {
-        if (playerTransform == null) return;
-
-        float dist = Vector2.Distance(transform.position, playerTransform.position);
-        if (dist <= meleeRange * 1.5f)
+        Collider2D hitPlayer = Physics2D.OverlapCircle(attackPoint.position, attackRadius, playerLayer);
+        if (hitPlayer != null)
         {
-            PlayerController ps = playerTransform.GetComponent<PlayerController>();
-            if (ps != null) ps.TakeDamage(enemyDamage);
+            hitPlayer.GetComponent<PlayerController>()?.TakeDamage(enemyDamage);
         }
     }
 
-    public void TakeDamage(float damage = 25f)
+    public void TakeDamage(float damage)
     {
         if (isDead) return;
 
         if (Random.value < defendChance)
         {
-            if (anim != null)
-            {
-                anim.SetTrigger("IsDefend");
-            }
+            anim.SetTrigger("IsDefend");
             return;
         }
 
         currentHealth -= damage;
 
-        if (anim != null)
-        {
-            anim.ResetTrigger("IsHurt");
-            anim.SetTrigger("IsHurt");
-        }
+        if (bloodEffectPrefab != null)
+            Instantiate(bloodEffectPrefab, bloodSpawnPoint != null ? bloodSpawnPoint.position : transform.position, Quaternion.identity);
 
-        ApplyKnockback();
+        anim.SetTrigger("IsHurt");
+        StartCoroutine(KnockbackRoutine());
 
-        if (currentHealth <= 0)
-            Die();
-    }
-
-    void ApplyKnockback()
-    {
-        float dir = -Mathf.Sign(transform.localScale.x);
-        if (playerTransform != null)
-            dir = playerTransform.position.x < transform.position.x ? 1f : -1f;
-
-        if (rb != null)
-            rb.linearVelocity = new Vector2(dir * knockbackForce, rb.linearVelocity.y);
-
-        isKnockedBack = true;
-        knockbackTimer = knockbackDuration;
-    }
-
-    void HandleKnockback()
-    {
-        knockbackTimer -= Time.deltaTime;
-        if (knockbackTimer <= 0)
-        {
-            isKnockedBack = false;
-            StopMovement();
-        }
+        if (currentHealth <= 0) Die();
     }
 
     void Die()
     {
-        if (isDead) return;
-
         isDead = true;
-        currentState = EnemyState.Dead;
-        Debug.Log("Enemy oluyor! IsDead = true");
-
-        if (anim != null)
-            anim.SetBool("IsDead", true);
-
-        StopMovement();
-
-        if (rb != null)
-        {
-            rb.bodyType = RigidbodyType2D.Static;
-        }
-
-        Destroy(gameObject, 2f);
+        anim.SetBool("IsDead", true);
+        StopMoving();
+        rb.bodyType = RigidbodyType2D.Static;
+        Destroy(gameObject, 3f);
     }
 
-    void SetWalkAnimation(bool isWalking)
+    void StopMoving()
     {
-        if (isDead) return;
-        if (anim != null)
-            anim.SetFloat("IsRun", isWalking ? 1f : 0f);
+        rb.linearVelocity = new Vector2(0, rb.linearVelocity.y);
+        anim.SetFloat("IsRun", 0f);
     }
 
-    void FindPlayer()
+    void FacePlayer()
     {
-        GameObject obj = GameObject.FindWithTag("Player");
-        if (obj != null)
-            playerTransform = obj.transform;
+        if (playerTransform.position.x > transform.position.x && transform.localScale.x < 0) Flip();
+        else if (playerTransform.position.x < transform.position.x && transform.localScale.x > 0) Flip();
     }
 
-    void ValidateSettings()
+    void Flip()
     {
-        if (detectionRange <= meleeRange)
-            detectionRange = meleeRange + 4f;
+        walkDirection = (transform.localScale.x > 0) ? -1 : 1;
+        Vector3 scale = transform.localScale;
+        scale.x *= -1;
+        transform.localScale = scale;
+    }
+    
+    IEnumerator KnockbackRoutine()
+    {
+        isKnockedBack = true;
+        float dir = (transform.localScale.x > 0) ? -1 : 1;
+        rb.linearVelocity = new Vector2(dir * knockbackForce, rb.linearVelocity.y);
+        yield return new WaitForSeconds(0.2f);
+        isKnockedBack = false;
+        rb.linearVelocity = Vector2.zero;
     }
 
-    private void OnDrawGizmosSelected()
+    private void OnDrawGizmos()
     {
-        // Detection range
-        Gizmos.color = Color.green;
-        Gizmos.DrawWireSphere(transform.position, detectionRange);
+        Gizmos.color = Color.yellow;
+        Gizmos.DrawWireCube(transform.position, new Vector3(detectionRangeX * 2, detectionRangeY * 2, 0));
 
-        // Ground check
-        if (GroundCheck != null)
-        {
-            Gizmos.color = Color.green;
-            Gizmos.DrawWireSphere(GroundCheck.transform.position, groundCheckRadius);
-        }
-
-        // Attack point
         if (attackPoint != null)
         {
             Gizmos.color = Color.red;
-            Gizmos.DrawWireSphere(attackPoint.position, attackDistance);
+            Gizmos.DrawWireSphere(attackPoint.position, attackRadius);
+        }
+        
+        if (groundCheck != null)
+        {
+            Gizmos.color = Color.green;
+            Gizmos.DrawLine(groundCheck.position, groundCheck.position + Vector3.down);
         }
 
-        // Melee range
-        Gizmos.color = Color.red;
-        Gizmos.DrawWireSphere(transform.position, meleeRange);
+        // Duvar Check Gizmos
+        if (wallCheck != null)
+        {
+            Gizmos.color = Color.blue;
+            // Sahne ekranında mavi bir çizgi göreceksin
+            Gizmos.DrawLine(wallCheck.position, wallCheck.position + Vector3.right * walkDirection * wallCheckDistance);
+        }
     }
 }
