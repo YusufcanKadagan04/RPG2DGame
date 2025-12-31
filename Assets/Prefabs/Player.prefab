@@ -77,6 +77,7 @@ GameObject:
   - component: {fileID: 646857328671777932}
   - component: {fileID: 7846515270003162168}
   - component: {fileID: 1864435096232507620}
+  - component: {fileID: 5604017931923893317}
   m_Layer: 10
   m_Name: Player
   m_TagString: Player
@@ -303,3 +304,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InputController
   playerInputAsset: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
+--- !u!114 &5604017931923893317
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6508462648835997991}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04bc2692b570ceb438b0a3b3a4c98116, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerOneWayDrop
+  playerCollider: {fileID: 0}
