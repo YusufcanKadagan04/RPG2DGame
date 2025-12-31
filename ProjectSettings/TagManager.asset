@@ -18,7 +18,7 @@ TagManager:
   - TerrainAssets
   - Enemy1
   - Player
-  - 
+  - blood
   - 
   - 
   - 
@@ -60,6 +60,9 @@ TagManager:
     locked: 0
   - name: Player
     uniqueID: 2342938511
+    locked: 0
+  - name: blood
+    uniqueID: 2822290127
     locked: 0
   m_RenderingLayers:
   - Default

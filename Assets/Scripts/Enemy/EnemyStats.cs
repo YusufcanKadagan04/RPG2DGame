@@ -16,8 +16,8 @@ public class EnemyStats : MonoBehaviour
     [Header("Patrol & Obstacles")]
     public float patrolDistance = 4f;
     public Transform groundCheck;
-    public Transform wallCheck;        // YENİ: Duvar kontrolü için obje
-    public float wallCheckDistance = 0.5f; // YENİ: Duvarı ne kadar uzaktan görsün?
+    public Transform wallCheck;
+    public float wallCheckDistance = 0.5f;
     public LayerMask groundLayer;
 
     [Header("Attack")]
@@ -52,6 +52,8 @@ public class EnemyStats : MonoBehaviour
         
         GameObject playerObj = GameObject.FindWithTag("Player");
         if (playerObj != null) playerTransform = playerObj.transform;
+
+        walkDirection = (transform.localScale.x > 0) ? 1f : -1f;
     }
 
     void Update()
@@ -67,7 +69,6 @@ public class EnemyStats : MonoBehaviour
         float diffX = Mathf.Abs(transform.position.x - playerTransform.position.x);
         float diffY = Mathf.Abs(transform.position.y - playerTransform.position.y);
 
-        // Kat ve Mesafe Kontrolü
         if (diffY <= detectionRangeY && diffX <= detectionRangeX)
         {
             if (CanSeePlayer())
@@ -90,24 +91,18 @@ public class EnemyStats : MonoBehaviour
     {
         Vector2 start = transform.position; 
         Vector2 end = playerTransform.position;
-        // Oyuncu ile aramızda duvar var mı?
         RaycastHit2D hit = Physics2D.Linecast(start, end, groundLayer);
         return hit.collider == null;
     }
 
     void Patrol()
     {
-        // 1. Yer var mı? (Uçurum kontrolü)
         bool isGroundAhead = Physics2D.Raycast(groundCheck.position, Vector2.down, 1f, groundLayer);
-        
-        // 2. Duvar var mı? (Duvar kontrolü)
         bool isWallAhead = Physics2D.Raycast(wallCheck.position, Vector2.right * walkDirection, wallCheckDistance, groundLayer);
 
-        // Eğer yer yoksa, duvar varsa veya mesafe bittiyse -> DÖN
         if (!isGroundAhead || isWallAhead || distanceWalked >= patrolDistance)
         {
             Flip();
-            walkDirection *= -1f;
             distanceWalked = 0f;
         }
 
@@ -120,11 +115,9 @@ public class EnemyStats : MonoBehaviour
     {
         FacePlayer();
         
-        // Kovalarken kontrollü git
         bool isGroundAhead = Physics2D.Raycast(groundCheck.position, Vector2.down, 1f, groundLayer);
         bool isWallAhead = Physics2D.Raycast(wallCheck.position, Vector2.right * walkDirection, wallCheckDistance, groundLayer);
         
-        // Önünde yer varsa VE Duvar yoksa koş
         if (isGroundAhead && !isWallAhead)
         {
             rb.linearVelocity = new Vector2(walkDirection * enemySpeed, rb.linearVelocity.y);
@@ -132,7 +125,7 @@ public class EnemyStats : MonoBehaviour
         }
         else
         {
-            StopMoving(); // Duvar dibine veya uçurum kenarına gelince dur
+            StopMoving();
         }
     }
 
@@ -173,6 +166,13 @@ public class EnemyStats : MonoBehaviour
 
         if (bloodEffectPrefab != null)
             Instantiate(bloodEffectPrefab, bloodSpawnPoint != null ? bloodSpawnPoint.position : transform.position, Quaternion.identity);
+        if (bloodEffectPrefab != null)
+        {
+
+        float direction = (transform.localScale.x > 0) ? -1f : 1f; 
+        Quaternion bloodRotation = Quaternion.Euler(0, 0, (direction > 0) ? 0 : 180);
+        Instantiate(bloodEffectPrefab, bloodSpawnPoint != null ? bloodSpawnPoint.position : transform.position, bloodRotation);
+        }    
 
         anim.SetTrigger("IsHurt");
         StartCoroutine(KnockbackRoutine());
@@ -203,10 +203,11 @@ public class EnemyStats : MonoBehaviour
 
     void Flip()
     {
-        walkDirection = (transform.localScale.x > 0) ? -1 : 1;
         Vector3 scale = transform.localScale;
         scale.x *= -1;
         transform.localScale = scale;
+        
+        walkDirection = (scale.x > 0) ? 1f : -1f;
     }
     
     IEnumerator KnockbackRoutine()
@@ -221,8 +222,14 @@ public class EnemyStats : MonoBehaviour
 
     private void OnDrawGizmos()
     {
-        Gizmos.color = Color.yellow;
-        Gizmos.DrawWireCube(transform.position, new Vector3(detectionRangeX * 2, detectionRangeY * 2, 0));
+        Gizmos.color = Color.cyan;
+        Vector3 center = transform.position;
+        Vector3 leftBound = center + Vector3.left * patrolDistance;
+        Vector3 rightBound = center + Vector3.right * patrolDistance;
+        
+        Gizmos.DrawLine(leftBound, rightBound);
+        Gizmos.DrawWireSphere(leftBound, 0.2f);
+        Gizmos.DrawWireSphere(rightBound, 0.2f);
 
         if (attackPoint != null)
         {
@@ -236,11 +243,9 @@ public class EnemyStats : MonoBehaviour
             Gizmos.DrawLine(groundCheck.position, groundCheck.position + Vector3.down);
         }
 
-        // Duvar Check Gizmos
         if (wallCheck != null)
         {
             Gizmos.color = Color.blue;
-            // Sahne ekranında mavi bir çizgi göreceksin
             Gizmos.DrawLine(wallCheck.position, wallCheck.position + Vector3.right * walkDirection * wallCheckDistance);
         }
     }
