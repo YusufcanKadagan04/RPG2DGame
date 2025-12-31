@@ -1,25 +1,46 @@
 using UnityEngine;
+using UnityEngine.InputSystem;
 using System.Collections;
 
 public class PlayerOneWayDrop : MonoBehaviour
 {
+    [Header("Input Ayarı")]
+    public InputActionReference dropInput; 
+
     private GameObject currentPlatform;
-    private Collider2D playerCollider; // Türü genel Collider2D yaptık (Box, Capsule fark etmez)
+    private Collider2D playerCollider;
 
     void Start()
     {
-        // Player'ın üzerindeki collider'ı otomatik bul
         playerCollider = GetComponent<Collider2D>();
     }
 
-    void Update()
+    
+    private void OnEnable()
     {
-        if (Input.GetKeyDown(KeyCode.S))
+        if (dropInput != null)
         {
-            if (currentPlatform != null)
-            {
-                StartCoroutine(DisableCollision());
-            }
+            dropInput.action.Enable();
+            dropInput.action.performed += OnDropPerformed;
+        }
+    }
+
+    
+    private void OnDisable()
+    {
+        if (dropInput != null)
+        {
+            dropInput.action.performed -= OnDropPerformed;
+            dropInput.action.Disable();
+        }
+    }
+
+    
+    private void OnDropPerformed(InputAction.CallbackContext context)
+    {
+        if (currentPlatform != null)
+        {
+            StartCoroutine(DisableCollision());
         }
     }
 
