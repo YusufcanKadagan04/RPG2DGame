@@ -1,10 +1,11 @@
 using UnityEngine;
 using System.Collections;
+using System.Collections.Generic;
 
 public class RoomHider : MonoBehaviour
 {
     public SpriteRenderer darknessOverlay;
-    public GameObject enemiesParent;
+    public List<GameObject> enemies;
     public float fadeSpeed = 5f;
 
     private void Start()
@@ -16,7 +17,13 @@ public class RoomHider : MonoBehaviour
             darknessOverlay.color = c;
         }
 
-        if (enemiesParent != null) enemiesParent.SetActive(false);
+        if (enemies != null)
+        {
+            foreach (GameObject enemy in enemies)
+            {
+                if (enemy != null) enemy.SetActive(false);
+            }
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D other)
@@ -25,8 +32,14 @@ public class RoomHider : MonoBehaviour
         {
             StopAllCoroutines();
             StartCoroutine(FadeRoom(0f));
-            
-            if (enemiesParent != null) enemiesParent.SetActive(true);
+
+            if (enemies != null)
+            {
+                foreach (GameObject enemy in enemies)
+                {
+                    if (enemy != null) enemy.SetActive(true);
+                }
+            }
         }
     }
 
@@ -36,8 +49,14 @@ public class RoomHider : MonoBehaviour
         {
             StopAllCoroutines();
             StartCoroutine(FadeRoom(1f));
-            
-            if (enemiesParent != null) enemiesParent.SetActive(false);
+
+            if (enemies != null)
+            {
+                foreach (GameObject enemy in enemies)
+                {
+                    if (enemy != null) enemy.SetActive(false);
+                }
+            }
         }
     }
 
