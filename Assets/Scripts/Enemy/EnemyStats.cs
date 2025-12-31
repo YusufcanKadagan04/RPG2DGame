@@ -166,6 +166,13 @@ public class EnemyStats : MonoBehaviour
 
         if (bloodEffectPrefab != null)
             Instantiate(bloodEffectPrefab, bloodSpawnPoint != null ? bloodSpawnPoint.position : transform.position, Quaternion.identity);
+        if (bloodEffectPrefab != null)
+        {
+
+        float direction = (transform.localScale.x > 0) ? -1f : 1f; 
+        Quaternion bloodRotation = Quaternion.Euler(0, 0, (direction > 0) ? 0 : 180);
+        Instantiate(bloodEffectPrefab, bloodSpawnPoint != null ? bloodSpawnPoint.position : transform.position, bloodRotation);
+        }    
 
         anim.SetTrigger("IsHurt");
         StartCoroutine(KnockbackRoutine());
