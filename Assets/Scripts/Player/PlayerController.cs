@@ -18,6 +18,12 @@ public class PlayerController : MonoBehaviour
     public float attackDistance = 1f;
     public float attackDamage = 25f;
 
+    [Header("Audio Clips")]
+    public AudioClip swordSwingSound; 
+    public AudioClip hitSound;        
+
+    private AudioSource audioSource;
+
     [Header("Ground Check")]
     public float groundCheckRadius = 0.2f;
     public GameObject GroundCheck;
@@ -60,11 +66,16 @@ public class PlayerController : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
         inputController = FindFirstObjectByType<InputController>();
-
+        audioSource = GetComponent<AudioSource>();
 
         if (inputController == null)
         {
-            Debug.LogError("InputController bulunamadı! Lütfen sahnede InputController olduğundan emin olun.");
+            Debug.LogError("InputController bulunamadı!");
+        }
+        
+        if (audioSource == null)
+        {
+            audioSource = gameObject.AddComponent<AudioSource>();
         }
     }
 
@@ -124,7 +135,6 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    
     public void SaldiriKontrolu()
     {
         if (isDead) return;
@@ -140,6 +150,7 @@ public class PlayerController : MonoBehaviour
             }
         }
     }
+
     void HandleMovement()
     {
         if (isDead) return;
@@ -208,11 +219,15 @@ public class PlayerController : MonoBehaviour
         {
             return;
         }
+
+        if (audioSource != null && hitSound != null)
+        {
+            audioSource.PlayOneShot(hitSound);
+        }
+
         Vector2 damageSource = transform.position + (isFaceRight ? Vector3.right : Vector3.left);
         currentHealth -= damage;
         currentHealth = Mathf.Clamp(currentHealth, 0f, maxHealth);
-
-
 
         anim.ResetTrigger("IsHurt");
         anim.SetTrigger("IsHurt");
@@ -224,7 +239,6 @@ public class PlayerController : MonoBehaviour
 
         if (currentHealth <= 0f)
         {
-            Debug.Log("Player ölüyor! IsDead = true");
             anim.SetBool("IsDead", true);
             Die();
         }
@@ -236,16 +250,12 @@ public class PlayerController : MonoBehaviour
         rb.linearVelocity = new Vector2(knockbackDirection * knockbackForce, rb.linearVelocity.y);
         isKnockedBack = true;
         knockbackTimer = knockbackDuration;
-
-
     }
 
     void Die()
     {
         isDead = true;
-        Debug.Log("Die() çağrıldı - isDead = true");
         
-        // Hareketi durdur ve pozisyonu kilitle
         if (rb != null)
         {
             anim.SetBool("IsDead", true);
@@ -270,7 +280,6 @@ public class PlayerController : MonoBehaviour
         {
             if (inputController == null) return;
 
-
             if (inputController.RandomAttack)
             {
                 int randomID = Random.Range(1, 3);
@@ -278,14 +287,12 @@ public class PlayerController : MonoBehaviour
                 ExecuteAttack();
                 nextAttack = Time.time + 1f / attackRate;
             }
-            
             else if (inputController.HeavyAttack)
             {
                 anim.SetInteger("AttackID", 3);
                 ExecuteAttack();
                 nextAttack = Time.time + 1f / attackRate;
             }
-            
             else if (inputController.Attack)
             {
                 ExecuteAttack();
@@ -297,15 +304,20 @@ public class PlayerController : MonoBehaviour
     private void ExecuteAttack()
     {
         anim.SetTrigger("Attack");
-       
+
+        if (audioSource != null && swordSwingSound != null)
+        {
+            audioSource.pitch = Random.Range(0.9f, 1.1f);
+            audioSource.PlayOneShot(swordSwingSound);
+        }
     }
+
     void HandleJump()
     {
         if (isGrounded && inputController != null)
         {
             if (inputController.Jump)
             {
-
                 rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpPower);
             }
         }
